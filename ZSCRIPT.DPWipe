@@ -1,0 +1,35 @@
+
+version "2.4"
+
+class DPWipeHandler : EventHandler
+{
+	PlayerInfo p ;
+	int alive ;
+	int WipeStart ;
+	
+	override void PlayerEntered( PlayerEvent e )
+	{
+		p = players[ consoleplayer ] ;
+		alive = 1 ;
+	}
+
+	override void WorldTick()
+	{
+		if( p.mo.health <= 0 )
+		{
+			if( alive == 1 )
+			{
+				Shader.SetEnabled( p, "DPWipe", true );
+				WipeStart = gametic ;
+				alive = 0 ;
+			}
+			
+			Shader.SetUniform1f( p, "DPWipe", "timer", ( gametic - WipeStart ) * 0.5 );
+		}
+		else
+		{
+			Shader.SetEnabled( p, "DPWipe", false );
+			alive = 1 ;
+		}
+	}
+}

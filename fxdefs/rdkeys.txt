@@ -1,0 +1,56 @@
+// Blue Keys
+
+pointlight KEYBLUE
+{
+    color 0.2 0.2 1.0
+    size 24
+    offset 0 8 0
+}
+
+object BlueCard
+{
+    frame BKEYB { light KEYBLUE }
+}
+
+object BlueSkull
+{
+    frame BSKUB { light KEYBLUE }
+}
+
+// Yellow Keys
+
+pointlight KEYYELLOW
+{
+    color 1.0 0.8 0.0
+    size 24
+    offset 0 8 0
+}
+
+object YellowCard
+{
+    frame YKEYB { light KEYYELLOW }
+}
+
+object YellowSkull
+{
+    frame YSKUB { light KEYYELLOW }
+}
+
+// Red Keys
+
+pointlight KEYRED
+{
+    color 1.0 0.0 0.0
+    size 24
+    offset 0 8 0
+}
+
+object RedCard
+{
+    frame RKEYB { light KEYRED }
+}
+
+object RedSkull
+{
+    frame RSKUB { light KEYRED }
+}

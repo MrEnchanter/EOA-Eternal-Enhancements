@@ -1,0 +1,511 @@
+texture optional FIREB01, 128, 128
+{
+	patch W65B_1, 0, 0 { Style Translucent; Alpha 1 }
+	patch W65B_1, -128, 0 { Style Translucent; Alpha 1 }
+	patch W65B_2, 0, 0 { Style Translucent; Alpha 0.50 }
+	patch W65B_2, 128, 0 { Style Translucent; Alpha 0.50 }
+}
+
+texture optional FIREB02, 128, 128
+{
+	patch W65B_1, 2, 0 { Style Translucent; Alpha 1 }
+	patch W65B_1, -126, 0 { Style Translucent; Alpha 1 }
+	patch W65B_2, -2, 0 { Style Translucent; Alpha 0.50 }
+	patch W65B_2, 126, 0 { Style Translucent; Alpha 0.50 }
+}
+
+texture optional FIREB03, 128, 128
+{
+	patch W65B_1, 4, 0 { Style Translucent; Alpha 1 }
+	patch W65B_1, -124, 0 { Style Translucent; Alpha 1 }
+	patch W65B_2, -4, 0 { Style Translucent; Alpha 0.50 }
+	patch W65B_2, 124, 0 { Style Translucent; Alpha 0.50 }
+}
+
+texture optional FIREB04, 128, 128
+{
+	patch W65B_1, 6, 0 { Style Translucent; Alpha 1 }
+	patch W65B_1, -122, 0 { Style Translucent; Alpha 1 }
+	patch W65B_2, -6, 0 { Style Translucent; Alpha 0.50 }
+	patch W65B_2, 122, 0 { Style Translucent; Alpha 0.50 }
+}
+
+texture optional FIREB05, 128, 128
+{
+	patch W65B_1, 8, 0 { Style Translucent; Alpha 1 }
+	patch W65B_1, -120, 0 { Style Translucent; Alpha 1 }
+	patch W65B_2, -8, 0 { Style Translucent; Alpha 0.50 }
+	patch W65B_2, 120, 0 { Style Translucent; Alpha 0.50 }
+}
+
+texture optional FIREB06, 128, 128
+{
+	patch W65B_1, 10, 0 { Style Translucent; Alpha 1 }
+	patch W65B_1, -118, 0 { Style Translucent; Alpha 1 }
+	patch W65B_2, -10, 0 { Style Translucent; Alpha 0.50 }
+	patch W65B_2, 118, 0 { Style Translucent; Alpha 0.50 }
+}
+
+texture optional FIREB07, 128, 128
+{
+	patch W65B_1, 12, 0 { Style Translucent; Alpha 1 }
+	patch W65B_1, -116, 0 { Style Translucent; Alpha 1 }
+	patch W65B_2, -12, 0 { Style Translucent; Alpha 0.50 }
+	patch W65B_2, 116, 0 { Style Translucent; Alpha 0.50 }
+}
+
+texture optional FIREB08, 128, 128
+{
+	patch W65B_1, 14, 0 { Style Translucent; Alpha 1 }
+	patch W65B_1, -114, 0 { Style Translucent; Alpha 1 }
+	patch W65B_2, -14, 0 { Style Translucent; Alpha 0.50 }
+	patch W65B_2, 114, 0 { Style Translucent; Alpha 0.50 }
+}
+
+texture optional FIREB09, 128, 128
+{
+	patch W65B_1, 16, 0 { Style Translucent; Alpha 1 }
+	patch W65B_1, -112, 0 { Style Translucent; Alpha 1 }
+	patch W65B_2, -16, 0 { Style Translucent; Alpha 0.50 }
+	patch W65B_2, 112, 0 { Style Translucent; Alpha 0.50 }
+}
+
+texture optional FIREB10, 128, 128
+{
+	patch W65B_1, 18, 0 { Style Translucent; Alpha 1 }
+	patch W65B_1, -110, 0 { Style Translucent; Alpha 1 }
+	patch W65B_2, -18, 0 { Style Translucent; Alpha 0.50 }
+	patch W65B_2, 110, 0 { Style Translucent; Alpha 0.50 }
+}
+
+texture optional FIREB11, 128, 128
+{
+	patch W65B_1, 20, 0 { Style Translucent; Alpha 1 }
+	patch W65B_1, -108, 0 { Style Translucent; Alpha 1 }
+	patch W65B_2, -20, 0 { Style Translucent; Alpha 0.50 }
+	patch W65B_2, 108, 0 { Style Translucent; Alpha 0.50 }
+}
+
+texture optional FIREB12, 128, 128
+{
+	patch W65B_1, 22, 0 { Style Translucent; Alpha 1 }
+	patch W65B_1, -106, 0 { Style Translucent; Alpha 1 }
+	patch W65B_2, -22, 0 { Style Translucent; Alpha 0.50 }
+	patch W65B_2, 106, 0 { Style Translucent; Alpha 0.50 }
+}
+
+texture optional FIREB13, 128, 128
+{
+	patch W65B_1, 24, 0 { Style Translucent; Alpha 1 }
+	patch W65B_1, -104, 0 { Style Translucent; Alpha 1 }
+	patch W65B_2, -24, 0 { Style Translucent; Alpha 0.50 }
+	patch W65B_2, 104, 0 { Style Translucent; Alpha 0.50 }
+}
+
+texture optional FIREB14, 128, 128
+{
+	patch W65B_1, 26, 0 { Style Translucent; Alpha 1 }
+	patch W65B_1, -102, 0 { Style Translucent; Alpha 1 }
+	patch W65B_2, -26, 0 { Style Translucent; Alpha 0.50 }
+	patch W65B_2, 102, 0 { Style Translucent; Alpha 0.50 }
+}
+
+texture optional FIREB15, 128, 128
+{
+	patch W65B_1, 28, 0 { Style Translucent; Alpha 1 }
+	patch W65B_1, -100, 0 { Style Translucent; Alpha 1 }
+	patch W65B_2, -28, 0 { Style Translucent; Alpha 0.50 }
+	patch W65B_2, 100, 0 { Style Translucent; Alpha 0.50 }
+}
+
+texture optional FIREB16, 128, 128
+{
+	patch W65B_1, 30, 0 { Style Translucent; Alpha 1 }
+	patch W65B_1, -98, 0 { Style Translucent; Alpha 1 }
+	patch W65B_2, -30, 0 { Style Translucent; Alpha 0.50 }
+	patch W65B_2, 98, 0 { Style Translucent; Alpha 0.50 }
+}
+
+texture optional FIREB17, 128, 128
+{
+	patch W65B_1, 32, 0 { Style Translucent; Alpha 1 }
+	patch W65B_1, -96, 0 { Style Translucent; Alpha 1 }
+	patch W65B_2, -32, 0 { Style Translucent; Alpha 0.50 }
+	patch W65B_2, 96, 0 { Style Translucent; Alpha 0.50 }
+}
+
+texture optional FIREB18, 128, 128
+{
+	patch W65B_1, 34, 0 { Style Translucent; Alpha 1 }
+	patch W65B_1, -94, 0 { Style Translucent; Alpha 1 }
+	patch W65B_2, -34, 0 { Style Translucent; Alpha 0.50 }
+	patch W65B_2, 94, 0 { Style Translucent; Alpha 0.50 }
+}
+
+texture optional FIREB19, 128, 128
+{
+	patch W65B_1, 36, 0 { Style Translucent; Alpha 1 }
+	patch W65B_1, -92, 0 { Style Translucent; Alpha 1 }
+	patch W65B_2, -36, 0 { Style Translucent; Alpha 0.50 }
+	patch W65B_2, 92, 0 { Style Translucent; Alpha 0.50 }
+}
+
+texture optional FIREB20, 128, 128
+{
+	patch W65B_1, 38, 0 { Style Translucent; Alpha 1 }
+	patch W65B_1, -90, 0 { Style Translucent; Alpha 1 }
+	patch W65B_2, -38, 0 { Style Translucent; Alpha 0.50 }
+	patch W65B_2, 90, 0 { Style Translucent; Alpha 0.50 }
+}
+
+texture optional FIREB21, 128, 128
+{
+	patch W65B_1, 40, 0 { Style Translucent; Alpha 1 }
+	patch W65B_1, -88, 0 { Style Translucent; Alpha 1 }
+	patch W65B_2, -40, 0 { Style Translucent; Alpha 0.50 }
+	patch W65B_2, 88, 0 { Style Translucent; Alpha 0.50 }
+}
+
+texture optional FIREB22, 128, 128
+{
+	patch W65B_1, 42, 0 { Style Translucent; Alpha 1 }
+	patch W65B_1, -86, 0 { Style Translucent; Alpha 1 }
+	patch W65B_2, -42, 0 { Style Translucent; Alpha 0.50 }
+	patch W65B_2, 86, 0 { Style Translucent; Alpha 0.50 }
+}
+
+texture optional FIREB23, 128, 128
+{
+	patch W65B_1, 44, 0 { Style Translucent; Alpha 1 }
+	patch W65B_1, -84, 0 { Style Translucent; Alpha 1 }
+	patch W65B_2, -44, 0 { Style Translucent; Alpha 0.50 }
+	patch W65B_2, 84, 0 { Style Translucent; Alpha 0.50 }
+}
+
+texture optional FIREB24, 128, 128
+{
+	patch W65B_1, 46, 0 { Style Translucent; Alpha 1 }
+	patch W65B_1, -82, 0 { Style Translucent; Alpha 1 }
+	patch W65B_2, -46, 0 { Style Translucent; Alpha 0.50 }
+	patch W65B_2, 82, 0 { Style Translucent; Alpha 0.50 }
+}
+
+texture optional FIREB25, 128, 128
+{
+	patch W65B_1, 48, 0 { Style Translucent; Alpha 1 }
+	patch W65B_1, -80, 0 { Style Translucent; Alpha 1 }
+	patch W65B_2, -48, 0 { Style Translucent; Alpha 0.50 }
+	patch W65B_2, 80, 0 { Style Translucent; Alpha 0.50 }
+}
+
+texture optional FIREB26, 128, 128
+{
+	patch W65B_1, 50, 0 { Style Translucent; Alpha 1 }
+	patch W65B_1, -78, 0 { Style Translucent; Alpha 1 }
+	patch W65B_2, -50, 0 { Style Translucent; Alpha 0.50 }
+	patch W65B_2, 78, 0 { Style Translucent; Alpha 0.50 }
+}
+
+texture optional FIREB27, 128, 128
+{
+	patch W65B_1, 52, 0 { Style Translucent; Alpha 1 }
+	patch W65B_1, -76, 0 { Style Translucent; Alpha 1 }
+	patch W65B_2, -52, 0 { Style Translucent; Alpha 0.50 }
+	patch W65B_2, 76, 0 { Style Translucent; Alpha 0.50 }
+}
+
+texture optional FIREB28, 128, 128
+{
+	patch W65B_1, 54, 0 { Style Translucent; Alpha 1 }
+	patch W65B_1, -74, 0 { Style Translucent; Alpha 1 }
+	patch W65B_2, -54, 0 { Style Translucent; Alpha 0.50 }
+	patch W65B_2, 74, 0 { Style Translucent; Alpha 0.50 }
+}
+
+texture optional FIREB29, 128, 128
+{
+	patch W65B_1, 56, 0 { Style Translucent; Alpha 1 }
+	patch W65B_1, -72, 0 { Style Translucent; Alpha 1 }
+	patch W65B_2, -56, 0 { Style Translucent; Alpha 0.50 }
+	patch W65B_2, 72, 0 { Style Translucent; Alpha 0.50 }
+}
+
+texture optional FIREB30, 128, 128
+{
+	patch W65B_1, 58, 0 { Style Translucent; Alpha 1 }
+	patch W65B_1, -70, 0 { Style Translucent; Alpha 1 }
+	patch W65B_2, -58, 0 { Style Translucent; Alpha 0.50 }
+	patch W65B_2, 70, 0 { Style Translucent; Alpha 0.50 }
+}
+
+texture optional FIREB31, 128, 128
+{
+	patch W65B_1, 60, 0 { Style Translucent; Alpha 1 }
+	patch W65B_1, -68, 0 { Style Translucent; Alpha 1 }
+	patch W65B_2, -60, 0 { Style Translucent; Alpha 0.50 }
+	patch W65B_2, 68, 0 { Style Translucent; Alpha 0.50 }
+}
+
+texture optional FIREB32, 128, 128
+{
+	patch W65B_1, 62, 0 { Style Translucent; Alpha 1 }
+	patch W65B_1, -66, 0 { Style Translucent; Alpha 1 }
+	patch W65B_2, -62, 0 { Style Translucent; Alpha 0.50 }
+	patch W65B_2, 66, 0 { Style Translucent; Alpha 0.50 }
+}
+
+texture optional FIREB33, 128, 128
+{
+	patch W65B_1, 64, 0 { Style Translucent; Alpha 1 }
+	patch W65B_1, -64, 0 { Style Translucent; Alpha 1 }
+	patch W65B_2, -64, 0 { Style Translucent; Alpha 0.50 }
+	patch W65B_2, 64, 0 { Style Translucent; Alpha 0.50 }
+}
+
+texture optional FIREB34, 128, 128
+{
+	patch W65B_1, 66, 0 { Style Translucent; Alpha 1 }
+	patch W65B_1, -62, 0 { Style Translucent; Alpha 1 }
+	patch W65B_2, -66, 0 { Style Translucent; Alpha 0.50 }
+	patch W65B_2, 62, 0 { Style Translucent; Alpha 0.50 }
+}
+
+texture optional FIREB35, 128, 128
+{
+	patch W65B_1, 68, 0 { Style Translucent; Alpha 1 }
+	patch W65B_1, -60, 0 { Style Translucent; Alpha 1 }
+	patch W65B_2, -68, 0 { Style Translucent; Alpha 0.50 }
+	patch W65B_2, 60, 0 { Style Translucent; Alpha 0.50 }
+}
+
+texture optional FIREB36, 128, 128
+{
+	patch W65B_1, 70, 0 { Style Translucent; Alpha 1 }
+	patch W65B_1, -58, 0 { Style Translucent; Alpha 1 }
+	patch W65B_2, -70, 0 { Style Translucent; Alpha 0.50 }
+	patch W65B_2, 58, 0 { Style Translucent; Alpha 0.50 }
+}
+
+texture optional FIREB37, 128, 128
+{
+	patch W65B_1, 72, 0 { Style Translucent; Alpha 1 }
+	patch W65B_1, -56, 0 { Style Translucent; Alpha 1 }
+	patch W65B_2, -72, 0 { Style Translucent; Alpha 0.50 }
+	patch W65B_2, 56, 0 { Style Translucent; Alpha 0.50 }
+}
+
+texture optional FIREB38, 128, 128
+{
+	patch W65B_1, 74, 0 { Style Translucent; Alpha 1 }
+	patch W65B_1, -54, 0 { Style Translucent; Alpha 1 }
+	patch W65B_2, -74, 0 { Style Translucent; Alpha 0.50 }
+	patch W65B_2, 54, 0 { Style Translucent; Alpha 0.50 }
+}
+
+texture optional FIREB39, 128, 128
+{
+	patch W65B_1, 76, 0 { Style Translucent; Alpha 1 }
+	patch W65B_1, -52, 0 { Style Translucent; Alpha 1 }
+	patch W65B_2, -76, 0 { Style Translucent; Alpha 0.50 }
+	patch W65B_2, 52, 0 { Style Translucent; Alpha 0.50 }
+}
+
+texture optional FIREB40, 128, 128
+{
+	patch W65B_1, 78, 0 { Style Translucent; Alpha 1 }
+	patch W65B_1, -50, 0 { Style Translucent; Alpha 1 }
+	patch W65B_2, -78, 0 { Style Translucent; Alpha 0.50 }
+	patch W65B_2, 50, 0 { Style Translucent; Alpha 0.50 }
+}
+
+texture optional FIREB41, 128, 128
+{
+	patch W65B_1, 80, 0 { Style Translucent; Alpha 1 }
+	patch W65B_1, -48, 0 { Style Translucent; Alpha 1 }
+	patch W65B_2, -80, 0 { Style Translucent; Alpha 0.50 }
+	patch W65B_2, 48, 0 { Style Translucent; Alpha 0.50 }
+}
+
+texture optional FIREB42, 128, 128
+{
+	patch W65B_1, 82, 0 { Style Translucent; Alpha 1 }
+	patch W65B_1, -46, 0 { Style Translucent; Alpha 1 }
+	patch W65B_2, -82, 0 { Style Translucent; Alpha 0.50 }
+	patch W65B_2, 46, 0 { Style Translucent; Alpha 0.50 }
+}
+
+texture optional FIREB43, 128, 128
+{
+	patch W65B_1, 84, 0 { Style Translucent; Alpha 1 }
+	patch W65B_1, -44, 0 { Style Translucent; Alpha 1 }
+	patch W65B_2, -84, 0 { Style Translucent; Alpha 0.50 }
+	patch W65B_2, 44, 0 { Style Translucent; Alpha 0.50 }
+}
+
+texture optional FIREB44, 128, 128
+{
+	patch W65B_1, 86, 0 { Style Translucent; Alpha 1 }
+	patch W65B_1, -42, 0 { Style Translucent; Alpha 1 }
+	patch W65B_2, -86, 0 { Style Translucent; Alpha 0.50 }
+	patch W65B_2, 42, 0 { Style Translucent; Alpha 0.50 }
+}
+
+texture optional FIREB45, 128, 128
+{
+	patch W65B_1, 88, 0 { Style Translucent; Alpha 1 }
+	patch W65B_1, -40, 0 { Style Translucent; Alpha 1 }
+	patch W65B_2, -88, 0 { Style Translucent; Alpha 0.50 }
+	patch W65B_2, 40, 0 { Style Translucent; Alpha 0.50 }
+}
+
+texture optional FIREB46, 128, 128
+{
+	patch W65B_1, 90, 0 { Style Translucent; Alpha 1 }
+	patch W65B_1, -38, 0 { Style Translucent; Alpha 1 }
+	patch W65B_2, -90, 0 { Style Translucent; Alpha 0.50 }
+	patch W65B_2, 38, 0 { Style Translucent; Alpha 0.50 }
+}
+
+texture optional FIREB47, 128, 128
+{
+	patch W65B_1, 92, 0 { Style Translucent; Alpha 1 }
+	patch W65B_1, -36, 0 { Style Translucent; Alpha 1 }
+	patch W65B_2, -92, 0 { Style Translucent; Alpha 0.50 }
+	patch W65B_2, 36, 0 { Style Translucent; Alpha 0.50 }
+}
+
+texture optional FIREB48, 128, 128
+{
+	patch W65B_1, 94, 0 { Style Translucent; Alpha 1 }
+	patch W65B_1, -34, 0 { Style Translucent; Alpha 1 }
+	patch W65B_2, -94, 0 { Style Translucent; Alpha 0.50 }
+	patch W65B_2, 34, 0 { Style Translucent; Alpha 0.50 }
+}
+
+texture optional FIREB49, 128, 128
+{
+	patch W65B_1, 96, 0 { Style Translucent; Alpha 1 }
+	patch W65B_1, -32, 0 { Style Translucent; Alpha 1 }
+	patch W65B_2, -96, 0 { Style Translucent; Alpha 0.50 }
+	patch W65B_2, 32, 0 { Style Translucent; Alpha 0.50 }
+}
+
+texture optional FIREB50, 128, 128
+{
+	patch W65B_1, 98, 0 { Style Translucent; Alpha 1 }
+	patch W65B_1, -30, 0 { Style Translucent; Alpha 1 }
+	patch W65B_2, -98, 0 { Style Translucent; Alpha 0.50 }
+	patch W65B_2, 30, 0 { Style Translucent; Alpha 0.50 }
+}
+
+texture optional FIREB51, 128, 128
+{
+	patch W65B_1, 100, 0 { Style Translucent; Alpha 1 }
+	patch W65B_1, -28, 0 { Style Translucent; Alpha 1 }
+	patch W65B_2, -100, 0 { Style Translucent; Alpha 0.50 }
+	patch W65B_2, 28, 0 { Style Translucent; Alpha 0.50 }
+}
+
+texture optional FIREB52, 128, 128
+{
+	patch W65B_1, 102, 0 { Style Translucent; Alpha 1 }
+	patch W65B_1, -26, 0 { Style Translucent; Alpha 1 }
+	patch W65B_2, -102, 0 { Style Translucent; Alpha 0.50 }
+	patch W65B_2, 26, 0 { Style Translucent; Alpha 0.50 }
+}
+
+texture optional FIREB53, 128, 128
+{
+	patch W65B_1, 104, 0 { Style Translucent; Alpha 1 }
+	patch W65B_1, -24, 0 { Style Translucent; Alpha 1 }
+	patch W65B_2, -104, 0 { Style Translucent; Alpha 0.50 }
+	patch W65B_2, 24, 0 { Style Translucent; Alpha 0.50 }
+}
+
+texture optional FIREB54, 128, 128
+{
+	patch W65B_1, 106, 0 { Style Translucent; Alpha 1 }
+	patch W65B_1, -22, 0 { Style Translucent; Alpha 1 }
+	patch W65B_2, -106, 0 { Style Translucent; Alpha 0.50 }
+	patch W65B_2, 22, 0 { Style Translucent; Alpha 0.50 }
+}
+
+texture optional FIREB55, 128, 128
+{
+	patch W65B_1, 108, 0 { Style Translucent; Alpha 1 }
+	patch W65B_1, -20, 0 { Style Translucent; Alpha 1 }
+	patch W65B_2, -108, 0 { Style Translucent; Alpha 0.50 }
+	patch W65B_2, 20, 0 { Style Translucent; Alpha 0.50 }
+}
+
+texture optional FIREB56, 128, 128
+{
+	patch W65B_1, 110, 0 { Style Translucent; Alpha 1 }
+	patch W65B_1, -18, 0 { Style Translucent; Alpha 1 }
+	patch W65B_2, -110, 0 { Style Translucent; Alpha 0.50 }
+	patch W65B_2, 18, 0 { Style Translucent; Alpha 0.50 }
+}
+
+texture optional FIREB57, 128, 128
+{
+	patch W65B_1, 112, 0 { Style Translucent; Alpha 1 }
+	patch W65B_1, -16, 0 { Style Translucent; Alpha 1 }
+	patch W65B_2, -112, 0 { Style Translucent; Alpha 0.50 }
+	patch W65B_2, 16, 0 { Style Translucent; Alpha 0.50 }
+}
+
+texture optional FIREB58, 128, 128
+{
+	patch W65B_1, 114, 0 { Style Translucent; Alpha 1 }
+	patch W65B_1, -14, 0 { Style Translucent; Alpha 1 }
+	patch W65B_2, -114, 0 { Style Translucent; Alpha 0.50 }
+	patch W65B_2, 14, 0 { Style Translucent; Alpha 0.50 }
+}
+
+texture optional FIREB59, 128, 128
+{
+	patch W65B_1, 116, 0 { Style Translucent; Alpha 1 }
+	patch W65B_1, -12, 0 { Style Translucent; Alpha 1 }
+	patch W65B_2, -116, 0 { Style Translucent; Alpha 0.50 }
+	patch W65B_2, 12, 0 { Style Translucent; Alpha 0.50 }
+}
+
+texture optional FIREB60, 128, 128
+{
+	patch W65B_1, 118, 0 { Style Translucent; Alpha 1 }
+	patch W65B_1, -10, 0 { Style Translucent; Alpha 1 }
+	patch W65B_2, -118, 0 { Style Translucent; Alpha 0.50 }
+	patch W65B_2, 10, 0 { Style Translucent; Alpha 0.50 }
+}
+
+texture optional FIREB61, 128, 128
+{
+	patch W65B_1, 120, 0 { Style Translucent; Alpha 1 }
+	patch W65B_1, -8, 0 { Style Translucent; Alpha 1 }
+	patch W65B_2, -120, 0 { Style Translucent; Alpha 0.50 }
+	patch W65B_2, 8, 0 { Style Translucent; Alpha 0.50 }
+}
+
+texture optional FIREB62, 128, 128
+{
+	patch W65B_1, 122, 0 { Style Translucent; Alpha 1 }
+	patch W65B_1, -6, 0 { Style Translucent; Alpha 1 }
+	patch W65B_2, -122, 0 { Style Translucent; Alpha 0.50 }
+	patch W65B_2, 6, 0 { Style Translucent; Alpha 0.50 }
+}
+
+texture optional FIREB63, 128, 128
+{
+	patch W65B_1, 124, 0 { Style Translucent; Alpha 1 }
+	patch W65B_1, -4, 0 { Style Translucent; Alpha 1 }
+	patch W65B_2, -124, 0 { Style Translucent; Alpha 0.50 }
+	patch W65B_2, 4, 0 { Style Translucent; Alpha 0.50 }
+}
+
+texture optional FIREB64, 128, 128
+{
+	patch W65B_1, 126, 0 { Style Translucent; Alpha 1 }
+	patch W65B_1, -2, 0 { Style Translucent; Alpha 1 }
+	patch W65B_2, -126, 0 { Style Translucent; Alpha 0.50 }
+	patch W65B_2, 2, 0 { Style Translucent; Alpha 0.50 }
+}

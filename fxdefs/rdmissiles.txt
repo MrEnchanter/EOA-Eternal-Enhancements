@@ -1,0 +1,492 @@
+flickerlight VPIMPBALL
+{
+    color 1 0.3 0
+    size 64
+    secondarysize 72
+    chance 0.8
+}
+
+pointlight VPIMPFIRE1
+{
+    color 1.0 0.6 0.1
+    size 104
+}
+
+pointlight VPIMPFIRE2
+{
+    color 1.0 0.4 0
+    size 88
+}
+
+pointlight VPIMPFIRE3
+{
+    color 1.0 0.2 0
+    size 56
+}
+
+object VP_ImpBall
+{
+    frame IMPBA { light VPIMPBALL }
+    frame IMPBB { light VPIMPBALL }
+    frame IM2BA { light VPIMPBALL }
+    frame IM2BB { light VPIMPBALL }
+    frame IM2BC { light VPIMPBALL }
+    frame IMPFA { light VPIMPFIRE1 }
+    frame IMPFB { light VPIMPFIRE2 }
+    frame IMPFC { light VPIMPFIRE3 }
+    frame IM2FA { light VPIMPFIRE1 }
+    frame IM2FB { light VPIMPFIRE2 }
+    frame IM2FC { light VPIMPFIRE3 }
+}
+
+flickerlight VPCacoShot
+{
+	color 0.9 0.3 1
+	size 96
+	secondarysize 104
+	chance 0.8
+}
+
+pointlight VPCacoShotX1
+{
+	color 0.8 0.4 1
+	size 128
+}
+
+pointlight VPCacoShotX2
+{
+	color 0.7 0.4 0.9
+	size 152
+}
+
+pointlight VPCacoShotX3
+{
+	color 0.6 0.3 0.8
+	size 128
+}
+
+object VP_CacoBall
+{
+	frame CACBA { light VPCacoShot }
+	frame CACBB { light VPCacoShot }
+	frame EMPTA { light VPCacoShotX1 }
+	frame EMPTB { light VPCacoShotX2 }
+	frame EMPTC { light VPCacoShotX3 }
+}
+
+pointlight VPEXPLOD1
+{
+    color 1.0 0.7 0.4
+    size 128
+}
+
+pointlight VPEXPLOD2
+{
+    color 1.0 0.6 0.3
+    size 152
+}
+
+pointlight VPEXPLOD3
+{
+    color 1.0 0.6 0.2
+    size 160
+}
+
+pointlight VPEXPLOD4
+{
+    color 1.0 0.5 0.2
+    size 152
+}
+
+pointlight VPEXPLOD5
+{
+    color 1.0 0.4 0.1
+    size 136
+}
+
+pointlight VPEXPLOD6
+{
+    color 0.9 0.3 0.1
+    size 112
+}
+
+pointlight VPEXPLOD7
+{
+    color 0.9 0.2 0
+    size 96
+}
+
+pointlight VPEXPLOD8
+{
+    color 0.9 0.1 0
+    size 80
+}
+
+object VP_Explode
+{
+    frame EXPLA { light VPEXPLOD1 }
+    frame EXPLB { light VPEXPLOD2 }
+    frame EXPLC { light VPEXPLOD3 }
+    frame EXPLD { light VPEXPLOD4 }
+    frame EXPLE { light VPEXPLOD5 }
+    frame EXPLF { light VPEXPLOD6 }
+    frame EXPLG { light VPEXPLOD7 }
+    frame EXPLH { light VPEXPLOD8 }
+}
+
+flickerlight VPBruiserShot
+{
+	color 0.32 1 0.16
+	size 72
+	secondarysize 80
+	chance 0.8
+}
+
+pointlight VPBruiserShotX1
+{
+	color 0.32 1 0.16
+	size 96
+}
+
+pointlight VPBruiserShotX2
+{
+	color 0.16 0.96 0
+	size 128
+}
+
+pointlight VPBruiserShotX3
+{
+	color 0 0.64 0
+	size 112
+}
+
+object VP_BaronBall
+{
+	frame BARB { light VPBruiserShot }
+	frame EMPTA { light VPBruiserShotX1 }
+	frame EMPTB { light VPBruiserShotX2 }
+	frame EMPTC { light VPBruiserShotX3 }
+}
+
+//flickerlight VPMancBall------------------------------------------<  WHAT IS IT???
+//{
+//	color 1 0.6 0.32
+//	size 72
+//	secondarysize 128
+//	chance 0.8
+//}
+
+//------------------------------here was definition to mancubus ball
+
+pointlight VPROCKET
+{
+    color 1.0 0.7 0.4
+    size 96
+}
+
+object VP_Rocket
+{
+    frame MISLA { light VPROCKET }
+}
+
+
+//Marine's blue plasma. Improved 13.09.2019
+
+flickerlight VPPlasma
+{
+	color 0.3 0.3 1.0
+	size 60
+	secondarysize 64
+	chance 0.8
+}
+
+pointlight VPPlasmaX1
+{
+	color 0 0 1.0
+	size 72
+}
+
+pointlight VPPlasmaX2
+{
+	color 0.1 0.1 1.0
+	size 80
+}
+
+pointlight VPPlasmaX3
+{
+	color 0.2 0.2 1.0
+	size 88
+}
+
+pointlight VPPlasmaX4
+{
+	color 0.1 0.1 1.0
+	size 68
+}
+
+pointlight VPPlasmaX5
+{
+	color 0 0 1.0
+	size 56
+}
+
+object VP_Plasma
+{
+    frame PLSSA { light VPPlasma }
+    frame PLSSB { light VPPlasma }
+    frame EMPTA { light VPPlasmaX1 }
+    frame EMPTB { light VPPlasmaX2 }
+    frame EMPTC { light VPPlasmaX3 }
+    frame EMPTD { light VPPlasmaX4 }
+    frame EMPTE { light VPPlasmaX5 }
+}
+
+//Arachnatron Plasma. Defined by GRAU on 06.01.2020
+
+flickerlight ArachPlasma
+{
+	color 0.7 1.0 0.1
+	size 80
+	secondarysize 88
+	chance 0.8
+}
+
+Pointlight ArachPlasX1
+{
+	color 0.9 1.0 0.1
+	size 104
+}
+
+Pointlight ArachPlasX2
+{
+	color 0.8 1.0 0.1
+	size 112
+}
+
+Pointlight ArachPlasX3
+{
+	color 0.7 1.0 0.1
+	size 96
+}
+
+Pointlight ArachPlasX4
+{
+	color 0.5 0.9 0.2
+	size 80
+}
+
+Pointlight ArachPlasX5
+{
+	color 0.3 0.8 0.2
+	size 64
+}
+
+object VP_ArachPlasma
+{
+	frame APLSA { light ArachPlasma }
+	frame APLSB { light ArachPlasma }
+	frame EMPTA { light ArachPlasX1 }
+	frame EMPTB { light ArachPlasX2 }
+	frame EMPTC { light ArachPlasX3 }
+	frame EMPTD { light ArachPlasX4 }
+}
+
+
+//--------------------BFG BALL. Defined on 12.06.2020 by GRAU
+
+
+pointlight BFGSHOT
+{
+	color 0.4 1.0 0
+	size 80
+	offset 0 8 0
+}
+
+pointlight BFGSHOT_X1
+{
+	color 0.3 1.0 0
+	size 92
+	offset 0 8 0
+}
+
+pointlight BFGSHOT_X2
+{
+	color 0.2 1.0 0
+	size 112
+	offset 0 8 0
+}
+
+pointlight BFGSHOT_X3
+{
+	color 0.2 1.0 0.1
+	size 104
+	offset 0 8 0
+}
+
+pointlight BFGSHOT_X4
+{
+	color 0.2 0.8 0.1
+	size 96
+	offset 0 8 0
+}
+
+pointlight BFGSpray_X1
+{
+	color 0.3 1.0 0.1
+	size 80
+	offset 0 8 0
+}
+
+pointlight BFGSpray_X2
+{
+	color 0.2 1.0 0.1
+	size 72
+	offset 0 8 0
+}
+
+pointlight BFGSpray_X3
+{
+	color 0.2 1.0 0
+	size 64
+	offset 0 8 0
+}
+
+
+pointlight BFGSpray_X4
+{
+	color 0.1 1.0 0
+	size 56
+	offset 0 8 0
+}
+
+pointlight BFGSpray_X5
+{
+	color 0.1 1.0 0
+	size 48
+	offset 0 8 0
+}
+
+pointlight BFGSpray_X6
+{
+	color 0.1 1.0 0
+	size 40
+	offset 0 8 0
+}
+
+
+object VP_BFGBall
+{
+	frame BFBL { light BFGSHOT }
+	frame BFE1A { light BFGSHOT_X1 }
+	frame BFE1B { light BFGSHOT_X2 }
+	frame BFE1C { light BFGSHOT_X3 }
+	frame BFE1D { light BFGSHOT_X4 }
+}
+
+object VP_BFGSpray
+{
+	frame TELSA { light BFGSpray_X1 }
+	frame TELSB { light BFGSpray_X2 }
+	frame TELSC { light BFGSpray_X3 }
+	frame TELSD { light BFGSpray_X4 }
+	frame TELSE { light BFGSpray_X5 }
+	frame TELSF { light BFGSpray_X6 }
+}
+
+
+//---------------------Mancubus Missile. Defined on 06.01.2020 by GRAU
+
+
+Flickerlight RDMancBall
+{
+	color 1.0 0.6 0.2
+	size 64
+	secondarysize 72
+}
+
+pointlight RDMancBallX1
+{
+	color 1.0 0.7 0.3
+	size 88
+}
+
+pointlight RDMancBallX2
+{
+	color 1.0 0.6 0.2
+	size 104
+}
+
+
+pointlight RDMancBallX3
+{
+	color 1.0 0.5 0.1
+	size 96
+}
+
+pointlight RDMancBallX4
+{
+	color 1.0 0.5 0
+	size 72
+}
+
+pointlight RDMancBallX5
+{
+	color 1.0 0.5 0
+	size 56
+}
+
+
+object VP_MancuBall
+{
+	frame RFLMA { light RDMancBall }
+	frame RFLMB { light RDMancBallX1 }
+	frame RFLMC { light RDMancBallX2 }
+	frame RFLMD { light RDMancBallX3 }
+	frame RFLME { light RDMancBallX4 }
+}
+
+//Archvile Fire. Improved 01.09.2019
+
+
+flickerlight VPARCHFIRE
+{
+	color 1 0.8 0.2
+	size 40
+	secondarysize 44
+	chance 0.8
+}
+
+flickerlight VPARCHFIREX1
+{
+	color 1 0.8 0.2
+	size 36
+	secondarysize 40
+	chance 0.8
+}
+
+flickerlight VPARCHFIREX2
+{
+	color 1 0.8 0.2
+	size 30
+	secondarysize 34
+	chance 0.8
+}
+
+flickerlight VPARCHFIREX3
+{
+	color 1 0.8 0.2
+	size 24
+	secondarysize 28
+	chance 0.8
+}
+
+object VP_ArchFire
+{
+	frame ARCFA { light VPARCHFIRE }
+	frame ARCFB { light VPARCHFIRE }
+	frame ARCFC { light VPARCHFIRE }
+	frame ARCFD { light VPARCHFIRE }
+	frame ARCFE { light VPARCHFIREX1 }
+	frame ARCFF { light VPARCHFIREX2 }
+	frame ARCFG { light VPARCHFIREX3 }
+}

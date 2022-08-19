@@ -1,0 +1,7 @@
+texture SP_ROCK1_Height, 4096, 4096
+{
+   XScale 4.00
+   YScale 4.00
+   Offset 0, 0
+   Patch SP_ROCK1_Height, 0, 0
+}

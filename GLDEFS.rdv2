@@ -1,0 +1,1072 @@
+// weapons ---------------------------------------------------------------------
+/*
+pointlight PLASSPAWN
+{
+    color 0.2 0.0 0.0
+    size 18
+	offset 0 13 21
+}
+object PlasmaRifle
+{
+    frame PLAS { light PLASSPAWN }
+}
+
+pointlight BFGSPAWN
+{
+    color 0.1 0.0 0.0
+    size 12
+	offset 0 17 4
+}
+object BFG9000
+{
+    frame BFUG { light BFGSPAWN }
+}
+*/
+
+pulselight CELL
+{
+    color 0.0 0.3 0.0
+    size 6
+    secondarySize 10
+    interval 2.0
+    //offset 0 6 0
+	//attenuate 1
+}
+
+object Cell
+{
+    frame CELL { light CELL }
+}
+object RV_Cell
+{
+    frame CELL { light CELL }
+}
+
+pulselight CELLPACK
+{
+    color 0.5 0.3 0.0
+    size 12
+    secondarySize 14
+    interval 2.0
+    //offset 0 9 4
+	//attenuate 1
+}
+
+object CellPack
+{
+    frame CELP { light CELLPACK }
+}
+object RV_CellPack
+{
+    frame CELP { light CELLPACK }
+}
+
+// explosives ------------------------------------------------------------------
+
+pointlight ROCKET
+{
+    color 1.0 0.4 0.0
+    size 84
+	offset -25 0 0
+	attenuate 1
+}
+
+flickerlight ROCKET_X1
+{
+    color 1.0 0.5 0.1
+    size 96
+    secondarySize 108
+    chance 0.3
+	attenuate 1
+}
+
+flickerlight ROCKET_X2
+{
+    color 0.5 0.2 0.0
+    size 120
+    secondarySize 132
+    chance 0.3
+	//attenuate 1
+}
+
+flickerlight ROCKET_X3
+{
+    color 0.3 0.1 0.0
+    size 144
+    secondarySize 156
+    chance 0.3
+	//attenuate 1
+}
+/*
+object RV_PlasmaBall
+{
+    frame PLSSA { light PLASMABALL }
+    frame PLSSB { light PLASMABALL }
+
+    frame PLSEA { light PLASMA_X1 }
+    frame PLSEB { light PLASMA_X2 }
+    frame PLSEC { light PLASMA_X2 }
+    frame PLSED { light PLASMA_X3 }
+    frame PLSEE { light PLASMA_X4 }
+}
+*/
+// monsters --------------------------------------------------------------------
+
+
+// Zombies
+flickerlight2 ZOMBIEATK
+{
+    color 1.0 0.6 0.2
+    size 84
+    secondarySize 96
+    interval 1
+    offset 20 28 10
+	//attenuate 1
+}
+
+object ZombieMan
+{
+    frame POSSF { light ZOMBIEATK }
+}
+
+object ShotgunGuy
+{
+    frame SPOSF { light ZOMBIEATK }
+}
+
+object ChaingunGuy
+{
+    frame CPOSE { light ZOMBIEATK }
+    frame CPOSF { light ZOMBIEATK }
+}
+
+flickerlight2 PLAYATK
+{
+    color 0.8 0.4 0.1
+    size 176
+    secondarySize 192
+    interval 1
+    offset 16 30 0
+	//attenuate 1
+}
+object DoomPlayer
+{
+    frame PLAYF { light PLAYATK }
+}
+
+
+pointlight IMPBALL
+{
+    color 1.0 0.4 0.1
+    size 96
+	//attenuate 1
+}
+
+flickerlight IMPBALL_X1
+{
+    color 0.7 0.3 0.25
+    size 120
+    secondarySize 132
+    chance 0.25
+	//attenuate 1
+}
+
+flickerlight IMPBALL_X2
+{
+    color 0.4 0.1 0.1
+    size 144
+    secondarySize 156
+    chance 0.25
+	//attenuate 1
+}
+
+flickerlight IMPBALL_X3
+{
+    color 0.2 0.05 0.0
+    size 168
+    secondarySize 180
+    chance 0.25
+	//attenuate 1
+}
+/*
+object RV_DoomImpBall
+{
+    frame BAL1A { light IMPBALL    }
+    frame BAL1B { light IMPBALL    }
+
+    frame BAL1C { light IMPBALL_X1 }
+    frame BAL1D { light IMPBALL_X2 }
+    frame BAL1E { light IMPBALL_X3 }
+}
+
+object RV_CacodemonBall
+{
+    frame BAL2A { light CACOBALL }
+    frame BAL2B { light CACOBALL }
+
+    frame BAL2C { light CACOBALL_X1 }
+    frame BAL2D { light CACOBALL_X2 }
+    frame BAL2E { light CACOBALL_X3 }
+}
+
+object RV_BaronBall
+{
+    frame BAL7A { light BARONBALL    }
+    frame BAL7B { light BARONBALL    }
+
+    frame BAL7C { light BARONBALL_X1 }
+    frame BAL7D { light BARONBALL_X2 }
+    frame BAL7E { light BARONBALL_X3 }
+}
+
+object RV_FatShot
+{
+    frame MANFA { light IMPBALL   }
+    frame MANFB { light IMPBALL   }
+
+    frame MISLB { light ROCKET_X1 }
+    frame MISLC { light ROCKET_X2 }
+    frame MISLD { light ROCKET_X3 }
+}
+
+object RV_ArachnotronPlasma
+{
+    frame APLSA { light ARACHPLAS }
+    frame APLSB { light ARACHPLAS }
+
+    frame APBXA { light ARACHPLAS_X1 }
+    frame APBXB { light ARACHPLAS_X2 }
+    frame APBXC { light ARACHPLAS_X2 }
+    frame APBXD { light ARACHPLAS_X3 }
+    frame APBXE { light ARACHPLAS_X4 }
+}
+*/
+
+// items -----------------------------------------------------------------------
+// Soul Sphere
+pulselight SOULSPHERE
+{
+    color 0.0 0.0 0.2
+    size 40
+    secondarySize 32
+    interval 2.0
+    offset 0 25 0
+	//attenuate 1
+}
+flickerlight2 SOULSPHERE1
+{
+    color 0.0 0.0 0.1
+    size 11
+    secondarySize 16
+    interval 0.2
+    offset 0 0 0
+	//attenuate 1
+}
+
+object RV_SoulSphere
+{
+    frame SOUL { light SOULSPHERE }
+}
+
+object RV_SoulA
+{
+    frame SOUL { light SOULSPHERE1 }
+}
+
+object RV_SoulB
+{
+    frame SOUL { light SOULSPHERE1 }
+}
+object RV_SoulC
+{
+    frame SOUL { light SOULSPHERE1 }
+}
+object RV_SoulD
+{
+    frame SOUL { light SOULSPHERE1 }
+}
+
+// Mega Sphere
+pulselight MEGASPHERE
+{
+    color 0.4 0.3 0.2
+    size 40
+    secondarySize 32
+    interval 2.0
+    offset 0 27 0
+	//attenuate 1
+}
+flickerlight2 MEGASPHERE1
+{
+    color 0.2 0.15 0.1
+    size 11
+    secondarySize 16
+    interval 0.2
+    offset 0 0 0
+	//attenuate 1
+}
+
+object RV_MegaSphere
+{
+    frame MEGA { light MEGASPHERE }
+}
+
+object RV_MegaA
+{
+    frame MEGA { light MEGASPHERE1 }
+}
+object RV_MegaB
+{
+    frame MEGA { light MEGASPHERE1 }
+}
+object RV_MegaC
+{
+    frame MEGA { light MEGASPHERE1 }
+}
+object RV_MegaD
+{
+    frame MEGA { light MEGASPHERE1 }
+}
+
+
+// Invulnerability Sphere
+pulselight INVULN
+{
+    color 0.0 0.2 0.0
+    size 40
+    secondarySize 32
+    interval 2.0
+    offset 0 25 0
+	//attenuate 1
+}
+flickerlight2 INVULN1
+{
+    color 0.5 0.0 0.1
+    size 11
+    secondarySize 14
+    interval 0.2
+    offset 0 0 0
+	//attenuate 1
+}
+object RV_InvulnerabilitySphere
+{
+    frame PINV { light INVULN }
+}
+
+object RV_SkullA
+{
+    frame PINV { light INVULN1 }
+}
+object RV_SkullB
+{
+    frame PINV { light INVULN1 }
+}
+object RV_SkullC
+{
+    frame PINV { light INVULN1 }
+}
+object RV_SkullD
+{
+    frame PINV { light INVULN1 }
+} 
+
+
+// Blur Sphere
+pulselight BLURSPHERE1
+{
+    color 0.2 0.0 0.0
+    size 40
+    secondarySize 32
+    interval 2.0
+    offset 0 25 0
+	//attenuate 1
+}
+
+flickerlight2 BLURSPHERE2
+{
+    color 0.0 0.0 0.25
+    size 28
+    secondarySize 32
+    interval 0.2
+    offset 0 0 0
+	//attenuate 1
+}
+
+flickerlight2 BLURSPHERE3
+{
+    color 0.0 0.0 0.2
+    size 28
+    secondarySize 32
+    interval 0.2
+    offset 0 0 0
+	//attenuate 1
+}
+
+flickerlight2 BLURSPHERE4
+{
+    color 0.0 0.0 0.15
+    size 28
+    secondarySize 32
+    interval 0.2
+    offset 0 0 0
+	//attenuate 1
+}
+
+flickerlight2 BLURSPHERE5
+{
+    color 0.0 0.0 0.1
+    size 28
+    secondarySize 32
+    interval 0.2
+    offset 0 0 0
+	//attenuate 1
+}
+
+object RV_BlurSphere
+{
+    frame PINS { light BLURSPHERE1 }
+}
+
+object RV_EyeA
+{
+    frame PINS { light BLURSPHERE2 }
+}
+object RV_EyeB
+{
+    frame PINS { light BLURSPHERE3 }
+}
+object RV_EyeC
+{
+    frame PINS { light BLURSPHERE4 }
+}
+object RV_EyeD
+{
+    frame PINS { light BLURSPHERE5 }
+}
+
+
+pulselight STIMPACK
+{
+    color 0.3 0.0 0.0
+    size 6
+    secondarySize 2
+    interval 2.0
+	//attenuate 1
+	dontlightself 1
+    offset -1 4 0
+}
+object RV_Stimpack
+{
+    frame STIM { light STIMPACK }
+}
+
+pulselight MEDIKIT
+{
+    color 0.5 0.0 0.0
+    size 16
+    secondarySize 6
+    interval 2.0
+	//attenuate 1
+	dontlightself 1
+    offset 0 10 0
+}
+object RV_Medikit
+{
+    frame MEDI { light MEDIKIT }
+}
+
+// powerups --------------------------------------------------------------------
+
+
+
+pulselight BERSERK
+{
+    color 0.7 0.0 0.0
+    size 10
+    secondarySize 6
+    interval 2.0
+	//attenuate 1
+	dontlightself 1
+    offset 0 8 0
+}
+object RV_Berserk
+{
+    frame PSTR { light BERSERK }
+}
+
+pointlight COMPMAP1
+{
+    color 0.4 0.0 0.0
+    size 8
+	offset 6 4 0
+}
+pointlight COMPMAP2
+{
+    color 0.1 0.0 0.0
+    size 4
+	offset 6 4 0
+}
+pointlight COMPMAP3
+{
+    color 0.3 0.0 0.5
+    size 10
+	offset 6 4 0
+}
+flickerlight2 COMPMAP4
+{
+    color 0.05 0.3 0.0
+    size 14
+    secondarySize 16
+    interval 0.1
+	offset 14 12 0
+}
+
+object Allmap
+{
+    frame PMAP { light COMPMAP4 }
+}
+
+object RV_Allmap
+{
+    frame PMAPA { light COMPMAP1 }
+    frame PMAPB { light COMPMAP2 }
+    frame PMAPC { light COMPMAP3 }
+    frame PMAPD { light COMPMAP1 }
+}
+object RV_MapFrame
+{
+    frame PMAP { light COMPMAP4 }
+}
+
+
+pointlight GOGGLES1
+{
+    color 0.4 0.0 0.1
+    size 28
+    offset 5 5 0
+	//attenuate 1
+}
+pointlight GOGGLES2
+{
+    color 0.2 0.0 0.1
+    size 12
+    offset 4 4 0
+	//attenuate 1
+}
+pointlight GOGGLES3
+{
+    color 0.0 0.0 0.3
+    size 5
+    offset 4 6 0
+	//attenuate 1
+}
+object Infrared
+{
+    frame PVISA { light GOGGLES1 }
+    frame PVISB { light GOGGLES2 }
+}
+object RV_Infrared
+{
+    frame PVISA { light GOGGLES1 }
+    frame PVISB { light GOGGLES2 }
+}
+object RV_IRFrames
+{
+    frame PVISZ { light GOGGLES3 }
+}
+
+// bonuses ---------------------------------------------------------------------
+
+pulselight HEALTHPOTION
+{
+    color 0.0 0.0 0.3
+    size 16
+    secondarySize 20
+    interval 2.0
+	//attenuate 1
+    offset 0 10 0
+}
+
+
+pointlight HEALTHBONUS1
+{
+    color 0.0 0.0 0.3
+    size 6
+	//attenuate 1
+    offset 0 4 0
+}
+pointlight HEALTHBONUS2
+{
+    color 0.0 0.0 0.5
+    size 8
+	//attenuate 1
+    offset 0 4 0
+}
+pointlight HEALTHBONUS3
+{
+    color 0.0 0.0 0.6
+    size 10
+	//attenuate 1
+    offset 0 4 0
+}
+pointlight HEALTHBONUS4
+{
+    color 0.0 0.0 0.7
+    size 11
+	//attenuate 1
+    offset 0 4 0
+}
+object HealthBonus
+{
+    frame BON1 { light null }
+    frame BON1A { light HEALTHBONUS1 }
+    frame BON1B { light HEALTHBONUS2 }
+    frame BON1C { light HEALTHBONUS3 }
+    frame BON1D { light HEALTHBONUS4 }
+}
+
+pulselight ARMORBONUS
+{
+    color 0.0 0.6 0.0
+    size 16
+    secondarySize 20
+    interval 1.0
+	dontlightself 1
+	//attenuate 1
+    offset 0 4 0
+}
+
+
+pointlight ARMORBONUS1
+{
+    color 0.0 0.3 0.0
+    size 6
+	//attenuate 1
+    offset 0 4 0
+}
+pointlight ARMORBONUS2
+{
+    color 0.0 0.5 0.0
+    size 8
+	//attenuate 1
+    offset 0 4 0
+}
+pointlight ARMORBONUS3
+{
+    color 0.0 0.6 0.0
+    size 10
+	//attenuate 1
+    offset 0 4 0
+}
+pointlight ARMORBONUS4
+{
+    color 0.0 0.7 0.0
+    size 11
+	//attenuate 1
+    offset 0 4 0
+}
+object ArmorBonus
+{
+    frame BON2 { light null }
+    frame BON2A { light ARMORBONUS1 }
+    frame BON2B { light ARMORBONUS2 }
+    frame BON2C { light ARMORBONUS3 }
+    frame BON2D { light ARMORBONUS4 }
+}
+object RV_ArmorBonus
+{
+    frame BON2 { light null }
+    frame BON2A { light ARMORBONUS1 }
+    frame BON2B { light ARMORBONUS2 }
+    frame BON2C { light ARMORBONUS3 }
+    frame BON2D { light ARMORBONUS4 }
+}
+
+
+// keys ------------------------------------------------------------------------
+
+pulselight BLUEKEY
+{
+    color 0.0 0.0 0.3
+    size 16
+    secondarySize 20
+    interval 2.0
+	//attenuate 1
+    offset 0 10 0
+}
+object BlueCard
+{
+    frame BKEYB { light BLUEKEY }
+}
+
+object BlueSkull
+{
+    frame BSKUB { light BLUEKEY }
+}
+
+pulselight YELLOWKEY
+{
+    color 0.3 0.2 0.0
+    size 16
+    secondarySize 20
+    interval 2.0
+	//attenuate 1
+    offset 0 10 0
+}
+pulselight YELLOWSKULL
+{
+    color 0.3 0.1 0.0
+    size 16
+    secondarySize 20
+    interval 2.0
+	//attenuate 1
+    offset 0 10 0
+}
+
+object YellowCard
+{
+    frame YKEYB { light YELLOWKEY }
+}
+
+object YellowSkull
+{
+    frame YSKUB { light YELLOWSKULL }
+}
+
+pulselight REDKEY
+{
+    color 0.3 0.0 0.0
+    size 16
+    secondarySize 20
+    interval 2.0
+	//attenuate 1
+    offset 0 10 0
+}
+
+object RedCard
+{
+    frame RKEYB { light REDKEY }
+}
+
+object RedSkull
+{
+    frame RSKUB { light REDKEY }
+}
+
+
+
+/*
+// Green armour
+pointlight GREENARMOR1
+{
+    color 0.0 0.3 0.0
+    size 40
+	attenuate 1
+    offset 0 10 0
+}
+
+pointlight GREENARMOR2
+{
+    color 0.0 0.3 0.0
+    size 30
+	attenuate 1
+    offset 0 10 0
+}
+
+object GreenArmor
+{
+    frame ARM1A { light GREENARMOR1 }
+    frame ARM1B { light GREENARMOR2 }
+}
+
+// Blue armour
+pointlight BLUEARMOR1
+{
+    color 0.0 0.0 0.3
+    size 40
+	attenuate 1
+    offset 0 10 0
+}
+
+pointlight BLUEARMOR2
+{
+    color 0.0 0.0 0.3
+    size 30
+	attenuate 1
+    offset 0 10 0
+}
+
+object BlueArmor
+{
+    frame ARM2A { light BLUEARMOR1 }
+    frame ARM2B { light BLUEARMOR2 }
+}
+*/
+
+
+
+
+// props -----------------------------------------------------------------------
+
+flickerlight2 BARREL
+{
+    color 0.0 1.0 0.0
+    size 7
+    secondarySize 8
+    interval 0.1
+    offset 0 27 0
+}
+/*
+object RV_ExplosiveBarrel
+{
+    frame BAR1 { light BARREL }
+
+    frame BEXPC { light ROCKET_X1 }
+    frame BEXPD { light ROCKET_X2 }
+    frame BEXPE { light ROCKET_X3 }
+}
+*/
+pointlight LAMP
+{
+    color 0.8 0.7 0.3
+    size 128
+    offset 0 40 0
+	dontlightself 1
+	//attenuate 1
+}
+object RV_Column
+{
+    frame COLU { light LAMP }
+}
+
+pointlight SMALLLAMP1
+{
+    color 0.8 0.8 1.0
+    size 176
+    offset 0 50 0
+	//dontlightself 1
+	//attenuate 1
+}
+pointlight SMALLLAMP2
+{
+    color 0.75 0.75 0.95
+    size 172
+    offset 0 50 0
+	//dontlightself 1
+	//attenuate 1
+}
+pointlight SMALLLAMP3
+{
+    color 0.7 0.7 0.9
+    size 168
+    offset 0 50 0
+	//dontlightself 1
+	//attenuate 1
+}
+object TechLamp2
+{
+    frame TLP2A { light SMALLLAMP1 }
+    frame TLP2B { light SMALLLAMP2 }
+    frame TLP2C { light SMALLLAMP3 }
+    frame TLP2D { light SMALLLAMP2 }
+}
+object RV_TechLamp2
+{
+    frame TLP2A { light SMALLLAMP1 }
+    frame TLP2B { light SMALLLAMP2 }
+    frame TLP2C { light SMALLLAMP3 }
+    frame TLP2D { light SMALLLAMP2 }
+}
+
+pointlight BIGLAMP1
+{
+    color 0.8 0.8 1.0
+    size 200
+    offset 0 66 0
+	dontlightself 1
+	//attenuate 1
+}
+pointlight BIGLAMP2
+{
+    color 0.7 0.7 0.9
+    size 196
+    offset 0 66 0
+	dontlightself 1
+	//attenuate 1
+}
+pointlight BIGLAMP3
+{
+    color 0.6 0.6 0.8
+    size 194
+    offset 0 66 0
+	dontlightself 1
+	//attenuate 1
+}
+
+object TechLamp
+{
+    frame TLMPA { light BIGLAMP1 }
+    frame TLMPB { light BIGLAMP2 }
+    frame TLMPC { light BIGLAMP3 }
+    frame TLMPD { light BIGLAMP2 }
+}
+object RV_TechLamp
+{
+    frame TLMPA { light BIGLAMP1 }
+    frame TLMPB { light BIGLAMP2 }
+    frame TLMPC { light BIGLAMP3 }
+    frame TLMPD { light BIGLAMP2 }
+}
+
+flickerlight2 BIGREDTORCH
+{
+    color 0.7 0.3 0.2
+    size 180
+    secondarySize 198
+    interval 0.1
+    offset 0 60 0
+	dontlightself 1
+	//attenuate 1
+}
+object RV_RedTorch
+{
+    frame TSTD { light BIGREDTORCH }
+}
+
+flickerlight2 BIGGREENTORCH
+{
+    color 0.25 0.7 0.2
+    size 180
+    secondarySize 198
+    interval 0.1
+    offset 0 60 0
+	dontlightself 1
+	//attenuate 1
+}
+object RV_GreenTorch
+{
+    frame TSTD { light BIGGREENTORCH }
+}
+
+flickerlight2 BIGBLUETORCH
+{
+    color 0.15 0.2 0.7
+    size 180
+    secondarySize 198
+    interval 0.1
+    offset 0 60 0
+	dontlightself 1
+	//attenuate 1
+}
+object RV_BlueTorch
+{
+    frame TSTD { light BIGBLUETORCH }
+}
+
+flickerlight2 SMALLREDTORCH
+{
+    color 0.6 0.2 0.1
+    size 144
+    secondarySize 162
+    interval 0.1
+    offset 0 35 0
+	dontlightself 1
+	//attenuate 1
+}
+object RV_ShortRedTorch
+{
+    frame SMNT { light SMALLREDTORCH }
+}
+
+flickerlight2 SMALLGREENTORCH
+{
+    color 0.1 0.6 0.15
+    size 144
+    secondarySize 162
+    interval 0.1
+    offset 0 35 0
+	dontlightself 1
+	//attenuate 1
+}
+object RV_ShortGreenTorch
+{
+    frame SMNT { light SMALLGREENTORCH }
+}
+
+flickerlight2 SMALLBLUETORCH
+{
+    color 0.1 0.15 0.6
+    size 144
+    secondarySize 162
+    interval 0.1
+    offset 0 35 0
+	dontlightself 1
+	//attenuate 1
+}
+object RV_ShortBlueTorch
+{
+    frame SMNT { light SMALLBLUETORCH }
+}
+
+
+
+flickerlight2 FIREBARREL
+{
+    color 1.0 0.6 0.3
+    size 104
+    secondarySize 113
+    interval 0.1
+    offset 0 32 0
+	//dontlightself 1
+	//attenuate 1
+}
+
+object RV_BurningBarrel
+{
+    frame FCAN { light FIREBARREL }
+}
+
+flickerlight2 SKULLCANDLES
+{
+    color 1.0 0.5 0.1
+    size 72
+    secondarySize 77
+    interval 0.1
+    offset 0 24 0
+	//attenuate 1
+}
+
+object HeadCandles
+{
+    frame POL3 { light SKULLCANDLES }
+}
+
+flickerlight2 CANDLE
+{
+    color 0.6 0.4 0.2
+    size 44
+    secondarySize 48
+    interval 0.01
+    offset 0 13 0
+	//attenuate 1
+}
+
+object RV_Candlestick
+{
+    frame CAND { light CANDLE }
+}
+
+
+flickerlight2 CANDELABRA
+{
+    color 1.0 0.7 0.4
+    size 67
+    secondarySize 72
+    interval 0.01
+    offset 0 58 0
+	//attenuate 1
+}
+object RV_Candelabra
+{
+    frame CBRA { light CANDELABRA }
+}

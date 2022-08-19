@@ -1,0 +1,9 @@
+Original Parallax Mapping implementation by dpJudas 
+and the Parallax Mapping thread at forum.zdoom.org by Rachael: https://forum.zdoom.org/viewtopic.php?f=103&t=62104
+
+Original texture set done by clockworkz at forum.zdoom.org
+
+Relief Parallax Mapping technique ported by Darkcrafter at forum.zdoom.org from here: https://habr.com/ru/post/416163/
+Some textures were removed, some replaced and some new added, albeit only heigtmaps were added.
+
+Darkcrafter

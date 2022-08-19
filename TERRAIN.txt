@@ -1,0 +1,219 @@
+terrain DoomWater
+{
+	splash			DoomWater
+	footclip		18
+	liquid
+	friction 		0.88
+}
+
+terrain DoomSludge
+{
+	splash			DoomSludge
+	footclip		12
+	liquid
+}
+
+terrain DoomLava
+{
+	splash			DoomLava
+	footclip		4
+	liquid
+}
+
+terrain DoomBlood
+{
+	splash			DoomBlood
+	footclip		10
+	liquid
+}
+
+terrain DoomSlime
+{
+	splash			DoomSlime
+	footclip		12
+	liquid
+}
+
+terrain DoomMud
+{
+	splash			DoomMud
+	footclip		10
+	liquid
+}
+
+//water
+floor optional fwater1 DoomWater
+floor optional fwater2 DoomWater
+floor optional fwater3 DoomWater
+floor optional fwater4 DoomWater
+floor optional FWATER10 DoomWater
+floor optional FWATER11 DoomWater
+floor optional FWATER12 DoomWater
+floor optional FWATER13 DoomWater
+floor optional FWATER14 DoomWater
+floor optional FWATER15 DoomWater
+floor optional FWATER16 DoomWater
+floor optional FWATER17 DoomWater
+floor optional FWATER20 DoomWater
+floor optional FWATER21 DoomWater
+floor optional FWATER22 DoomWater
+floor optional FWATER23 DoomWater
+floor optional FWATER24 DoomWater
+floor optional FWATER25 DoomWater
+floor optional FWATER26 DoomWater
+floor optional FWATER27 DoomWater
+floor optional FWATER30 DoomWater
+floor optional FWATER31 DoomWater
+floor optional FWATER32 DoomWater
+floor optional FWATER33 DoomWater
+floor optional FWATER34 DoomWater
+floor optional FWATER35 DoomWater
+floor optional FWATER36 DoomWater
+floor optional FWATER37 DoomWater
+
+//lava
+floor optional lava1 DoomLava
+floor optional lava2 DoomLava
+floor optional lava3 DoomLava
+floor optional lava4 DoomLava
+floor optional LAVA10 DoomLava
+floor optional LAVA11 DoomLava
+floor optional LAVA12 DoomLava
+floor optional LAVA13 DoomLava
+floor optional LAVA14 DoomLava
+floor optional LAVA15 DoomLava
+floor optional LAVA16 DoomLava
+floor optional LAVA17 DoomLava
+floor optional LAVA20 DoomLava
+floor optional LAVA21 DoomLava
+floor optional LAVA22 DoomLava
+floor optional LAVA23 DoomLava
+floor optional LAVA24 DoomLava
+floor optional LAVA25 DoomLava
+floor optional LAVA26 DoomLava
+floor optional LAVA27 DoomLava
+floor optional LAVA30 DoomLava
+floor optional LAVA31 DoomLava
+floor optional LAVA32 DoomLava
+floor optional LAVA33 DoomLava
+floor optional LAVA34 DoomLava
+floor optional LAVA35 DoomLava
+floor optional LAVA36 DoomLava
+floor optional LAVA37 DoomLava
+
+//blood
+floor optional blood1 DoomBlood
+floor optional blood2 DoomBlood
+floor optional blood3 DoomBlood
+floor optional BLOOD10 DoomBlood
+floor optional BLOOD11 DoomBlood
+floor optional BLOOD12 DoomBlood
+floor optional BLOOD13 DoomBlood
+floor optional BLOOD14 DoomBlood
+floor optional BLOOD15 DoomBlood
+floor optional BLOOD16 DoomBlood
+floor optional BLOOD17 DoomBlood
+floor optional BLOOD20 DoomBlood
+floor optional BLOOD21 DoomBlood
+floor optional BLOOD22 DoomBlood
+floor optional BLOOD23 DoomBlood
+floor optional BLOOD24 DoomBlood
+floor optional BLOOD25 DoomBlood
+floor optional BLOOD26 DoomBlood
+floor optional BLOOD27 DoomBlood
+floor optional BLOOD30 DoomBlood
+floor optional BLOOD31 DoomBlood
+floor optional BLOOD32 DoomBlood
+floor optional BLOOD33 DoomBlood
+floor optional BLOOD34 DoomBlood
+floor optional BLOOD35 DoomBlood
+floor optional BLOOD36 DoomBlood
+floor optional BLOOD37 DoomBlood
+
+//slime
+floor optional nukage1 DoomSlime
+floor optional nukage2 DoomSlime
+floor optional nukage3 DoomSlime
+floor optional NUKAGE10 DoomSlime
+floor optional NUKAGE11 DoomSlime
+floor optional NUKAGE12 DoomSlime
+floor optional NUKAGE13 DoomSlime
+floor optional NUKAGE14 DoomSlime
+floor optional NUKAGE15 DoomSlime
+floor optional NUKAGE16 DoomSlime
+floor optional NUKAGE17 DoomSlime
+floor optional NUKAGE20 DoomSlime
+floor optional NUKAGE21 DoomSlime
+floor optional NUKAGE22 DoomSlime
+floor optional NUKAGE23 DoomSlime
+floor optional NUKAGE24 DoomSlime
+floor optional NUKAGE25 DoomSlime
+floor optional NUKAGE26 DoomSlime
+floor optional NUKAGE27 DoomSlime
+floor optional NUKAGE30 DoomSlime
+floor optional NUKAGE31 DoomSlime
+floor optional NUKAGE32 DoomSlime
+floor optional NUKAGE33 DoomSlime
+floor optional NUKAGE34 DoomSlime
+floor optional NUKAGE35 DoomSlime
+floor optional NUKAGE36 DoomSlime
+floor optional NUKAGE37 DoomSlime
+
+//muddy sludge
+floor optional slime01 DoomMud
+floor optional slime02 DoomMud
+floor optional slime03 DoomMud
+floor optional slime04 DoomMud
+floor optional MUD110 DoomMud
+floor optional MUD111 DoomMud
+floor optional MUD112 DoomMud
+floor optional MUD113 DoomMud
+floor optional MUD114 DoomMud
+floor optional MUD115 DoomMud
+floor optional MUD116 DoomMud
+floor optional MUD117 DoomMud
+floor optional MUD120 DoomMud
+floor optional MUD121 DoomMud
+floor optional MUD122 DoomMud
+floor optional MUD123 DoomMud
+floor optional MUD124 DoomMud
+floor optional MUD125 DoomMud
+floor optional MUD126 DoomMud
+floor optional MUD127 DoomMud
+floor optional MUD130 DoomMud
+floor optional MUD131 DoomMud
+floor optional MUD132 DoomMud
+floor optional MUD133 DoomMud
+floor optional MUD134 DoomMud
+floor optional MUD135 DoomMud
+floor optional MUD136 DoomMud
+floor optional MUD137 DoomMud
+
+floor optional slime05 DoomMud
+floor optional slime06 DoomMud
+floor optional slime07 DoomMud
+floor optional slime08 DoomMud
+floor optional MUD210 DoomMud
+floor optional MUD211 DoomMud
+floor optional MUD212 DoomMud
+floor optional MUD213 DoomMud
+floor optional MUD214 DoomMud
+floor optional MUD215 DoomMud
+floor optional MUD216 DoomMud
+floor optional MUD217 DoomMud
+floor optional MUD220 DoomMud
+floor optional MUD221 DoomMud
+floor optional MUD222 DoomMud
+floor optional MUD223 DoomMud
+floor optional MUD224 DoomMud
+floor optional MUD225 DoomMud
+floor optional MUD226 DoomMud
+floor optional MUD227 DoomMud
+floor optional MUD230 DoomMud
+floor optional MUD231 DoomMud
+floor optional MUD232 DoomMud
+floor optional MUD233 DoomMud
+floor optional MUD234 DoomMud
+floor optional MUD235 DoomMud
+floor optional MUD236 DoomMud
+floor optional MUD237 DoomMud

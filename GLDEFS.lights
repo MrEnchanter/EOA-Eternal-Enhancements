@@ -1,0 +1,108 @@
+flickerlight2 FlameLight
+{
+    color 0.9 0.6 0.0
+    size 50
+    secondarySize 64
+    interval 2
+    offset 0 4 0
+	attenuate 1
+}
+
+flickerlight2 RedFlameLight
+{
+    color 0.9 0.0 0.0
+    size 50
+    secondarySize 64
+    interval 2
+    offset 0 4 0
+	attenuate 1
+}
+
+flickerlight2 GreenFlameLight
+{
+    color 0.0 0.9 0.0
+    size 50
+    secondarySize 64
+    interval 2
+    offset 0 4 0
+	attenuate 1
+}
+
+flickerlight2 BlueFlameLight
+{
+    color 0.0 0.0 0.9
+    size 50
+    secondarySize 64
+    interval 2
+    offset 0 4 0
+	attenuate 1
+}
+
+flickerlight2 CacoBallLight
+{
+    color 0.7 0.0 0.8
+    size 50
+    secondarySize 64
+    interval 2
+    offset 0 4 0
+	attenuate 1
+}
+
+flickerlight2 PlasmaBallLight
+{
+    color 0.0 0.5 0.9
+    size 50
+    secondarySize 64
+    interval 2
+    offset 0 4 0
+	attenuate 1
+}
+
+
+object NewPlsRifBall
+{
+    frame PLSE  { light PlasmaBallLight    }
+}
+
+
+flickerlight2 ArachnoBallLight
+{
+    color 0.6 0.6 0.0
+    size 50
+    secondarySize 64
+    interval 2
+    offset 0 4 0
+	attenuate 1
+}
+
+pointlight BARREL
+{
+    color 0.0 0.6 0.0
+    size 24
+    offset 0 44 0
+	dontlightself 1
+	attenuate 1
+}
+
+object NewBarrel
+{
+    frame BAR1  { light BARREL    }
+
+    frame BEXP { light GreenFlameLight }
+}
+
+pulselight ELECPILLAR
+{
+    color 0.2 0.3 0.4
+    size 32
+	secondarySize 64
+    interval 6.0
+    offset 0 72 0
+	attenuate 1
+}
+
+object TechPillar
+{
+    frame ELEC { light ELECPILLAR }
+}
+

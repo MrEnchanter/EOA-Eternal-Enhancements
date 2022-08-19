@@ -1,0 +1,482 @@
+ACTOR VP_ImpBall replaces DoomImpBall
+{
+	spawnid 10
+	radius 6
+	height 8
+	speed 10
+	damage 3
+	scale 1.6
+	Alpha 0.7
+	renderstyle Add
+	seesound "imp/attack"
+	deathsound "imp/shotx"
+	PROJECTILE
+	+RANDOMIZE
+	states
+	{
+	Spawn:
+		IM2B CCBB 1 bright A_SpawnItemEx("VP_ImpTrail", 0, 0, random(-2, 5), 0, 0, 0, 128)
+		loop
+	Death:
+		IM2B C 0 A_PlaySound("imp/shotx")
+		IM2B AAAAAAAA 0 bright A_SpawnItemEx("VP_ImpESPR", 0, 0, 0, random(-3,3), random(-3,3), random(-3,3), 128)
+		IM2F ABC 3 bright A_FadeOut(0.2)
+		stop
+	}
+}
+
+ACTOR VP_ImpTrail
+{ 
+	Scale 1.2
+	Alpha 0.7
+	renderstyle add
+	+NOCLIP
+	+NOGRAVITY
+	States
+	{
+		Spawn:
+		IM2B C 2 BRIGHT A_FadeOut(0.07)
+		IM2F A 2 BRIGHT A_FadeOut(0.07)
+		IM2F B 2 BRIGHT A_SpawnItemEx("VP_ImpSmoke", 0, 0, 0, (random(-10, 10))*0.1, (random(-10, 10))*0.1, random(-10, 10)*0.1)
+		IM2F C 2 BRIGHT A_FadeOut(0.07) 
+		Stop
+	}
+}
+
+ACTOR VP_ImpESPR
+{
+	PROJECTILE
+	renderstyle add
+	Scale 0.8
+	Alpha 0.8
+	radius 2
+	height 4
+	-NOCLIP
+	States
+	{
+		Spawn:
+		IMPB B 2 BRIGHT
+		IMPF A 2 BRIGHT A_SpawnItem("VP_ImpSmoke")
+		IMPF BC 2   
+		Stop
+	}
+}
+
+ACTOR VP_ImpSmoke
+{ 
+	Scale 2.4
+	renderstyle Translucent
+	alpha 0.5
+	+NOCLIP
+	+NOGRAVITY
+	States
+	{
+		Spawn:
+		SMOK ABCD 1 A_FadeOut(0.025)  
+		SMOK D 1 A_ChangeVelocity(0, 0, random(1, 2), CVF_REPLACE)
+		SMOK EFGHIJKLMNOPQRSTUVWX 1 A_FadeOut(0.025) 
+		Stop
+	}
+}
+
+
+actor VP_CacoBall replaces CacodemonBall
+{
+	SpawnID 126
+	Radius 6
+	Height 8
+	Speed 10
+	Damage 5
+	RenderStyle Add
+	Alpha 0.96
+	SeeSound "caco/attack"
+	DeathSound "caco/shotx"
+	Projectile
+	+Randomize
+	states
+	{
+	Spawn:
+		CACB AA 1 Bright A_SpawnItemEx("VP_CacoTrail", 0, 0, 0, 0, 0, 0, 128)
+		CACB A 0 Bright A_SpawnItemEx("VP_CacoSpark", random(-3, 3), random(-3, 3), random(-1, 6), 0, 0, 0, 128)
+		CACB BB 1 Bright A_SpawnItemEx("VP_CacoTrail", 0, 0, 0, 0, 0, 0, 128)
+		CACB B 0 Bright A_SpawnItemEx("VP_CacoSpark", random(-3, 3), random(-3, 3), random(-1, 6), 0, 0, 0, 128)
+		Loop
+	Death:
+		CACF A 0 Bright A_SpawnItemEx("VP_CacoESPR", 0, 0, 0, random(-4,4), random(-4,4), random(-4,4), 0)
+		CACF A 0 Bright A_SpawnItemEx("VP_CacoESPR", 0, 0, 0, random(-4,4), random(-4,4), random(-4,4), 0)
+		CACF A 0 Bright A_SpawnItemEx("VP_CacoESPR", 0, 0, 0, random(-4,4), random(-4,4), random(-4,4), 0)
+		CACF A 0 Bright A_SpawnItemEx("VP_CacoESPR", 0, 0, 0, random(-4,4), random(-4,4), random(-4,4), 0)
+		CACF A 0 Bright A_SpawnItemEx("VP_CacoESPR", 0, 0, 0, random(-4,4), random(-4,4), random(-4,4), 0)
+		CACF A 0 Bright A_SpawnItemEx("VP_CacoESPR", 0, 0, 0, random(-4,4), random(-4,4), random(-4,4), 0)
+		EMPT A 1 A_SpawnItemEx("VP_CacoSpark", random(-8, 8), random(-8, 8), random(-8, 8), 0, 0, 0, 128)
+		EMPT A 1 A_SpawnItemEx("VP_CacoSpark", random(-12, 12), random(-12, 12), random(-12, 12), 0, 0, 0, 128)
+		EMPT B 1 A_SpawnItemEx("VP_CacoSpark", random(-16, 16), random(-16, 16), random(-16, 16), 0, 0, 0, 128)
+		EMPT B 1 A_SpawnItemEx("VP_CacoSpark", random(-20, 20), random(-20, 20), random(-20, 20), 0, 0, 0, 128)
+		EMPT C 1 A_SpawnItemEx("VP_CacoSpark", random(-24, 24), random(-24, 24), random(-24, 24), 0, 0, 0, 128)
+		EMPT C 1 A_SpawnItemEx("VP_CacoSpark", random(-28, 28), random(-28, 28), random(-28, 28), 0, 0, 0, 128)
+		EMPT DDDDDDDD 1 A_SpawnItemEx("VP_CacoSpark", random(-28, 28), random(-28, 28), random(-28, 28), 0, 0, 0, 128)
+		Stop
+	}
+}
+
+ACTOR VP_CacoTrail
+{
+	Scale 0.8
+	renderstyle add
+	alpha 0.5
+	+NOCLIP
+	+NOGRAVITY
+	States
+	{
+		Spawn:
+		CACB AA 1 BRIGHT A_FadeOut(0.1)  
+		CACF A 1 BRIGHT A_FadeOut(0.1)  
+		Stop
+	}
+}
+
+ACTOR VP_CacoESPR
+{
+	PROJECTILE
+	radius 1
+	height 1
+	Scale 0.5
+	Renderstyle add
+	Alpha 0.9
+	-NOCLIP
+	States
+	{
+		Spawn:
+		CACF AAAAAAA 1 BRIGHT A_FadeOut(0.16)  
+		Stop
+	}
+}
+
+ACTOR VP_CacoSpark
+{ 
+	Scale 0.5
+	renderstyle add
+	+NOCLIP
+	+NOGRAVITY
+	States
+	{
+		Spawn:
+		CACS ABABABAB 2 BRIGHT  A_FadeOut(0.1)
+		Stop
+	}
+}
+
+ACTOR VP_BaronBall replaces BaronBall
+{
+	SpawnID 154
+	Radius 6
+	Height 8
+	Scale 1.2
+	Speed 15
+	FastSpeed 20
+	Damage 8
+	RenderStyle Add
+	SeeSound "baron/attack"
+	DeathSound "baron/shotx"
+	Projectile
+	+Randomize
+	states
+	{
+	Spawn:
+		BARB AB 1 bright A_SpawnItemEx("VP_BaronTrail", random(-2, 2), 2, random(-2, 2), 0, 0, 0, 128)
+		loop
+	Death:
+		BARB A 0 bright A_SpawnItemEx("VP_BaronESPR", 0, 0, 0, random(-4,4), random(-4,4), random(-4,4), 0)
+		BARB A 0 bright A_SpawnItemEx("VP_BaronESPR", 0, 0, 0, random(-4,4), random(-4,4), random(-4,4), 0)
+		BARB A 0 bright A_SpawnItemEx("VP_BaronESPR", 0, 0, 0, random(-4,4), random(-4,4), random(-4,4), 0)
+		BARB A 0 bright A_SpawnItemEx("VP_BaronESPR", 0, 0, 0, random(-4,4), random(-4,4), random(-4,4), 0)
+		BARB A 0 bright A_SpawnItemEx("VP_BaronESPR", 0, 0, 0, random(-4,4), random(-4,4), random(-4,4), 0)
+		BARB A 0 bright A_SpawnItemEx("VP_BaronESPR", 0, 0, 0, random(-4,4), random(-4,4), random(-4,4), 0)
+		EMPT ABC 2
+		EMPT D 20
+		stop
+	}
+}
+
+ACTOR VP_BaronTrail
+{ 
+	renderstyle add
+	alpha 0.9
+	+NOCLIP
+	+NOGRAVITY
+	States
+	{
+		Spawn:
+		BARF BABCDD 1 BRIGHT A_FadeOut(0.1)  
+		Stop
+	}
+}
+
+ACTOR VP_BaronESPR
+{
+	PROJECTILE
+	height 1
+	radius 1
+	Scale 0.6
+	renderstyle add
+	alpha 0.9
+	-NOCLIP
+	States
+	{
+		Spawn:
+		BARX AAAAAA 1 BRIGHT A_FadeOut(0.16)
+		Stop
+	}
+}
+
+
+
+
+//Archvile FlamePart. Last Improved 01.09.2019 by GRAU
+
+ACTOR VP_ArchFlame
+{ 
+	alpha 0.8
+	Scale 0.8
+	renderstyle add
+	+NOCLIP
+	+NOGRAVITY
+	States
+	{
+	Spawn:
+		ARCF ABCD 3 bright A_FadeOut(0.1)
+		ARCF E 1 bright A_SpawnItem("VP_ImpSmoke")
+		ARCF FGH 3 bright A_FadeOut(0.1)
+		Stop
+	}
+}
+
+//Archvile Fire. Improved 01.09.2019 by GRAU
+
+actor VP_ArchFire replaces ArchvileFire
+{
+	RenderStyle Add
+	scale 0.2
+	alpha 0.1
+	+NoBlockmap
+	+NoGravity
+	states
+	{
+	Spawn:
+		ARCF A 3 Bright A_StartFire
+		ARCF A 0 A_SpawnItemEx("VP_ArchFlame", random(-8, 8), random(-8, 8), 12, 0, 0, random(2,3))
+		ARCF B 3 Bright A_Fire
+		ARCF B 0 A_SpawnItemEx("VP_ArchFlame", random(-8, 8), random(-8, 8), 12, 0, 0, random(2,3))
+		ARCF C 2 Bright A_Fire
+		ARCF C 0 A_SpawnItemEx("VP_ArchFlame", random(-8, 8), random(-8, 8), 12, 0, 0, random(2,3))
+		ARCF D 2 Bright A_Fire
+		ARCF D 0 A_SpawnItemEx("VP_ArchFlame", random(-8, 8), random(-8, 8), 12, 0, 0, random(2,3))
+		ARCF A 2 Bright A_FireCrackle
+		ARCF A 0 A_SpawnItemEx("VP_ArchFlame", random(-8, 8), random(-8, 8), 12, 0, 0, random(2,3))
+		ARCF B 2 Bright A_Fire
+		ARCF B 0 A_SpawnItemEx("VP_ArchFlame", random(-8, 8), random(-8, 8), 12, 0, 0, random(2,3))
+		ARCF C 2 Bright A_Fire
+		ARCF C 0 A_SpawnItemEx("VP_ArchFlame", random(-8, 8), random(-8, 8), 12, 0, 0, random(2,3))
+		ARCF D 2 Bright A_Fire
+		ARCF D 0 A_SpawnItemEx("VP_ArchFlame", random(-8, 8), random(-8, 8), 12, 0, 0, random(2,3))
+		ARCF A 2 Bright A_Fire
+		ARCF A 0 A_SpawnItemEx("VP_ArchFlame", random(-8, 8), random(-8, 8), 12, 0, 0, random(2,3))
+		ARCF B 2 Bright A_Fire
+		ARCF B 0 A_SpawnItemEx("VP_ArchFlame", random(-8, 8), random(-8, 8), 12, 0, 0, random(2,3))
+		ARCF C 2 Bright A_Fire
+		ARCF C 0 A_SpawnItemEx("VP_ArchFlame", random(-8, 8), random(-8, 8), 12, 0, 0, random(2,3))
+		ARCF D 2 Bright A_Fire
+		ARCF D 0 A_SpawnItemEx("VP_ArchFlame", random(-8, 8), random(-8, 8), 12, 0, 0, random(2,3))
+		ARCF A 2 Bright A_Fire
+		ARCF A 0 A_SpawnItemEx("VP_ArchFlame", random(-8, 8), random(-8, 8), 12, 0, 0, random(2,3))
+		ARCF B 2 Bright A_Fire
+		ARCF B 0 A_SpawnItemEx("VP_ArchFlame", random(-8, 8), random(-8, 8), 12, 0, 0, random(2,3))
+		ARCF C 2 Bright A_Fire
+		ARCF C 0 A_SpawnItemEx("VP_ArchFlame", random(-8, 8), random(-8, 8), 12, 0, 0, random(2,3))
+		ARCF D 2 Bright A_FireCrackle
+		ARCF D 0 A_SpawnItemEx("VP_ArchFlame", random(-8, 8), random(-8, 8), 12, 0, 0, random(2,3))
+		ARCF A 2 Bright A_Fire
+		ARCF A 0 A_SpawnItemEx("VP_ArchFlame", random(-8, 8), random(-8, 8), 12, 0, 0, random(2,3))
+		ARCF B 2 Bright A_Fire
+		ARCF B 0 A_SpawnItemEx("VP_ArchFlame", random(-8, 8), random(-8, 8), 12, 0, 0, random(2,3))
+		ARCF C 2 Bright A_Fire
+		ARCF C 0 A_SpawnItemEx("VP_ArchFlame", random(-8, 8), random(-8, 8), 12, 0, 0, random(2,3))
+		ARCF D 2 Bright A_Fire
+		ARCF D 0 A_SpawnItemEx("VP_ArchFlame", random(-8, 8), random(-8, 8), 12, 0, 0, random(2,3))
+		ARCF A 2 Bright A_Fire
+		ARCF A 0 A_SpawnItemEx("VP_ArchFlame", random(-8, 8), random(-8, 8), 12, 0, 0, random(2,3))
+		ARCF B 2 Bright A_Fire
+		ARCF B 0 A_SpawnItemEx("VP_ArchFlame", random(-8, 8), random(-8, 8), 12, 0, 0, random(2,3))
+		ARCF C 2 Bright A_Fire
+		ARCF C 0 A_SpawnItemEx("VP_ArchFlame", random(-8, 8), random(-8, 8), 12, 0, 0, random(2,3))
+		ARCF D 2 Bright A_Fire
+		ARCF D 0 A_SpawnItemEx("VP_ArchFlame", random(-8, 8), random(-8, 8), 12, 0, 0, random(2,3))
+		ARCF A 2 Bright A_Fire
+		ARCF A 0 A_SpawnItemEx("VP_ArchFlame", random(-8, 8), random(-8, 8), 12, 0, 0, random(2,3))
+		ARCF B 2 Bright A_Fire
+		ARCF B 0 A_SpawnItemEx("VP_ArchFlame", random(-8, 8), random(-8, 8), 12, 0, 0, random(2,3))
+		ARCF C 2 Bright A_Fire
+		ARCF C 0 A_SpawnItemEx("VP_ArchFlame", random(-8, 8), random(-8, 8), 12, 0, 0, random(2,3))
+		ARCF D 2 Bright A_Fire
+		ARCF D 0 A_SpawnItemEx("VP_ArchFlame", random(-8, 8), random(-8, 8), 12, 0, 0, random(2,3))
+		ARCF E 2 Bright A_Fire
+		ARCF E 0 A_SpawnItemEx("VP_ArchFlame", random(-8, 8), random(-8, 8), 12, 0, 0, random(2,3))
+		ARCF F 2 Bright A_Fire
+		ARCF F 0 A_SpawnItemEx("VP_ArchFlame", random(-8, 8), random(-8, 8), 12, 0, 0, random(2,3))
+		ARCF G 2 Bright A_Fire
+		ARCF G 0 A_SpawnItemEx("VP_ArchFlame", random(-8, 8), random(-8, 8), 12, 0, 0, random(2,3))
+		Stop
+	}
+}
+
+
+//Normal Doom Rocket. Improved 12.09.2019 by GRAU
+
+actor VP_Rocket replaces Rocket
+{
+	Radius 8
+	Height 8
+	Speed 20
+	Damage 20
+	SeeSound "weapons/rocklf"
+	DeathSound "weapons/rocklx"
+	Obituary "$ob_mprocket"
+	Projectile
+	+DehExplosion
+	states
+	{
+	Spawn:
+		MISL A 1 Bright A_SpawnItemEx(VP_ImpTrail, -4, 0, 3)
+		MISL A 0 Bright A_SpawnItemEx(VP_ImpTrail, -12, 0, 3)
+		Loop
+	Death:
+		MISL A 0 Bright A_SpawnItem(VP_Explode)
+		EMPT A 8 A_Explode
+		Stop
+	}
+}
+
+ACTOR VP_Plasma replaces PlasmaBall
+{
+	Radius 13
+	Height 8
+	Speed 25
+	Damage 5
+	Projectile
+	+RANDOMIZE
+	RenderStyle Add
+	Alpha 0.96
+	Scale 0.8
+	SeeSound "weapons/plasmaf"
+	DeathSound "weapons/plasmax"
+	Obituary "$OB_MPPLASMARIFLE"
+	States
+	{
+	Spawn:
+		PLSS AB 5 Bright
+		Loop
+	Death:
+		EMPT AAAAAAAAA 0 A_SpawnItemEx("VP_PlasmaSpark", 0, 0, 0, random(-5, 5), random(-5, 5), random(-4, 5))
+		EMPT ABCDE 3
+		EMPT F 10
+		Stop
+	}
+}
+
+ACTOR VP_PlasmaSpark
+{ 
+	Scale 0.6
+	radius 1
+	height 1
+	Gravity 0.3
+	renderstyle add
+	Alpha 0.96
+	States
+	{
+	Spawn:
+		PSPK AA 4 bright 
+		PSPK AAAAA 2 bright A_FadeOut(0.2)
+		Stop
+	}
+}
+
+ACTOR VP_ArachPlasma replaces ArachnotronPlasma
+{
+	Radius 13
+	Height 8
+	Speed 25
+	Damage 5
+	Projectile
+	+RANDOMIZE
+	RenderStyle Add
+	Alpha 0.96
+	Scale 0.8
+	SeeSound "baby/attack"
+	DeathSound "baby/shotx"
+	States
+	{
+	Spawn:
+		APLS AB 5 Bright
+		Loop
+	Death:
+		EMPT AAAAAAAAA 0 A_SpawnItemEx("VP_ArachSpark", 0, 0, 0, random(-5, 5), random(-5, 5), random(-4, 5))
+		EMPT ABCDE 3
+		EMPT F 10
+		Stop
+	}
+}
+
+ACTOR VP_ArachSpark
+{ 
+	Scale 0.6
+	radius 1
+	height 1
+	Gravity 0.3
+	renderstyle add
+	Alpha 0.96
+	States
+	{
+	Spawn:
+		ASPK AA 4 bright
+		ASPK AAAAA 2 bright A_FadeOut(0.2)
+		Stop
+	}
+}
+
+//Mancubus projectile, added by GRAU on 06.01.2020
+
+
+actor VP_MancuBall : FatShot replaces FatShot
+{
+	RenderStyle Add
+	Alpha 0.96
+	Scale 1.6
+	States
+	{
+	Spawn:
+		RFLM A 1 BRIGHT A_SpawnItemEx("VP_MancTrail", 0, 0, random(-4, -2), 0, 0, 0)
+		loop
+	Death:
+		RFLM AAAAAAAA 0 bright A_SpawnItemEx("VP_MancTrail", 0, 0, 0, random(-3, 3), random(-3, 3), random(-2, 3))
+		RFLM ABCDEF 3 bright A_FadeOut(0.1)
+		stop
+	}
+}
+
+ACTOR VP_MancTrail
+{
+	renderstyle add
+	Scale 2.2
+	Alpha 0.6
+	+NOCLIP
+	+NOGRAVITY
+	States
+	{
+		Spawn:
+		IM2B C 2 BRIGHT A_FadeOut(0.1)
+		IM2B A 2 BRIGHT A_SpawnItemEx("VP_ImpSmoke", 0, 0, 0, random(-1, 1), random(-1, 1), random(-1, 1))
+		IM2F ABC 2 BRIGHT A_FadeOut(0.1) 
+		Stop
+	}
+}
+

@@ -1,0 +1,168 @@
+ACTOR VP_BFGBall : BFGBall replaces BFGBall
+{
+	scale 0.5
+	renderstyle Add
+	States
+	{
+	Spawn:
+		BFBL ABCD 4 Bright A_SpawnItemEx("VP_TeleSpark", random(-10, 10), random(-10, 10), random(0, 40), 0, 0, 0)
+		Loop
+	Death:
+		BFE1 A 7 Bright
+		BFE1 BBBBBBBBBBBBBBBBBBBBBBB 0 Bright A_SpawnItemEx("VP_BFGSpark", 0, 0, 0, random(-5, 5), random(-5, 5), random(-4, 5))
+		BFE1 B 1 Bright
+		BFE1 B 0 Bright A_CustomMissile("VP_BFGWave", 4, 0, 0,CMF_AIMDIRECTION, -1)
+		BFE1 B 0 Bright A_CustomMissile("VP_BFGWave", 4, 0, 5,CMF_AIMDIRECTION, -1)
+		BFE1 B 0 Bright A_CustomMissile("VP_BFGWave", 4, 0, 10,CMF_AIMDIRECTION, -1)
+		BFE1 B 0 Bright A_CustomMissile("VP_BFGWave", 4, 0, 15,CMF_AIMDIRECTION, -1)
+		BFE1 B 0 Bright A_CustomMissile("VP_BFGWave", 4, 0, 20,CMF_AIMDIRECTION, -1)
+		BFE1 B 0 Bright A_CustomMissile("VP_BFGWave", 4, 0, 25,CMF_AIMDIRECTION, -1)
+		BFE1 B 0 Bright A_CustomMissile("VP_BFGWave", 4, 0, 30,CMF_AIMDIRECTION, -1)
+		BFE1 B 0 Bright A_CustomMissile("VP_BFGWave", 4, 0, 35,CMF_AIMDIRECTION, -1)
+		BFE1 B 0 Bright A_CustomMissile("VP_BFGWave", 4, 0, 40,CMF_AIMDIRECTION, -1)
+		BFE1 B 0 Bright A_CustomMissile("VP_BFGWave", 4, 0, 45,CMF_AIMDIRECTION, -1)
+		BFE1 B 0 Bright A_CustomMissile("VP_BFGWave", 4, 0, 50,CMF_AIMDIRECTION, -1)
+		BFE1 B 0 Bright A_CustomMissile("VP_BFGWave", 4, 0, 55,CMF_AIMDIRECTION, -1)
+		BFE1 B 0 Bright A_CustomMissile("VP_BFGWave", 4, 0, 60,CMF_AIMDIRECTION, -1)
+		BFE1 B 0 Bright A_CustomMissile("VP_BFGWave", 4, 0, 65,CMF_AIMDIRECTION, -1)
+		BFE1 B 0 Bright A_CustomMissile("VP_BFGWave", 4, 0, 70,CMF_AIMDIRECTION, -1)
+		BFE1 B 0 Bright A_CustomMissile("VP_BFGWave", 4, 0, 75,CMF_AIMDIRECTION, -1)
+		BFE1 B 0 Bright A_CustomMissile("VP_BFGWave", 4, 0, 80,CMF_AIMDIRECTION, -1)
+		BFE1 B 0 Bright A_CustomMissile("VP_BFGWave", 4, 0, 85,CMF_AIMDIRECTION, -1)
+		BFE1 B 0 Bright A_CustomMissile("VP_BFGWave", 4, 0, 90,CMF_AIMDIRECTION, -1)
+		BFE1 B 0 Bright A_CustomMissile("VP_BFGWave", 4, 0, 95,CMF_AIMDIRECTION, -1)
+		BFE1 B 0 Bright A_CustomMissile("VP_BFGWave", 4, 0, 100,CMF_AIMDIRECTION, -1)
+		BFE1 B 0 Bright A_CustomMissile("VP_BFGWave", 4, 0, 105,CMF_AIMDIRECTION, -1)
+		BFE1 B 0 Bright A_CustomMissile("VP_BFGWave", 4, 0, 110,CMF_AIMDIRECTION, -1)
+		BFE1 B 0 Bright A_CustomMissile("VP_BFGWave", 4, 0, 115,CMF_AIMDIRECTION, -1)
+		BFE1 B 0 Bright A_CustomMissile("VP_BFGWave", 4, 0, 120,CMF_AIMDIRECTION, -1)
+		BFE1 B 0 Bright A_CustomMissile("VP_BFGWave", 4, 0, 125,CMF_AIMDIRECTION, -1)
+		BFE1 B 0 Bright A_CustomMissile("VP_BFGWave", 4, 0, 130,CMF_AIMDIRECTION, -1)
+		BFE1 B 0 Bright A_CustomMissile("VP_BFGWave", 4, 0, 135,CMF_AIMDIRECTION, -1)
+		BFE1 B 0 Bright A_CustomMissile("VP_BFGWave", 4, 0, 140,CMF_AIMDIRECTION, -1)
+		BFE1 B 0 Bright A_CustomMissile("VP_BFGWave", 4, 0, 145,CMF_AIMDIRECTION, -1)
+		BFE1 B 0 Bright A_CustomMissile("VP_BFGWave", 4, 0, 150,CMF_AIMDIRECTION, -1)
+		BFE1 B 0 Bright A_CustomMissile("VP_BFGWave", 4, 0, 155,CMF_AIMDIRECTION, -1)
+		BFE1 B 0 Bright A_CustomMissile("VP_BFGWave", 4, 0, 160,CMF_AIMDIRECTION, -1)
+		BFE1 B 0 Bright A_CustomMissile("VP_BFGWave", 4, 0, 165,CMF_AIMDIRECTION, -1)
+		BFE1 B 0 Bright A_CustomMissile("VP_BFGWave", 4, 0, 170,CMF_AIMDIRECTION, -1)
+		BFE1 B 0 Bright A_CustomMissile("VP_BFGWave", 4, 0, 175,CMF_AIMDIRECTION, -1)
+		BFE1 B 0 Bright A_CustomMissile("VP_BFGWave", 4, 0, 180,CMF_AIMDIRECTION, -1)
+		BFE1 B 0 Bright A_CustomMissile("VP_BFGWave", 4, 0, 185,CMF_AIMDIRECTION, -1)
+		BFE1 B 0 Bright A_CustomMissile("VP_BFGWave", 4, 0, 190,CMF_AIMDIRECTION, -1)
+		BFE1 B 0 Bright A_CustomMissile("VP_BFGWave", 4, 0, 195,CMF_AIMDIRECTION, -1)
+		BFE1 B 0 Bright A_CustomMissile("VP_BFGWave", 4, 0, 200,CMF_AIMDIRECTION, -1)
+		BFE1 B 0 Bright A_CustomMissile("VP_BFGWave", 4, 0, 205,CMF_AIMDIRECTION, -1)
+		BFE1 B 0 Bright A_CustomMissile("VP_BFGWave", 4, 0, 210,CMF_AIMDIRECTION, -1)
+		BFE1 B 0 Bright A_CustomMissile("VP_BFGWave", 4, 0, 215,CMF_AIMDIRECTION, -1)
+		BFE1 B 0 Bright A_CustomMissile("VP_BFGWave", 4, 0, 220,CMF_AIMDIRECTION, -1)
+		BFE1 B 0 Bright A_CustomMissile("VP_BFGWave", 4, 0, 225,CMF_AIMDIRECTION, -1)
+		BFE1 B 0 Bright A_CustomMissile("VP_BFGWave", 4, 0, 230,CMF_AIMDIRECTION, -1)
+		BFE1 B 0 Bright A_CustomMissile("VP_BFGWave", 4, 0, 235,CMF_AIMDIRECTION, -1)
+		BFE1 B 0 Bright A_CustomMissile("VP_BFGWave", 4, 0, 240,CMF_AIMDIRECTION, -1)
+		BFE1 B 0 Bright A_CustomMissile("VP_BFGWave", 4, 0, 245,CMF_AIMDIRECTION, -1)
+		BFE1 B 0 Bright A_CustomMissile("VP_BFGWave", 4, 0, 250,CMF_AIMDIRECTION, -1)
+		BFE1 B 0 Bright A_CustomMissile("VP_BFGWave", 4, 0, 255,CMF_AIMDIRECTION, -1)
+		BFE1 B 0 Bright A_CustomMissile("VP_BFGWave", 4, 0, 260,CMF_AIMDIRECTION, -1)
+		BFE1 B 0 Bright A_CustomMissile("VP_BFGWave", 4, 0, 265,CMF_AIMDIRECTION, -1)
+		BFE1 B 0 Bright A_CustomMissile("VP_BFGWave", 4, 0, 270,CMF_AIMDIRECTION, -1)
+		BFE1 B 0 Bright A_CustomMissile("VP_BFGWave", 4, 0, 275,CMF_AIMDIRECTION, -1)
+		BFE1 B 0 Bright A_CustomMissile("VP_BFGWave", 4, 0, 280,CMF_AIMDIRECTION, -1)
+		BFE1 B 0 Bright A_CustomMissile("VP_BFGWave", 4, 0, 285,CMF_AIMDIRECTION, -1)
+		BFE1 B 0 Bright A_CustomMissile("VP_BFGWave", 4, 0, 290,CMF_AIMDIRECTION, -1)
+		BFE1 B 0 Bright A_CustomMissile("VP_BFGWave", 4, 0, 295,CMF_AIMDIRECTION, -1)
+		BFE1 B 0 Bright A_CustomMissile("VP_BFGWave", 4, 0, 300,CMF_AIMDIRECTION, -1)
+		BFE1 B 0 Bright A_CustomMissile("VP_BFGWave", 4, 0, 305,CMF_AIMDIRECTION, -1)
+		BFE1 B 0 Bright A_CustomMissile("VP_BFGWave", 4, 0, 310,CMF_AIMDIRECTION, -1)
+		BFE1 B 0 Bright A_CustomMissile("VP_BFGWave", 4, 0, 315,CMF_AIMDIRECTION, -1)
+		BFE1 B 0 Bright A_CustomMissile("VP_BFGWave", 4, 0, 320,CMF_AIMDIRECTION, -1)
+		BFE1 B 0 Bright A_CustomMissile("VP_BFGWave", 4, 0, 325,CMF_AIMDIRECTION, -1)
+		BFE1 B 0 Bright A_CustomMissile("VP_BFGWave", 4, 0, 330,CMF_AIMDIRECTION, -1)
+		BFE1 B 0 Bright A_CustomMissile("VP_BFGWave", 4, 0, 335,CMF_AIMDIRECTION, -1)
+		BFE1 B 0 Bright A_CustomMissile("VP_BFGWave", 4, 0, 340,CMF_AIMDIRECTION, -1)
+		BFE1 B 0 Bright A_CustomMissile("VP_BFGWave", 4, 0, 345,CMF_AIMDIRECTION, -1)
+		BFE1 B 0 Bright A_CustomMissile("VP_BFGWave", 4, 0, 350,CMF_AIMDIRECTION, -1)
+		BFE1 B 0 Bright A_CustomMissile("VP_BFGWave", 4, 0, 355,CMF_AIMDIRECTION, -1)
+		BFE1 B 8 Bright
+		BFE1 C 8 Bright A_BFGSpray
+		BFE1 D 2 Bright
+		Stop
+	}
+}
+
+//		BFE1 BBBBBBBBBBBBBBBB 0 Bright A_CustomMissile("VP_BFGWave", 4, 0, random(0,255),CMF_AIMDIRECTION, -1)
+
+ACTOR VP_BFGWave
+{ 
+	scale 1.4
+	radius 8
+	height 2
+	speed 10
+	renderstyle add
+	Alpha 0.8
+	PROJECTILE
+	+NOGRAVITY
+	+NOCLIP
+	States
+	{
+	Spawn:
+		BFWV A 4 bright
+		BFWV AAAAAAAA 1 bright A_FadeOut(0.1)
+		Stop
+	}
+}
+
+ACTOR VP_BFGSpark
+{
+	scale 1.6
+	radius 2
+	height 2
+	renderstyle add
+	Alpha 0.8
+	+NOGRAVITY
+	+NOCLIP
+	States
+	{
+	Spawn:
+		BFSP A 4 bright
+		BFSP AAAAA 1 bright A_FadeOut(0.16)
+		Stop
+	}
+}
+
+
+ACTOR VP_BFGSpray replaces BFGExtra
+{
+	+NOBLOCKMAP
+	+NOGRAVITY
+	Scale 0.7
+	RenderStyle Add
+	Alpha 0.98
+	DamageType "BFGSplash"
+	States
+	{
+	Spawn:
+		TELS C 2 Bright
+		TELS AAAAAAAAAAAAAAAA 0 Bright A_SpawnItemEx("VP_BFGSpark2", 0, 0, 2, random(-3, 3), random(-3, 3), random(-3, 3))
+		TELS ABCDEF 3 Bright A_FadeOut(0.1) 
+		Stop
+	}
+}
+
+ACTOR VP_BFGSpark2
+{ 
+	Scale 0.5
+	radius 1
+	height 1
+	renderstyle add
+	Alpha 0.98
+	+NOCLIP
+	+NOGRAVITY
+	States
+	{
+	Spawn:
+		TELS CBCD 3 bright
+		TELS EF 3 bright A_FadeOut(0.2)
+		Stop
+	}
+}

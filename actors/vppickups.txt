@@ -1,0 +1,33 @@
+
+ACTOR VP_HealthBonus : Health replaces HealthBonus
+{
+	Alpha 0.8
+	Renderstyle Translucent
+	+COUNTITEM
+	+INVENTORY.ALWAYSPICKUP
+	Inventory.Amount 1
+	Inventory.MaxAmount 200
+	Inventory.PickupMessage "$GOTHTHBONUS" // "Picked up a health bonus."
+	States
+	{
+	Spawn:
+		HVIA ABCDCB 6
+		Loop
+	}
+}
+
+ACTOR VP_BlurSphere : Blursphere replaces Blursphere
+{
+	Renderstyle Add
+	Alpha 0.8
+	Scale 0.5
+	+FLOATBOB
+	+FORCEXYBILLBOARD
+	-VISIBILITYPULSE
+	States
+	{
+	Spawn:
+		PINS ABCDC 6 BRIGHT
+		loop
+	}
+}

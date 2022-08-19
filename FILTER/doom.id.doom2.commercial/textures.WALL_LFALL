@@ -1,0 +1,1386 @@
+texture optional LFALL10, 128, 128
+{
+	patch LFALL1, 0, 0 { Style Translucent; Alpha 1 }
+	patch LFALL1, 64, 0 { Style Translucent; Alpha 1 }
+}
+texture optional LFALL11, 128, 128
+{
+	patch LFALL1, 0, 2 { Style Translucent; Alpha 1 }
+	patch LFALL1, 0,-126 { Style Translucent; Alpha 1 }
+	patch LFALL1, 64, 2 { Style Translucent; Alpha 1 }
+	patch LFALL1, 64,-126 { Style Translucent; Alpha 1 }
+	patch LFALL2, 0, 34 { Style Translucent; Alpha .03125 }
+	patch LFALL2, 0,-94 { Style Translucent; Alpha .03125 }
+	patch LFALL2, 64, 34 { Style Translucent; Alpha .03125 }
+	patch LFALL2, 64,-94 { Style Translucent; Alpha .03125 }
+}
+texture optional LFALL12, 128, 128
+{
+	patch LFALL1, 0, 4 { Style Translucent; Alpha 1 }
+	patch LFALL1, 0,-124 { Style Translucent; Alpha 1 }
+	patch LFALL1, 64, 4 { Style Translucent; Alpha 1 }
+	patch LFALL1, 64,-124 { Style Translucent; Alpha 1 }
+	patch LFALL2, 0, 36 { Style Translucent; Alpha .0625 }
+	patch LFALL2, 0,-92 { Style Translucent; Alpha .0625 }
+	patch LFALL2, 64, 36 { Style Translucent; Alpha .0625 }
+	patch LFALL2, 64,-92 { Style Translucent; Alpha .0625 }
+}
+texture optional LFALL13, 128, 128
+{
+	patch LFALL1, 0, 6 { Style Translucent; Alpha 1 }
+	patch LFALL1, 0,-122 { Style Translucent; Alpha 1 }
+	patch LFALL1, 64, 6 { Style Translucent; Alpha 1 }
+	patch LFALL1, 64,-122 { Style Translucent; Alpha 1 }
+	patch LFALL2, 0, 38 { Style Translucent; Alpha .09375 }
+	patch LFALL2, 0,-90 { Style Translucent; Alpha .09375 }
+	patch LFALL2, 64, 38 { Style Translucent; Alpha .09375 }
+	patch LFALL2, 64,-90 { Style Translucent; Alpha .09375 }
+}
+texture optional LFALL14, 128, 128
+{
+	patch LFALL1, 0, 8 { Style Translucent; Alpha 1 }
+	patch LFALL1, 0,-120 { Style Translucent; Alpha 1 }
+	patch LFALL1, 64, 8 { Style Translucent; Alpha 1 }
+	patch LFALL1, 64,-120 { Style Translucent; Alpha 1 }
+	patch LFALL2, 0, 40 { Style Translucent; Alpha .125 }
+	patch LFALL2, 0,-88 { Style Translucent; Alpha .125 }
+	patch LFALL2, 64, 40 { Style Translucent; Alpha .125 }
+	patch LFALL2, 64,-88 { Style Translucent; Alpha .125 }
+}
+texture optional LFALL15, 128, 128
+{
+	patch LFALL1, 0, 10 { Style Translucent; Alpha 1 }
+	patch LFALL1, 0,-118 { Style Translucent; Alpha 1 }
+	patch LFALL1, 64, 10 { Style Translucent; Alpha 1 }
+	patch LFALL1, 64,-118 { Style Translucent; Alpha 1 }
+	patch LFALL2, 0, 42 { Style Translucent; Alpha .15625 }
+	patch LFALL2, 0,-86 { Style Translucent; Alpha .15625 }
+	patch LFALL2, 64, 42 { Style Translucent; Alpha .15625 }
+	patch LFALL2, 64,-86 { Style Translucent; Alpha .15625 }
+}
+texture optional LFALL16, 128, 128
+{
+	patch LFALL1, 0, 12 { Style Translucent; Alpha 1 }
+	patch LFALL1, 0,-116 { Style Translucent; Alpha 1 }
+	patch LFALL1, 64, 12 { Style Translucent; Alpha 1 }
+	patch LFALL1, 64,-116 { Style Translucent; Alpha 1 }
+	patch LFALL2, 0, 44 { Style Translucent; Alpha .1875 }
+	patch LFALL2, 0,-84 { Style Translucent; Alpha .1875 }
+	patch LFALL2, 64, 44 { Style Translucent; Alpha .1875 }
+	patch LFALL2, 64,-84 { Style Translucent; Alpha .1875 }
+}
+texture optional LFALL17, 128, 128
+{
+	patch LFALL1, 0, 14 { Style Translucent; Alpha 1 }
+	patch LFALL1, 0,-114 { Style Translucent; Alpha 1 }
+	patch LFALL1, 64, 14 { Style Translucent; Alpha 1 }
+	patch LFALL1, 64,-114 { Style Translucent; Alpha 1 }
+	patch LFALL2, 0, 46 { Style Translucent; Alpha .21875 }
+	patch LFALL2, 0,-82 { Style Translucent; Alpha .21875 }
+	patch LFALL2, 64, 46 { Style Translucent; Alpha .21875 }
+	patch LFALL2, 64,-82 { Style Translucent; Alpha .21875 }
+}
+texture optional LFALL18, 128, 128
+{
+	patch LFALL1, 0, 16 { Style Translucent; Alpha 1 }
+	patch LFALL1, 0,-112 { Style Translucent; Alpha 1 }
+	patch LFALL1, 64, 16 { Style Translucent; Alpha 1 }
+	patch LFALL1, 64,-112 { Style Translucent; Alpha 1 }
+	patch LFALL2, 0, 48 { Style Translucent; Alpha .25 }
+	patch LFALL2, 0,-80 { Style Translucent; Alpha .25 }
+	patch LFALL2, 64, 48 { Style Translucent; Alpha .25 }
+	patch LFALL2, 64,-80 { Style Translucent; Alpha .25 }
+}
+texture optional LFALL19, 128, 128
+{
+	patch LFALL1, 0, 18 { Style Translucent; Alpha 1 }
+	patch LFALL1, 0,-110 { Style Translucent; Alpha 1 }
+	patch LFALL1, 64, 18 { Style Translucent; Alpha 1 }
+	patch LFALL1, 64,-110 { Style Translucent; Alpha 1 }
+	patch LFALL2, 0, 50 { Style Translucent; Alpha .28125 }
+	patch LFALL2, 0,-78 { Style Translucent; Alpha .28125 }
+	patch LFALL2, 64, 50 { Style Translucent; Alpha .28125 }
+	patch LFALL2, 64,-78 { Style Translucent; Alpha .28125 }
+}
+texture optional LFALL1A, 128, 128
+{
+	patch LFALL1, 0, 20 { Style Translucent; Alpha 1 }
+	patch LFALL1, 0,-108 { Style Translucent; Alpha 1 }
+	patch LFALL1, 64, 20 { Style Translucent; Alpha 1 }
+	patch LFALL1, 64,-108 { Style Translucent; Alpha 1 }
+	patch LFALL2, 0, 52 { Style Translucent; Alpha .3125 }
+	patch LFALL2, 0,-76 { Style Translucent; Alpha .3125 }
+	patch LFALL2, 64, 52 { Style Translucent; Alpha .3125 }
+	patch LFALL2, 64,-76 { Style Translucent; Alpha .3125 }
+}
+texture optional LFALL1B, 128, 128
+{
+	patch LFALL1, 0, 22 { Style Translucent; Alpha 1 }
+	patch LFALL1, 0,-106 { Style Translucent; Alpha 1 }
+	patch LFALL1, 64, 22 { Style Translucent; Alpha 1 }
+	patch LFALL1, 64,-106 { Style Translucent; Alpha 1 }
+	patch LFALL2, 0, 54 { Style Translucent; Alpha .34375 }
+	patch LFALL2, 0,-74 { Style Translucent; Alpha .34375 }
+	patch LFALL2, 64, 54 { Style Translucent; Alpha .34375 }
+	patch LFALL2, 64,-74 { Style Translucent; Alpha .34375 }
+}
+texture optional LFALL1C, 128, 128
+{
+	patch LFALL1, 0, 24 { Style Translucent; Alpha 1 }
+	patch LFALL1, 0,-104 { Style Translucent; Alpha 1 }
+	patch LFALL1, 64, 24 { Style Translucent; Alpha 1 }
+	patch LFALL1, 64,-104 { Style Translucent; Alpha 1 }
+	patch LFALL2, 0, 56 { Style Translucent; Alpha .375 }
+	patch LFALL2, 0,-72 { Style Translucent; Alpha .375 }
+	patch LFALL2, 64, 56 { Style Translucent; Alpha .375 }
+	patch LFALL2, 64,-72 { Style Translucent; Alpha .375 }
+}
+texture optional LFALL1D, 128, 128
+{
+	patch LFALL1, 0, 26 { Style Translucent; Alpha 1 }
+	patch LFALL1, 0,-102 { Style Translucent; Alpha 1 }
+	patch LFALL1, 64, 26 { Style Translucent; Alpha 1 }
+	patch LFALL1, 64,-102 { Style Translucent; Alpha 1 }
+	patch LFALL2, 0, 58 { Style Translucent; Alpha .40625 }
+	patch LFALL2, 0,-70 { Style Translucent; Alpha .40625 }
+	patch LFALL2, 64, 58 { Style Translucent; Alpha .40625 }
+	patch LFALL2, 64,-70 { Style Translucent; Alpha .40625 }
+}
+texture optional LFALL1E, 128, 128
+{
+	patch LFALL1, 0, 28 { Style Translucent; Alpha 1 }
+	patch LFALL1, 0,-100 { Style Translucent; Alpha 1 }
+	patch LFALL1, 64, 28 { Style Translucent; Alpha 1 }
+	patch LFALL1, 64,-100 { Style Translucent; Alpha 1 }
+	patch LFALL2, 0, 60 { Style Translucent; Alpha .4375 }
+	patch LFALL2, 0,-68 { Style Translucent; Alpha .4375 }
+	patch LFALL2, 64, 60 { Style Translucent; Alpha .4375 }
+	patch LFALL2, 64,-68 { Style Translucent; Alpha .4375 }
+}
+texture optional LFALL1F, 128, 128
+{
+	patch LFALL1, 0, 30 { Style Translucent; Alpha 1 }
+	patch LFALL1, 0,-98 { Style Translucent; Alpha 1 }
+	patch LFALL1, 64, 30 { Style Translucent; Alpha 1 }
+	patch LFALL1, 64,-98 { Style Translucent; Alpha 1 }
+	patch LFALL2, 0, 62 { Style Translucent; Alpha .46875 }
+	patch LFALL2, 0,-66 { Style Translucent; Alpha .46875 }
+	patch LFALL2, 64, 62 { Style Translucent; Alpha .46875 }
+	patch LFALL2, 64,-66 { Style Translucent; Alpha .46875 }
+}
+texture optional LFALL1G, 128, 128
+{
+	patch LFALL1, 0, 32 { Style Translucent; Alpha 1 }
+	patch LFALL1, 0,-96 { Style Translucent; Alpha 1 }
+	patch LFALL1, 64, 32 { Style Translucent; Alpha 1 }
+	patch LFALL1, 64,-96 { Style Translucent; Alpha 1 }
+	patch LFALL2, 0, 64 { Style Translucent; Alpha .5 }
+	patch LFALL2, 0,-64 { Style Translucent; Alpha .5 }
+	patch LFALL2, 64, 64 { Style Translucent; Alpha .5 }
+	patch LFALL2, 64,-64 { Style Translucent; Alpha .5 }
+}
+texture optional LFALL1H, 128, 128
+{
+	patch LFALL1, 0, 34 { Style Translucent; Alpha 1 }
+	patch LFALL1, 0,-94 { Style Translucent; Alpha 1 }
+	patch LFALL1, 64, 34 { Style Translucent; Alpha 1 }
+	patch LFALL1, 64,-94 { Style Translucent; Alpha 1 }
+	patch LFALL2, 0, 66 { Style Translucent; Alpha .53125 }
+	patch LFALL2, 0,-62 { Style Translucent; Alpha .53125 }
+	patch LFALL2, 64, 66 { Style Translucent; Alpha .53125 }
+	patch LFALL2, 64,-62 { Style Translucent; Alpha .53125 }
+}
+texture optional LFALL1I, 128, 128
+{
+	patch LFALL1, 0, 36 { Style Translucent; Alpha 1 }
+	patch LFALL1, 0,-92 { Style Translucent; Alpha 1 }
+	patch LFALL1, 64, 36 { Style Translucent; Alpha 1 }
+	patch LFALL1, 64,-92 { Style Translucent; Alpha 1 }
+	patch LFALL2, 0, 68 { Style Translucent; Alpha .5625 }
+	patch LFALL2, 0,-60 { Style Translucent; Alpha .5625 }
+	patch LFALL2, 64, 68 { Style Translucent; Alpha .5625 }
+	patch LFALL2, 64,-60 { Style Translucent; Alpha .5625 }
+}
+texture optional LFALL1J, 128, 128
+{
+	patch LFALL1, 0, 38 { Style Translucent; Alpha 1 }
+	patch LFALL1, 0,-90 { Style Translucent; Alpha 1 }
+	patch LFALL1, 64, 38 { Style Translucent; Alpha 1 }
+	patch LFALL1, 64,-90 { Style Translucent; Alpha 1 }
+	patch LFALL2, 0, 70 { Style Translucent; Alpha .59375 }
+	patch LFALL2, 0,-58 { Style Translucent; Alpha .59375 }
+	patch LFALL2, 64, 70 { Style Translucent; Alpha .59375 }
+	patch LFALL2, 64,-58 { Style Translucent; Alpha .59375 }
+}
+texture optional LFALL1K, 128, 128
+{
+	patch LFALL1, 0, 40 { Style Translucent; Alpha 1 }
+	patch LFALL1, 0,-88 { Style Translucent; Alpha 1 }
+	patch LFALL1, 64, 40 { Style Translucent; Alpha 1 }
+	patch LFALL1, 64,-88 { Style Translucent; Alpha 1 }
+	patch LFALL2, 0, 72 { Style Translucent; Alpha .625 }
+	patch LFALL2, 0,-56 { Style Translucent; Alpha .625 }
+	patch LFALL2, 64, 72 { Style Translucent; Alpha .625 }
+	patch LFALL2, 64,-56 { Style Translucent; Alpha .625 }
+}
+texture optional LFALL1L, 128, 128
+{
+	patch LFALL1, 0, 42 { Style Translucent; Alpha 1 }
+	patch LFALL1, 0,-86 { Style Translucent; Alpha 1 }
+	patch LFALL1, 64, 42 { Style Translucent; Alpha 1 }
+	patch LFALL1, 64,-86 { Style Translucent; Alpha 1 }
+	patch LFALL2, 0, 74 { Style Translucent; Alpha .65625 }
+	patch LFALL2, 0,-54 { Style Translucent; Alpha .65625 }
+	patch LFALL2, 64, 74 { Style Translucent; Alpha .65625 }
+	patch LFALL2, 64,-54 { Style Translucent; Alpha .65625 }
+}
+texture optional LFALL1M, 128, 128
+{
+	patch LFALL1, 0, 44 { Style Translucent; Alpha 1 }
+	patch LFALL1, 0,-84 { Style Translucent; Alpha 1 }
+	patch LFALL1, 64, 44 { Style Translucent; Alpha 1 }
+	patch LFALL1, 64,-84 { Style Translucent; Alpha 1 }
+	patch LFALL2, 0, 76 { Style Translucent; Alpha .6875 }
+	patch LFALL2, 0,-52 { Style Translucent; Alpha .6875 }
+	patch LFALL2, 64, 76 { Style Translucent; Alpha .6875 }
+	patch LFALL2, 64,-52 { Style Translucent; Alpha .6875 }
+}
+texture optional LFALL1N, 128, 128
+{
+	patch LFALL1, 0, 46 { Style Translucent; Alpha 1 }
+	patch LFALL1, 0,-82 { Style Translucent; Alpha 1 }
+	patch LFALL1, 64, 46 { Style Translucent; Alpha 1 }
+	patch LFALL1, 64,-82 { Style Translucent; Alpha 1 }
+	patch LFALL2, 0, 78 { Style Translucent; Alpha .71875 }
+	patch LFALL2, 0,-50 { Style Translucent; Alpha .71875 }
+	patch LFALL2, 64, 78 { Style Translucent; Alpha .71875 }
+	patch LFALL2, 64,-50 { Style Translucent; Alpha .71875 }
+}
+texture optional LFALL1O, 128, 128
+{
+	patch LFALL1, 0, 48 { Style Translucent; Alpha 1 }
+	patch LFALL1, 0,-80 { Style Translucent; Alpha 1 }
+	patch LFALL1, 64, 48 { Style Translucent; Alpha 1 }
+	patch LFALL1, 64,-80 { Style Translucent; Alpha 1 }
+	patch LFALL2, 0, 80 { Style Translucent; Alpha .75 }
+	patch LFALL2, 0,-48 { Style Translucent; Alpha .75 }
+	patch LFALL2, 64, 80 { Style Translucent; Alpha .75 }
+	patch LFALL2, 64,-48 { Style Translucent; Alpha .75 }
+}
+texture optional LFALL1P, 128, 128
+{
+	patch LFALL1, 0, 50 { Style Translucent; Alpha 1 }
+	patch LFALL1, 0,-78 { Style Translucent; Alpha 1 }
+	patch LFALL1, 64, 50 { Style Translucent; Alpha 1 }
+	patch LFALL1, 64,-78 { Style Translucent; Alpha 1 }
+	patch LFALL2, 0, 82 { Style Translucent; Alpha .78125 }
+	patch LFALL2, 0,-46 { Style Translucent; Alpha .78125 }
+	patch LFALL2, 64, 82 { Style Translucent; Alpha .78125 }
+	patch LFALL2, 64,-46 { Style Translucent; Alpha .78125 }
+}
+texture optional LFALL1Q, 128, 128
+{
+	patch LFALL1, 0, 52 { Style Translucent; Alpha 1 }
+	patch LFALL1, 0,-76 { Style Translucent; Alpha 1 }
+	patch LFALL1, 64, 52 { Style Translucent; Alpha 1 }
+	patch LFALL1, 64,-76 { Style Translucent; Alpha 1 }
+	patch LFALL2, 0, 84 { Style Translucent; Alpha .8125 }
+	patch LFALL2, 0,-44 { Style Translucent; Alpha .8125 }
+	patch LFALL2, 64, 84 { Style Translucent; Alpha .8125 }
+	patch LFALL2, 64,-44 { Style Translucent; Alpha .8125 }
+}
+texture optional LFALL1R, 128, 128
+{
+	patch LFALL1, 0, 54 { Style Translucent; Alpha 1 }
+	patch LFALL1, 0,-74 { Style Translucent; Alpha 1 }
+	patch LFALL1, 64, 54 { Style Translucent; Alpha 1 }
+	patch LFALL1, 64,-74 { Style Translucent; Alpha 1 }
+	patch LFALL2, 0, 86 { Style Translucent; Alpha .84375 }
+	patch LFALL2, 0,-42 { Style Translucent; Alpha .84375 }
+	patch LFALL2, 64, 86 { Style Translucent; Alpha .84375 }
+	patch LFALL2, 64,-42 { Style Translucent; Alpha .84375 }
+}
+texture optional LFALL1S, 128, 128
+{
+	patch LFALL1, 0, 56 { Style Translucent; Alpha 1 }
+	patch LFALL1, 0,-72 { Style Translucent; Alpha 1 }
+	patch LFALL1, 64, 56 { Style Translucent; Alpha 1 }
+	patch LFALL1, 64,-72 { Style Translucent; Alpha 1 }
+	patch LFALL2, 0, 88 { Style Translucent; Alpha .875 }
+	patch LFALL2, 0,-40 { Style Translucent; Alpha .875 }
+	patch LFALL2, 64, 88 { Style Translucent; Alpha .875 }
+	patch LFALL2, 64,-40 { Style Translucent; Alpha .875 }
+}
+texture optional LFALL1T, 128, 128
+{
+	patch LFALL1, 0, 58 { Style Translucent; Alpha 1 }
+	patch LFALL1, 0,-70 { Style Translucent; Alpha 1 }
+	patch LFALL1, 64, 58 { Style Translucent; Alpha 1 }
+	patch LFALL1, 64,-70 { Style Translucent; Alpha 1 }
+	patch LFALL2, 0, 90 { Style Translucent; Alpha .90625 }
+	patch LFALL2, 0,-38 { Style Translucent; Alpha .90625 }
+	patch LFALL2, 64, 90 { Style Translucent; Alpha .90625 }
+	patch LFALL2, 64,-38 { Style Translucent; Alpha .90625 }
+}
+texture optional LFALL1U, 128, 128
+{
+	patch LFALL1, 0, 60 { Style Translucent; Alpha 1 }
+	patch LFALL1, 0,-68 { Style Translucent; Alpha 1 }
+	patch LFALL1, 64, 60 { Style Translucent; Alpha 1 }
+	patch LFALL1, 64,-68 { Style Translucent; Alpha 1 }
+	patch LFALL2, 0, 92 { Style Translucent; Alpha .9375 }
+	patch LFALL2, 0,-36 { Style Translucent; Alpha .9375 }
+	patch LFALL2, 64, 92 { Style Translucent; Alpha .9375 }
+	patch LFALL2, 64,-36 { Style Translucent; Alpha .9375 }
+}
+texture optional LFALL1V, 128, 128
+{
+	patch LFALL1, 0, 62 { Style Translucent; Alpha 1 }
+	patch LFALL1, 0,-66 { Style Translucent; Alpha 1 }
+	patch LFALL1, 64, 62 { Style Translucent; Alpha 1 }
+	patch LFALL1, 64,-66 { Style Translucent; Alpha 1 }
+	patch LFALL2, 0, 94 { Style Translucent; Alpha .96875 }
+	patch LFALL2, 0,-34 { Style Translucent; Alpha .96875 }
+	patch LFALL2, 64, 94 { Style Translucent; Alpha .96875 }
+	patch LFALL2, 64,-34 { Style Translucent; Alpha .96875 }
+}
+texture optional LFALL20, 128, 128
+{
+	patch LFALL2, 0, 96 { Style Translucent; Alpha 1 }
+	patch LFALL2, 0,-32 { Style Translucent; Alpha 1 }
+	patch LFALL2, 64, 96 { Style Translucent; Alpha 1 }
+	patch LFALL2, 64,-32 { Style Translucent; Alpha 1 }
+}
+texture optional LFALL21, 128, 128
+{
+	patch LFALL2, 0, 98 { Style Translucent; Alpha 1 }
+	patch LFALL2, 0,-30 { Style Translucent; Alpha 1 }
+	patch LFALL2, 64, 98 { Style Translucent; Alpha 1 }
+	patch LFALL2, 64,-30 { Style Translucent; Alpha 1 }
+	patch LFALL3, 0, 2 { Style Translucent; Alpha .03125 }
+	patch LFALL3, 0,-126 { Style Translucent; Alpha .03125 }
+	patch LFALL3, 64, 2 { Style Translucent; Alpha .03125 }
+	patch LFALL3, 64,-126 { Style Translucent; Alpha .03125 }
+}
+texture optional LFALL22, 128, 128
+{
+	patch LFALL2, 0, 100 { Style Translucent; Alpha 1 }
+	patch LFALL2, 0,-28 { Style Translucent; Alpha 1 }
+	patch LFALL2, 64, 100 { Style Translucent; Alpha 1 }
+	patch LFALL2, 64,-28 { Style Translucent; Alpha 1 }
+	patch LFALL3, 0, 4 { Style Translucent; Alpha .0625 }
+	patch LFALL3, 0,-124 { Style Translucent; Alpha .0625 }
+	patch LFALL3, 64, 4 { Style Translucent; Alpha .0625 }
+	patch LFALL3, 64,-124 { Style Translucent; Alpha .0625 }
+}
+texture optional LFALL23, 128, 128
+{
+	patch LFALL2, 0, 102 { Style Translucent; Alpha 1 }
+	patch LFALL2, 0,-26 { Style Translucent; Alpha 1 }
+	patch LFALL2, 64, 102 { Style Translucent; Alpha 1 }
+	patch LFALL2, 64,-26 { Style Translucent; Alpha 1 }
+	patch LFALL3, 0, 6 { Style Translucent; Alpha .09375 }
+	patch LFALL3, 0,-122 { Style Translucent; Alpha .09375 }
+	patch LFALL3, 64, 6 { Style Translucent; Alpha .09375 }
+	patch LFALL3, 64,-122 { Style Translucent; Alpha .09375 }
+}
+texture optional LFALL24, 128, 128
+{
+	patch LFALL2, 0, 104 { Style Translucent; Alpha 1 }
+	patch LFALL2, 0,-24 { Style Translucent; Alpha 1 }
+	patch LFALL2, 64, 104 { Style Translucent; Alpha 1 }
+	patch LFALL2, 64,-24 { Style Translucent; Alpha 1 }
+	patch LFALL3, 0, 8 { Style Translucent; Alpha .125 }
+	patch LFALL3, 0,-120 { Style Translucent; Alpha .125 }
+	patch LFALL3, 64, 8 { Style Translucent; Alpha .125 }
+	patch LFALL3, 64,-120 { Style Translucent; Alpha .125 }
+}
+texture optional LFALL25, 128, 128
+{
+	patch LFALL2, 0, 106 { Style Translucent; Alpha 1 }
+	patch LFALL2, 0,-22 { Style Translucent; Alpha 1 }
+	patch LFALL2, 64, 106 { Style Translucent; Alpha 1 }
+	patch LFALL2, 64,-22 { Style Translucent; Alpha 1 }
+	patch LFALL3, 0, 10 { Style Translucent; Alpha .15625 }
+	patch LFALL3, 0,-118 { Style Translucent; Alpha .15625 }
+	patch LFALL3, 64, 10 { Style Translucent; Alpha .15625 }
+	patch LFALL3, 64,-118 { Style Translucent; Alpha .15625 }
+}
+texture optional LFALL26, 128, 128
+{
+	patch LFALL2, 0, 108 { Style Translucent; Alpha 1 }
+	patch LFALL2, 0,-20 { Style Translucent; Alpha 1 }
+	patch LFALL2, 64, 108 { Style Translucent; Alpha 1 }
+	patch LFALL2, 64,-20 { Style Translucent; Alpha 1 }
+	patch LFALL3, 0, 12 { Style Translucent; Alpha .1875 }
+	patch LFALL3, 0,-116 { Style Translucent; Alpha .1875 }
+	patch LFALL3, 64, 12 { Style Translucent; Alpha .1875 }
+	patch LFALL3, 64,-116 { Style Translucent; Alpha .1875 }
+}
+texture optional LFALL27, 128, 128
+{
+	patch LFALL2, 0, 110 { Style Translucent; Alpha 1 }
+	patch LFALL2, 0,-18 { Style Translucent; Alpha 1 }
+	patch LFALL2, 64, 110 { Style Translucent; Alpha 1 }
+	patch LFALL2, 64,-18 { Style Translucent; Alpha 1 }
+	patch LFALL3, 0, 14 { Style Translucent; Alpha .21875 }
+	patch LFALL3, 0,-114 { Style Translucent; Alpha .21875 }
+	patch LFALL3, 64, 14 { Style Translucent; Alpha .21875 }
+	patch LFALL3, 64,-114 { Style Translucent; Alpha .21875 }
+}
+texture optional LFALL28, 128, 128
+{
+	patch LFALL2, 0, 112 { Style Translucent; Alpha 1 }
+	patch LFALL2, 0,-16 { Style Translucent; Alpha 1 }
+	patch LFALL2, 64, 112 { Style Translucent; Alpha 1 }
+	patch LFALL2, 64,-16 { Style Translucent; Alpha 1 }
+	patch LFALL3, 0, 16 { Style Translucent; Alpha .25 }
+	patch LFALL3, 0,-112 { Style Translucent; Alpha .25 }
+	patch LFALL3, 64, 16 { Style Translucent; Alpha .25 }
+	patch LFALL3, 64,-112 { Style Translucent; Alpha .25 }
+}
+texture optional LFALL29, 128, 128
+{
+	patch LFALL2, 0, 114 { Style Translucent; Alpha 1 }
+	patch LFALL2, 0,-14 { Style Translucent; Alpha 1 }
+	patch LFALL2, 64, 114 { Style Translucent; Alpha 1 }
+	patch LFALL2, 64,-14 { Style Translucent; Alpha 1 }
+	patch LFALL3, 0, 18 { Style Translucent; Alpha .28125 }
+	patch LFALL3, 0,-110 { Style Translucent; Alpha .28125 }
+	patch LFALL3, 64, 18 { Style Translucent; Alpha .28125 }
+	patch LFALL3, 64,-110 { Style Translucent; Alpha .28125 }
+}
+texture optional LFALL2A, 128, 128
+{
+	patch LFALL2, 0, 116 { Style Translucent; Alpha 1 }
+	patch LFALL2, 0,-12 { Style Translucent; Alpha 1 }
+	patch LFALL2, 64, 116 { Style Translucent; Alpha 1 }
+	patch LFALL2, 64,-12 { Style Translucent; Alpha 1 }
+	patch LFALL3, 0, 20 { Style Translucent; Alpha .3125 }
+	patch LFALL3, 0,-108 { Style Translucent; Alpha .3125 }
+	patch LFALL3, 64, 20 { Style Translucent; Alpha .3125 }
+	patch LFALL3, 64,-108 { Style Translucent; Alpha .3125 }
+}
+texture optional LFALL2B, 128, 128
+{
+	patch LFALL2, 0, 118 { Style Translucent; Alpha 1 }
+	patch LFALL2, 0,-10 { Style Translucent; Alpha 1 }
+	patch LFALL2, 64, 118 { Style Translucent; Alpha 1 }
+	patch LFALL2, 64,-10 { Style Translucent; Alpha 1 }
+	patch LFALL3, 0, 22 { Style Translucent; Alpha .34375 }
+	patch LFALL3, 0,-106 { Style Translucent; Alpha .34375 }
+	patch LFALL3, 64, 22 { Style Translucent; Alpha .34375 }
+	patch LFALL3, 64,-106 { Style Translucent; Alpha .34375 }
+}
+texture optional LFALL2C, 128, 128
+{
+	patch LFALL2, 0, 120 { Style Translucent; Alpha 1 }
+	patch LFALL2, 0,-8 { Style Translucent; Alpha 1 }
+	patch LFALL2, 64, 120 { Style Translucent; Alpha 1 }
+	patch LFALL2, 64,-8 { Style Translucent; Alpha 1 }
+	patch LFALL3, 0, 24 { Style Translucent; Alpha .375 }
+	patch LFALL3, 0,-104 { Style Translucent; Alpha .375 }
+	patch LFALL3, 64, 24 { Style Translucent; Alpha .375 }
+	patch LFALL3, 64,-104 { Style Translucent; Alpha .375 }
+}
+texture optional LFALL2D, 128, 128
+{
+	patch LFALL2, 0, 122 { Style Translucent; Alpha 1 }
+	patch LFALL2, 0,-6 { Style Translucent; Alpha 1 }
+	patch LFALL2, 64, 122 { Style Translucent; Alpha 1 }
+	patch LFALL2, 64,-6 { Style Translucent; Alpha 1 }
+	patch LFALL3, 0, 26 { Style Translucent; Alpha .40625 }
+	patch LFALL3, 0,-102 { Style Translucent; Alpha .40625 }
+	patch LFALL3, 64, 26 { Style Translucent; Alpha .40625 }
+	patch LFALL3, 64,-102 { Style Translucent; Alpha .40625 }
+}
+texture optional LFALL2E, 128, 128
+{
+	patch LFALL2, 0, 124 { Style Translucent; Alpha 1 }
+	patch LFALL2, 0,-4 { Style Translucent; Alpha 1 }
+	patch LFALL2, 64, 124 { Style Translucent; Alpha 1 }
+	patch LFALL2, 64,-4 { Style Translucent; Alpha 1 }
+	patch LFALL3, 0, 28 { Style Translucent; Alpha .4375 }
+	patch LFALL3, 0,-100 { Style Translucent; Alpha .4375 }
+	patch LFALL3, 64, 28 { Style Translucent; Alpha .4375 }
+	patch LFALL3, 64,-100 { Style Translucent; Alpha .4375 }
+}
+texture optional LFALL2F, 128, 128
+{
+	patch LFALL2, 0, 126 { Style Translucent; Alpha 1 }
+	patch LFALL2, 0,-2 { Style Translucent; Alpha 1 }
+	patch LFALL2, 64, 126 { Style Translucent; Alpha 1 }
+	patch LFALL2, 64,-2 { Style Translucent; Alpha 1 }
+	patch LFALL3, 0, 30 { Style Translucent; Alpha .46875 }
+	patch LFALL3, 0,-98 { Style Translucent; Alpha .46875 }
+	patch LFALL3, 64, 30 { Style Translucent; Alpha .46875 }
+	patch LFALL3, 64,-98 { Style Translucent; Alpha .46875 }
+}
+texture optional LFALL2G, 128, 128
+{
+	patch LFALL2, 0, 0 { Style Translucent; Alpha 1 }
+	patch LFALL2, 64, 0 { Style Translucent; Alpha 1 }
+	patch LFALL3, 0, 32 { Style Translucent; Alpha .5 }
+	patch LFALL3, 0,-96 { Style Translucent; Alpha .5 }
+	patch LFALL3, 64, 32 { Style Translucent; Alpha .5 }
+	patch LFALL3, 64,-96 { Style Translucent; Alpha .5 }
+}
+texture optional LFALL2H, 128, 128
+{
+	patch LFALL2, 0, 2 { Style Translucent; Alpha 1 }
+	patch LFALL2, 0,-126 { Style Translucent; Alpha 1 }
+	patch LFALL2, 64, 2 { Style Translucent; Alpha 1 }
+	patch LFALL2, 64,-126 { Style Translucent; Alpha 1 }
+	patch LFALL3, 0, 34 { Style Translucent; Alpha .53125 }
+	patch LFALL3, 0,-94 { Style Translucent; Alpha .53125 }
+	patch LFALL3, 64, 34 { Style Translucent; Alpha .53125 }
+	patch LFALL3, 64,-94 { Style Translucent; Alpha .53125 }
+}
+texture optional LFALL2I, 128, 128
+{
+	patch LFALL2, 0, 4 { Style Translucent; Alpha 1 }
+	patch LFALL2, 0,-124 { Style Translucent; Alpha 1 }
+	patch LFALL2, 64, 4 { Style Translucent; Alpha 1 }
+	patch LFALL2, 64,-124 { Style Translucent; Alpha 1 }
+	patch LFALL3, 0, 36 { Style Translucent; Alpha .5625 }
+	patch LFALL3, 0,-92 { Style Translucent; Alpha .5625 }
+	patch LFALL3, 64, 36 { Style Translucent; Alpha .5625 }
+	patch LFALL3, 64,-92 { Style Translucent; Alpha .5625 }
+}
+texture optional LFALL2J, 128, 128
+{
+	patch LFALL2, 0, 6 { Style Translucent; Alpha 1 }
+	patch LFALL2, 0,-122 { Style Translucent; Alpha 1 }
+	patch LFALL2, 64, 6 { Style Translucent; Alpha 1 }
+	patch LFALL2, 64,-122 { Style Translucent; Alpha 1 }
+	patch LFALL3, 0, 38 { Style Translucent; Alpha .59375 }
+	patch LFALL3, 0,-90 { Style Translucent; Alpha .59375 }
+	patch LFALL3, 64, 38 { Style Translucent; Alpha .59375 }
+	patch LFALL3, 64,-90 { Style Translucent; Alpha .59375 }
+}
+texture optional LFALL2K, 128, 128
+{
+	patch LFALL2, 0, 8 { Style Translucent; Alpha 1 }
+	patch LFALL2, 0,-120 { Style Translucent; Alpha 1 }
+	patch LFALL2, 64, 8 { Style Translucent; Alpha 1 }
+	patch LFALL2, 64,-120 { Style Translucent; Alpha 1 }
+	patch LFALL3, 0, 40 { Style Translucent; Alpha .625 }
+	patch LFALL3, 0,-88 { Style Translucent; Alpha .625 }
+	patch LFALL3, 64, 40 { Style Translucent; Alpha .625 }
+	patch LFALL3, 64,-88 { Style Translucent; Alpha .625 }
+}
+texture optional LFALL2L, 128, 128
+{
+	patch LFALL2, 0, 10 { Style Translucent; Alpha 1 }
+	patch LFALL2, 0,-118 { Style Translucent; Alpha 1 }
+	patch LFALL2, 64, 10 { Style Translucent; Alpha 1 }
+	patch LFALL2, 64,-118 { Style Translucent; Alpha 1 }
+	patch LFALL3, 0, 42 { Style Translucent; Alpha .65625 }
+	patch LFALL3, 0,-86 { Style Translucent; Alpha .65625 }
+	patch LFALL3, 64, 42 { Style Translucent; Alpha .65625 }
+	patch LFALL3, 64,-86 { Style Translucent; Alpha .65625 }
+}
+texture optional LFALL2M, 128, 128
+{
+	patch LFALL2, 0, 12 { Style Translucent; Alpha 1 }
+	patch LFALL2, 0,-116 { Style Translucent; Alpha 1 }
+	patch LFALL2, 64, 12 { Style Translucent; Alpha 1 }
+	patch LFALL2, 64,-116 { Style Translucent; Alpha 1 }
+	patch LFALL3, 0, 44 { Style Translucent; Alpha .6875 }
+	patch LFALL3, 0,-84 { Style Translucent; Alpha .6875 }
+	patch LFALL3, 64, 44 { Style Translucent; Alpha .6875 }
+	patch LFALL3, 64,-84 { Style Translucent; Alpha .6875 }
+}
+texture optional LFALL2N, 128, 128
+{
+	patch LFALL2, 0, 14 { Style Translucent; Alpha 1 }
+	patch LFALL2, 0,-114 { Style Translucent; Alpha 1 }
+	patch LFALL2, 64, 14 { Style Translucent; Alpha 1 }
+	patch LFALL2, 64,-114 { Style Translucent; Alpha 1 }
+	patch LFALL3, 0, 46 { Style Translucent; Alpha .71875 }
+	patch LFALL3, 0,-82 { Style Translucent; Alpha .71875 }
+	patch LFALL3, 64, 46 { Style Translucent; Alpha .71875 }
+	patch LFALL3, 64,-82 { Style Translucent; Alpha .71875 }
+}
+texture optional LFALL2O, 128, 128
+{
+	patch LFALL2, 0, 16 { Style Translucent; Alpha 1 }
+	patch LFALL2, 0,-112 { Style Translucent; Alpha 1 }
+	patch LFALL2, 64, 16 { Style Translucent; Alpha 1 }
+	patch LFALL2, 64,-112 { Style Translucent; Alpha 1 }
+	patch LFALL3, 0, 48 { Style Translucent; Alpha .75 }
+	patch LFALL3, 0,-80 { Style Translucent; Alpha .75 }
+	patch LFALL3, 64, 48 { Style Translucent; Alpha .75 }
+	patch LFALL3, 64,-80 { Style Translucent; Alpha .75 }
+}
+texture optional LFALL2P, 128, 128
+{
+	patch LFALL2, 0, 18 { Style Translucent; Alpha 1 }
+	patch LFALL2, 0,-110 { Style Translucent; Alpha 1 }
+	patch LFALL2, 64, 18 { Style Translucent; Alpha 1 }
+	patch LFALL2, 64,-110 { Style Translucent; Alpha 1 }
+	patch LFALL3, 0, 50 { Style Translucent; Alpha .78125 }
+	patch LFALL3, 0,-78 { Style Translucent; Alpha .78125 }
+	patch LFALL3, 64, 50 { Style Translucent; Alpha .78125 }
+	patch LFALL3, 64,-78 { Style Translucent; Alpha .78125 }
+}
+texture optional LFALL2Q, 128, 128
+{
+	patch LFALL2, 0, 20 { Style Translucent; Alpha 1 }
+	patch LFALL2, 0,-108 { Style Translucent; Alpha 1 }
+	patch LFALL2, 64, 20 { Style Translucent; Alpha 1 }
+	patch LFALL2, 64,-108 { Style Translucent; Alpha 1 }
+	patch LFALL3, 0, 52 { Style Translucent; Alpha .8125 }
+	patch LFALL3, 0,-76 { Style Translucent; Alpha .8125 }
+	patch LFALL3, 64, 52 { Style Translucent; Alpha .8125 }
+	patch LFALL3, 64,-76 { Style Translucent; Alpha .8125 }
+}
+texture optional LFALL2R, 128, 128
+{
+	patch LFALL2, 0, 22 { Style Translucent; Alpha 1 }
+	patch LFALL2, 0,-106 { Style Translucent; Alpha 1 }
+	patch LFALL2, 64, 22 { Style Translucent; Alpha 1 }
+	patch LFALL2, 64,-106 { Style Translucent; Alpha 1 }
+	patch LFALL3, 0, 54 { Style Translucent; Alpha .84375 }
+	patch LFALL3, 0,-74 { Style Translucent; Alpha .84375 }
+	patch LFALL3, 64, 54 { Style Translucent; Alpha .84375 }
+	patch LFALL3, 64,-74 { Style Translucent; Alpha .84375 }
+}
+texture optional LFALL2S, 128, 128
+{
+	patch LFALL2, 0, 24 { Style Translucent; Alpha 1 }
+	patch LFALL2, 0,-104 { Style Translucent; Alpha 1 }
+	patch LFALL2, 64, 24 { Style Translucent; Alpha 1 }
+	patch LFALL2, 64,-104 { Style Translucent; Alpha 1 }
+	patch LFALL3, 0, 56 { Style Translucent; Alpha .875 }
+	patch LFALL3, 0,-72 { Style Translucent; Alpha .875 }
+	patch LFALL3, 64, 56 { Style Translucent; Alpha .875 }
+	patch LFALL3, 64,-72 { Style Translucent; Alpha .875 }
+}
+texture optional LFALL2T, 128, 128
+{
+	patch LFALL2, 0, 26 { Style Translucent; Alpha 1 }
+	patch LFALL2, 0,-102 { Style Translucent; Alpha 1 }
+	patch LFALL2, 64, 26 { Style Translucent; Alpha 1 }
+	patch LFALL2, 64,-102 { Style Translucent; Alpha 1 }
+	patch LFALL3, 0, 58 { Style Translucent; Alpha .90625 }
+	patch LFALL3, 0,-70 { Style Translucent; Alpha .90625 }
+	patch LFALL3, 64, 58 { Style Translucent; Alpha .90625 }
+	patch LFALL3, 64,-70 { Style Translucent; Alpha .90625 }
+}
+texture optional LFALL2U, 128, 128
+{
+	patch LFALL2, 0, 28 { Style Translucent; Alpha 1 }
+	patch LFALL2, 0,-100 { Style Translucent; Alpha 1 }
+	patch LFALL2, 64, 28 { Style Translucent; Alpha 1 }
+	patch LFALL2, 64,-100 { Style Translucent; Alpha 1 }
+	patch LFALL3, 0, 60 { Style Translucent; Alpha .9375 }
+	patch LFALL3, 0,-68 { Style Translucent; Alpha .9375 }
+	patch LFALL3, 64, 60 { Style Translucent; Alpha .9375 }
+	patch LFALL3, 64,-68 { Style Translucent; Alpha .9375 }
+}
+texture optional LFALL2V, 128, 128
+{
+	patch LFALL2, 0, 30 { Style Translucent; Alpha 1 }
+	patch LFALL2, 0,-98 { Style Translucent; Alpha 1 }
+	patch LFALL2, 64, 30 { Style Translucent; Alpha 1 }
+	patch LFALL2, 64,-98 { Style Translucent; Alpha 1 }
+	patch LFALL3, 0, 62 { Style Translucent; Alpha .96875 }
+	patch LFALL3, 0,-66 { Style Translucent; Alpha .96875 }
+	patch LFALL3, 64, 62 { Style Translucent; Alpha .96875 }
+	patch LFALL3, 64,-66 { Style Translucent; Alpha .96875 }
+}
+texture optional LFALL30, 128, 128
+{
+	patch LFALL3, 0, 64 { Style Translucent; Alpha 1 }
+	patch LFALL3, 0,-64 { Style Translucent; Alpha 1 }
+	patch LFALL3, 64, 64 { Style Translucent; Alpha 1 }
+	patch LFALL3, 64,-64 { Style Translucent; Alpha 1 }
+}
+texture optional LFALL31, 128, 128
+{
+	patch LFALL3, 0, 66 { Style Translucent; Alpha 1 }
+	patch LFALL3, 0,-62 { Style Translucent; Alpha 1 }
+	patch LFALL3, 64, 66 { Style Translucent; Alpha 1 }
+	patch LFALL3, 64,-62 { Style Translucent; Alpha 1 }
+	patch LFALL4, 0, 98 { Style Translucent; Alpha .03125 }
+	patch LFALL4, 0,-30 { Style Translucent; Alpha .03125 }
+	patch LFALL4, 64, 98 { Style Translucent; Alpha .03125 }
+	patch LFALL4, 64,-30 { Style Translucent; Alpha .03125 }
+}
+texture optional LFALL32, 128, 128
+{
+	patch LFALL3, 0, 68 { Style Translucent; Alpha 1 }
+	patch LFALL3, 0,-60 { Style Translucent; Alpha 1 }
+	patch LFALL3, 64, 68 { Style Translucent; Alpha 1 }
+	patch LFALL3, 64,-60 { Style Translucent; Alpha 1 }
+	patch LFALL4, 0, 100 { Style Translucent; Alpha .0625 }
+	patch LFALL4, 0,-28 { Style Translucent; Alpha .0625 }
+	patch LFALL4, 64, 100 { Style Translucent; Alpha .0625 }
+	patch LFALL4, 64,-28 { Style Translucent; Alpha .0625 }
+}
+texture optional LFALL33, 128, 128
+{
+	patch LFALL3, 0, 70 { Style Translucent; Alpha 1 }
+	patch LFALL3, 0,-58 { Style Translucent; Alpha 1 }
+	patch LFALL3, 64, 70 { Style Translucent; Alpha 1 }
+	patch LFALL3, 64,-58 { Style Translucent; Alpha 1 }
+	patch LFALL4, 0, 102 { Style Translucent; Alpha .09375 }
+	patch LFALL4, 0,-26 { Style Translucent; Alpha .09375 }
+	patch LFALL4, 64, 102 { Style Translucent; Alpha .09375 }
+	patch LFALL4, 64,-26 { Style Translucent; Alpha .09375 }
+}
+texture optional LFALL34, 128, 128
+{
+	patch LFALL3, 0, 72 { Style Translucent; Alpha 1 }
+	patch LFALL3, 0,-56 { Style Translucent; Alpha 1 }
+	patch LFALL3, 64, 72 { Style Translucent; Alpha 1 }
+	patch LFALL3, 64,-56 { Style Translucent; Alpha 1 }
+	patch LFALL4, 0, 104 { Style Translucent; Alpha .125 }
+	patch LFALL4, 0,-24 { Style Translucent; Alpha .125 }
+	patch LFALL4, 64, 104 { Style Translucent; Alpha .125 }
+	patch LFALL4, 64,-24 { Style Translucent; Alpha .125 }
+}
+texture optional LFALL35, 128, 128
+{
+	patch LFALL3, 0, 74 { Style Translucent; Alpha 1 }
+	patch LFALL3, 0,-54 { Style Translucent; Alpha 1 }
+	patch LFALL3, 64, 74 { Style Translucent; Alpha 1 }
+	patch LFALL3, 64,-54 { Style Translucent; Alpha 1 }
+	patch LFALL4, 0, 106 { Style Translucent; Alpha .15625 }
+	patch LFALL4, 0,-22 { Style Translucent; Alpha .15625 }
+	patch LFALL4, 64, 106 { Style Translucent; Alpha .15625 }
+	patch LFALL4, 64,-22 { Style Translucent; Alpha .15625 }
+}
+texture optional LFALL36, 128, 128
+{
+	patch LFALL3, 0, 76 { Style Translucent; Alpha 1 }
+	patch LFALL3, 0,-52 { Style Translucent; Alpha 1 }
+	patch LFALL3, 64, 76 { Style Translucent; Alpha 1 }
+	patch LFALL3, 64,-52 { Style Translucent; Alpha 1 }
+	patch LFALL4, 0, 108 { Style Translucent; Alpha .1875 }
+	patch LFALL4, 0,-20 { Style Translucent; Alpha .1875 }
+	patch LFALL4, 64, 108 { Style Translucent; Alpha .1875 }
+	patch LFALL4, 64,-20 { Style Translucent; Alpha .1875 }
+}
+texture optional LFALL37, 128, 128
+{
+	patch LFALL3, 0, 78 { Style Translucent; Alpha 1 }
+	patch LFALL3, 0,-50 { Style Translucent; Alpha 1 }
+	patch LFALL3, 64, 78 { Style Translucent; Alpha 1 }
+	patch LFALL3, 64,-50 { Style Translucent; Alpha 1 }
+	patch LFALL4, 0, 110 { Style Translucent; Alpha .21875 }
+	patch LFALL4, 0,-18 { Style Translucent; Alpha .21875 }
+	patch LFALL4, 64, 110 { Style Translucent; Alpha .21875 }
+	patch LFALL4, 64,-18 { Style Translucent; Alpha .21875 }
+}
+texture optional LFALL38, 128, 128
+{
+	patch LFALL3, 0, 80 { Style Translucent; Alpha 1 }
+	patch LFALL3, 0,-48 { Style Translucent; Alpha 1 }
+	patch LFALL3, 64, 80 { Style Translucent; Alpha 1 }
+	patch LFALL3, 64,-48 { Style Translucent; Alpha 1 }
+	patch LFALL4, 0, 112 { Style Translucent; Alpha .25 }
+	patch LFALL4, 0,-16 { Style Translucent; Alpha .25 }
+	patch LFALL4, 64, 112 { Style Translucent; Alpha .25 }
+	patch LFALL4, 64,-16 { Style Translucent; Alpha .25 }
+}
+texture optional LFALL39, 128, 128
+{
+	patch LFALL3, 0, 82 { Style Translucent; Alpha 1 }
+	patch LFALL3, 0,-46 { Style Translucent; Alpha 1 }
+	patch LFALL3, 64, 82 { Style Translucent; Alpha 1 }
+	patch LFALL3, 64,-46 { Style Translucent; Alpha 1 }
+	patch LFALL4, 0, 114 { Style Translucent; Alpha .28125 }
+	patch LFALL4, 0,-14 { Style Translucent; Alpha .28125 }
+	patch LFALL4, 64, 114 { Style Translucent; Alpha .28125 }
+	patch LFALL4, 64,-14 { Style Translucent; Alpha .28125 }
+}
+texture optional LFALL3A, 128, 128
+{
+	patch LFALL3, 0, 84 { Style Translucent; Alpha 1 }
+	patch LFALL3, 0,-44 { Style Translucent; Alpha 1 }
+	patch LFALL3, 64, 84 { Style Translucent; Alpha 1 }
+	patch LFALL3, 64,-44 { Style Translucent; Alpha 1 }
+	patch LFALL4, 0, 116 { Style Translucent; Alpha .3125 }
+	patch LFALL4, 0,-12 { Style Translucent; Alpha .3125 }
+	patch LFALL4, 64, 116 { Style Translucent; Alpha .3125 }
+	patch LFALL4, 64,-12 { Style Translucent; Alpha .3125 }
+}
+texture optional LFALL3B, 128, 128
+{
+	patch LFALL3, 0, 86 { Style Translucent; Alpha 1 }
+	patch LFALL3, 0,-42 { Style Translucent; Alpha 1 }
+	patch LFALL3, 64, 86 { Style Translucent; Alpha 1 }
+	patch LFALL3, 64,-42 { Style Translucent; Alpha 1 }
+	patch LFALL4, 0, 118 { Style Translucent; Alpha .34375 }
+	patch LFALL4, 0,-10 { Style Translucent; Alpha .34375 }
+	patch LFALL4, 64, 118 { Style Translucent; Alpha .34375 }
+	patch LFALL4, 64,-10 { Style Translucent; Alpha .34375 }
+}
+texture optional LFALL3C, 128, 128
+{
+	patch LFALL3, 0, 88 { Style Translucent; Alpha 1 }
+	patch LFALL3, 0,-40 { Style Translucent; Alpha 1 }
+	patch LFALL3, 64, 88 { Style Translucent; Alpha 1 }
+	patch LFALL3, 64,-40 { Style Translucent; Alpha 1 }
+	patch LFALL4, 0, 120 { Style Translucent; Alpha .375 }
+	patch LFALL4, 0,-8 { Style Translucent; Alpha .375 }
+	patch LFALL4, 64, 120 { Style Translucent; Alpha .375 }
+	patch LFALL4, 64,-8 { Style Translucent; Alpha .375 }
+}
+texture optional LFALL3D, 128, 128
+{
+	patch LFALL3, 0, 90 { Style Translucent; Alpha 1 }
+	patch LFALL3, 0,-38 { Style Translucent; Alpha 1 }
+	patch LFALL3, 64, 90 { Style Translucent; Alpha 1 }
+	patch LFALL3, 64,-38 { Style Translucent; Alpha 1 }
+	patch LFALL4, 0, 122 { Style Translucent; Alpha .40625 }
+	patch LFALL4, 0,-6 { Style Translucent; Alpha .40625 }
+	patch LFALL4, 64, 122 { Style Translucent; Alpha .40625 }
+	patch LFALL4, 64,-6 { Style Translucent; Alpha .40625 }
+}
+texture optional LFALL3E, 128, 128
+{
+	patch LFALL3, 0, 92 { Style Translucent; Alpha 1 }
+	patch LFALL3, 0,-36 { Style Translucent; Alpha 1 }
+	patch LFALL3, 64, 92 { Style Translucent; Alpha 1 }
+	patch LFALL3, 64,-36 { Style Translucent; Alpha 1 }
+	patch LFALL4, 0, 124 { Style Translucent; Alpha .4375 }
+	patch LFALL4, 0,-4 { Style Translucent; Alpha .4375 }
+	patch LFALL4, 64, 124 { Style Translucent; Alpha .4375 }
+	patch LFALL4, 64,-4 { Style Translucent; Alpha .4375 }
+}
+texture optional LFALL3F, 128, 128
+{
+	patch LFALL3, 0, 94 { Style Translucent; Alpha 1 }
+	patch LFALL3, 0,-34 { Style Translucent; Alpha 1 }
+	patch LFALL3, 64, 94 { Style Translucent; Alpha 1 }
+	patch LFALL3, 64,-34 { Style Translucent; Alpha 1 }
+	patch LFALL4, 0, 126 { Style Translucent; Alpha .46875 }
+	patch LFALL4, 0,-2 { Style Translucent; Alpha .46875 }
+	patch LFALL4, 64, 126 { Style Translucent; Alpha .46875 }
+	patch LFALL4, 64,-2 { Style Translucent; Alpha .46875 }
+}
+texture optional LFALL3G, 128, 128
+{
+	patch LFALL3, 0, 96 { Style Translucent; Alpha 1 }
+	patch LFALL3, 0,-32 { Style Translucent; Alpha 1 }
+	patch LFALL3, 64, 96 { Style Translucent; Alpha 1 }
+	patch LFALL3, 64,-32 { Style Translucent; Alpha 1 }
+	patch LFALL4, 0, 0 { Style Translucent; Alpha .5 }
+	patch LFALL4, 64, 0 { Style Translucent; Alpha .5 }
+}
+texture optional LFALL3H, 128, 128
+{
+	patch LFALL3, 0, 98 { Style Translucent; Alpha 1 }
+	patch LFALL3, 0,-30 { Style Translucent; Alpha 1 }
+	patch LFALL3, 64, 98 { Style Translucent; Alpha 1 }
+	patch LFALL3, 64,-30 { Style Translucent; Alpha 1 }
+	patch LFALL4, 0, 2 { Style Translucent; Alpha .53125 }
+	patch LFALL4, 0,-126 { Style Translucent; Alpha .53125 }
+	patch LFALL4, 64, 2 { Style Translucent; Alpha .53125 }
+	patch LFALL4, 64,-126 { Style Translucent; Alpha .53125 }
+}
+texture optional LFALL3I, 128, 128
+{
+	patch LFALL3, 0, 100 { Style Translucent; Alpha 1 }
+	patch LFALL3, 0,-28 { Style Translucent; Alpha 1 }
+	patch LFALL3, 64, 100 { Style Translucent; Alpha 1 }
+	patch LFALL3, 64,-28 { Style Translucent; Alpha 1 }
+	patch LFALL4, 0, 4 { Style Translucent; Alpha .5625 }
+	patch LFALL4, 0,-124 { Style Translucent; Alpha .5625 }
+	patch LFALL4, 64, 4 { Style Translucent; Alpha .5625 }
+	patch LFALL4, 64,-124 { Style Translucent; Alpha .5625 }
+}
+texture optional LFALL3J, 128, 128
+{
+	patch LFALL3, 0, 102 { Style Translucent; Alpha 1 }
+	patch LFALL3, 0,-26 { Style Translucent; Alpha 1 }
+	patch LFALL3, 64, 102 { Style Translucent; Alpha 1 }
+	patch LFALL3, 64,-26 { Style Translucent; Alpha 1 }
+	patch LFALL4, 0, 6 { Style Translucent; Alpha .59375 }
+	patch LFALL4, 0,-122 { Style Translucent; Alpha .59375 }
+	patch LFALL4, 64, 6 { Style Translucent; Alpha .59375 }
+	patch LFALL4, 64,-122 { Style Translucent; Alpha .59375 }
+}
+texture optional LFALL3K, 128, 128
+{
+	patch LFALL3, 0, 104 { Style Translucent; Alpha 1 }
+	patch LFALL3, 0,-24 { Style Translucent; Alpha 1 }
+	patch LFALL3, 64, 104 { Style Translucent; Alpha 1 }
+	patch LFALL3, 64,-24 { Style Translucent; Alpha 1 }
+	patch LFALL4, 0, 8 { Style Translucent; Alpha .625 }
+	patch LFALL4, 0,-120 { Style Translucent; Alpha .625 }
+	patch LFALL4, 64, 8 { Style Translucent; Alpha .625 }
+	patch LFALL4, 64,-120 { Style Translucent; Alpha .625 }
+}
+texture optional LFALL3L, 128, 128
+{
+	patch LFALL3, 0, 106 { Style Translucent; Alpha 1 }
+	patch LFALL3, 0,-22 { Style Translucent; Alpha 1 }
+	patch LFALL3, 64, 106 { Style Translucent; Alpha 1 }
+	patch LFALL3, 64,-22 { Style Translucent; Alpha 1 }
+	patch LFALL4, 0, 10 { Style Translucent; Alpha .65625 }
+	patch LFALL4, 0,-118 { Style Translucent; Alpha .65625 }
+	patch LFALL4, 64, 10 { Style Translucent; Alpha .65625 }
+	patch LFALL4, 64,-118 { Style Translucent; Alpha .65625 }
+}
+texture optional LFALL3M, 128, 128
+{
+	patch LFALL3, 0, 108 { Style Translucent; Alpha 1 }
+	patch LFALL3, 0,-20 { Style Translucent; Alpha 1 }
+	patch LFALL3, 64, 108 { Style Translucent; Alpha 1 }
+	patch LFALL3, 64,-20 { Style Translucent; Alpha 1 }
+	patch LFALL4, 0, 12 { Style Translucent; Alpha .6875 }
+	patch LFALL4, 0,-116 { Style Translucent; Alpha .6875 }
+	patch LFALL4, 64, 12 { Style Translucent; Alpha .6875 }
+	patch LFALL4, 64,-116 { Style Translucent; Alpha .6875 }
+}
+texture optional LFALL3N, 128, 128
+{
+	patch LFALL3, 0, 110 { Style Translucent; Alpha 1 }
+	patch LFALL3, 0,-18 { Style Translucent; Alpha 1 }
+	patch LFALL3, 64, 110 { Style Translucent; Alpha 1 }
+	patch LFALL3, 64,-18 { Style Translucent; Alpha 1 }
+	patch LFALL4, 0, 14 { Style Translucent; Alpha .71875 }
+	patch LFALL4, 0,-114 { Style Translucent; Alpha .71875 }
+	patch LFALL4, 64, 14 { Style Translucent; Alpha .71875 }
+	patch LFALL4, 64,-114 { Style Translucent; Alpha .71875 }
+}
+texture optional LFALL3O, 128, 128
+{
+	patch LFALL3, 0, 112 { Style Translucent; Alpha 1 }
+	patch LFALL3, 0,-16 { Style Translucent; Alpha 1 }
+	patch LFALL3, 64, 112 { Style Translucent; Alpha 1 }
+	patch LFALL3, 64,-16 { Style Translucent; Alpha 1 }
+	patch LFALL4, 0, 16 { Style Translucent; Alpha .75 }
+	patch LFALL4, 0,-112 { Style Translucent; Alpha .75 }
+	patch LFALL4, 64, 16 { Style Translucent; Alpha .75 }
+	patch LFALL4, 64,-112 { Style Translucent; Alpha .75 }
+}
+texture optional LFALL3P, 128, 128
+{
+	patch LFALL3, 0, 114 { Style Translucent; Alpha 1 }
+	patch LFALL3, 0,-14 { Style Translucent; Alpha 1 }
+	patch LFALL3, 64, 114 { Style Translucent; Alpha 1 }
+	patch LFALL3, 64,-14 { Style Translucent; Alpha 1 }
+	patch LFALL4, 0, 18 { Style Translucent; Alpha .78125 }
+	patch LFALL4, 0,-110 { Style Translucent; Alpha .78125 }
+	patch LFALL4, 64, 18 { Style Translucent; Alpha .78125 }
+	patch LFALL4, 64,-110 { Style Translucent; Alpha .78125 }
+}
+texture optional LFALL3Q, 128, 128
+{
+	patch LFALL3, 0, 116 { Style Translucent; Alpha 1 }
+	patch LFALL3, 0,-12 { Style Translucent; Alpha 1 }
+	patch LFALL3, 64, 116 { Style Translucent; Alpha 1 }
+	patch LFALL3, 64,-12 { Style Translucent; Alpha 1 }
+	patch LFALL4, 0, 20 { Style Translucent; Alpha .8125 }
+	patch LFALL4, 0,-108 { Style Translucent; Alpha .8125 }
+	patch LFALL4, 64, 20 { Style Translucent; Alpha .8125 }
+	patch LFALL4, 64,-108 { Style Translucent; Alpha .8125 }
+}
+texture optional LFALL3R, 128, 128
+{
+	patch LFALL3, 0, 118 { Style Translucent; Alpha 1 }
+	patch LFALL3, 0,-10 { Style Translucent; Alpha 1 }
+	patch LFALL3, 64, 118 { Style Translucent; Alpha 1 }
+	patch LFALL3, 64,-10 { Style Translucent; Alpha 1 }
+	patch LFALL4, 0, 22 { Style Translucent; Alpha .84375 }
+	patch LFALL4, 0,-106 { Style Translucent; Alpha .84375 }
+	patch LFALL4, 64, 22 { Style Translucent; Alpha .84375 }
+	patch LFALL4, 64,-106 { Style Translucent; Alpha .84375 }
+}
+texture optional LFALL3S, 128, 128
+{
+	patch LFALL3, 0, 120 { Style Translucent; Alpha 1 }
+	patch LFALL3, 0,-8 { Style Translucent; Alpha 1 }
+	patch LFALL3, 64, 120 { Style Translucent; Alpha 1 }
+	patch LFALL3, 64,-8 { Style Translucent; Alpha 1 }
+	patch LFALL4, 0, 24 { Style Translucent; Alpha .875 }
+	patch LFALL4, 0,-104 { Style Translucent; Alpha .875 }
+	patch LFALL4, 64, 24 { Style Translucent; Alpha .875 }
+	patch LFALL4, 64,-104 { Style Translucent; Alpha .875 }
+}
+texture optional LFALL3T, 128, 128
+{
+	patch LFALL3, 0, 122 { Style Translucent; Alpha 1 }
+	patch LFALL3, 0,-6 { Style Translucent; Alpha 1 }
+	patch LFALL3, 64, 122 { Style Translucent; Alpha 1 }
+	patch LFALL3, 64,-6 { Style Translucent; Alpha 1 }
+	patch LFALL4, 0, 26 { Style Translucent; Alpha .90625 }
+	patch LFALL4, 0,-102 { Style Translucent; Alpha .90625 }
+	patch LFALL4, 64, 26 { Style Translucent; Alpha .90625 }
+	patch LFALL4, 64,-102 { Style Translucent; Alpha .90625 }
+}
+texture optional LFALL3U, 128, 128
+{
+	patch LFALL3, 0, 124 { Style Translucent; Alpha 1 }
+	patch LFALL3, 0,-4 { Style Translucent; Alpha 1 }
+	patch LFALL3, 64, 124 { Style Translucent; Alpha 1 }
+	patch LFALL3, 64,-4 { Style Translucent; Alpha 1 }
+	patch LFALL4, 0, 28 { Style Translucent; Alpha .9375 }
+	patch LFALL4, 0,-100 { Style Translucent; Alpha .9375 }
+	patch LFALL4, 64, 28 { Style Translucent; Alpha .9375 }
+	patch LFALL4, 64,-100 { Style Translucent; Alpha .9375 }
+}
+texture optional LFALL3V, 128, 128
+{
+	patch LFALL3, 0, 126 { Style Translucent; Alpha 1 }
+	patch LFALL3, 0,-2 { Style Translucent; Alpha 1 }
+	patch LFALL3, 64, 126 { Style Translucent; Alpha 1 }
+	patch LFALL3, 64,-2 { Style Translucent; Alpha 1 }
+	patch LFALL4, 0, 30 { Style Translucent; Alpha .96875 }
+	patch LFALL4, 0,-98 { Style Translucent; Alpha .96875 }
+	patch LFALL4, 64, 30 { Style Translucent; Alpha .96875 }
+	patch LFALL4, 64,-98 { Style Translucent; Alpha .96875 }
+}
+texture optional LFALL40, 128, 128
+{
+	patch LFALL4, 0, 32 { Style Translucent; Alpha 1 }
+	patch LFALL4, 0,-96 { Style Translucent; Alpha 1 }
+	patch LFALL4, 64, 32 { Style Translucent; Alpha 1 }
+	patch LFALL4, 64,-96 { Style Translucent; Alpha 1 }
+}
+texture optional LFALL41, 128, 128
+{
+	patch LFALL4, 0, 34 { Style Translucent; Alpha 1 }
+	patch LFALL4, 0,-94 { Style Translucent; Alpha 1 }
+	patch LFALL4, 64, 34 { Style Translucent; Alpha 1 }
+	patch LFALL4, 64,-94 { Style Translucent; Alpha 1 }
+	patch LFALL1, 0, 66 { Style Translucent; Alpha .03125 }
+	patch LFALL1, 0,-62 { Style Translucent; Alpha .03125 }
+	patch LFALL1, 64, 66 { Style Translucent; Alpha .03125 }
+	patch LFALL1, 64,-62 { Style Translucent; Alpha .03125 }
+}
+texture optional LFALL42, 128, 128
+{
+	patch LFALL4, 0, 36 { Style Translucent; Alpha 1 }
+	patch LFALL4, 0,-92 { Style Translucent; Alpha 1 }
+	patch LFALL4, 64, 36 { Style Translucent; Alpha 1 }
+	patch LFALL4, 64,-92 { Style Translucent; Alpha 1 }
+	patch LFALL1, 0, 68 { Style Translucent; Alpha .0625 }
+	patch LFALL1, 0,-60 { Style Translucent; Alpha .0625 }
+	patch LFALL1, 64, 68 { Style Translucent; Alpha .0625 }
+	patch LFALL1, 64,-60 { Style Translucent; Alpha .0625 }
+}
+texture optional LFALL43, 128, 128
+{
+	patch LFALL4, 0, 38 { Style Translucent; Alpha 1 }
+	patch LFALL4, 0,-90 { Style Translucent; Alpha 1 }
+	patch LFALL4, 64, 38 { Style Translucent; Alpha 1 }
+	patch LFALL4, 64,-90 { Style Translucent; Alpha 1 }
+	patch LFALL1, 0, 70 { Style Translucent; Alpha .09375 }
+	patch LFALL1, 0,-58 { Style Translucent; Alpha .09375 }
+	patch LFALL1, 64, 70 { Style Translucent; Alpha .09375 }
+	patch LFALL1, 64,-58 { Style Translucent; Alpha .09375 }
+}
+texture optional LFALL44, 128, 128
+{
+	patch LFALL4, 0, 40 { Style Translucent; Alpha 1 }
+	patch LFALL4, 0,-88 { Style Translucent; Alpha 1 }
+	patch LFALL4, 64, 40 { Style Translucent; Alpha 1 }
+	patch LFALL4, 64,-88 { Style Translucent; Alpha 1 }
+	patch LFALL1, 0, 72 { Style Translucent; Alpha .125 }
+	patch LFALL1, 0,-56 { Style Translucent; Alpha .125 }
+	patch LFALL1, 64, 72 { Style Translucent; Alpha .125 }
+	patch LFALL1, 64,-56 { Style Translucent; Alpha .125 }
+}
+texture optional LFALL45, 128, 128
+{
+	patch LFALL4, 0, 42 { Style Translucent; Alpha 1 }
+	patch LFALL4, 0,-86 { Style Translucent; Alpha 1 }
+	patch LFALL4, 64, 42 { Style Translucent; Alpha 1 }
+	patch LFALL4, 64,-86 { Style Translucent; Alpha 1 }
+	patch LFALL1, 0, 74 { Style Translucent; Alpha .15625 }
+	patch LFALL1, 0,-54 { Style Translucent; Alpha .15625 }
+	patch LFALL1, 64, 74 { Style Translucent; Alpha .15625 }
+	patch LFALL1, 64,-54 { Style Translucent; Alpha .15625 }
+}
+texture optional LFALL46, 128, 128
+{
+	patch LFALL4, 0, 44 { Style Translucent; Alpha 1 }
+	patch LFALL4, 0,-84 { Style Translucent; Alpha 1 }
+	patch LFALL4, 64, 44 { Style Translucent; Alpha 1 }
+	patch LFALL4, 64,-84 { Style Translucent; Alpha 1 }
+	patch LFALL1, 0, 76 { Style Translucent; Alpha .1875 }
+	patch LFALL1, 0,-52 { Style Translucent; Alpha .1875 }
+	patch LFALL1, 64, 76 { Style Translucent; Alpha .1875 }
+	patch LFALL1, 64,-52 { Style Translucent; Alpha .1875 }
+}
+texture optional LFALL47, 128, 128
+{
+	patch LFALL4, 0, 46 { Style Translucent; Alpha 1 }
+	patch LFALL4, 0,-82 { Style Translucent; Alpha 1 }
+	patch LFALL4, 64, 46 { Style Translucent; Alpha 1 }
+	patch LFALL4, 64,-82 { Style Translucent; Alpha 1 }
+	patch LFALL1, 0, 78 { Style Translucent; Alpha .21875 }
+	patch LFALL1, 0,-50 { Style Translucent; Alpha .21875 }
+	patch LFALL1, 64, 78 { Style Translucent; Alpha .21875 }
+	patch LFALL1, 64,-50 { Style Translucent; Alpha .21875 }
+}
+texture optional LFALL48, 128, 128
+{
+	patch LFALL4, 0, 48 { Style Translucent; Alpha 1 }
+	patch LFALL4, 0,-80 { Style Translucent; Alpha 1 }
+	patch LFALL4, 64, 48 { Style Translucent; Alpha 1 }
+	patch LFALL4, 64,-80 { Style Translucent; Alpha 1 }
+	patch LFALL1, 0, 80 { Style Translucent; Alpha .25 }
+	patch LFALL1, 0,-48 { Style Translucent; Alpha .25 }
+	patch LFALL1, 64, 80 { Style Translucent; Alpha .25 }
+	patch LFALL1, 64,-48 { Style Translucent; Alpha .25 }
+}
+texture optional LFALL49, 128, 128
+{
+	patch LFALL4, 0, 50 { Style Translucent; Alpha 1 }
+	patch LFALL4, 0,-78 { Style Translucent; Alpha 1 }
+	patch LFALL4, 64, 50 { Style Translucent; Alpha 1 }
+	patch LFALL4, 64,-78 { Style Translucent; Alpha 1 }
+	patch LFALL1, 0, 82 { Style Translucent; Alpha .28125 }
+	patch LFALL1, 0,-46 { Style Translucent; Alpha .28125 }
+	patch LFALL1, 64, 82 { Style Translucent; Alpha .28125 }
+	patch LFALL1, 64,-46 { Style Translucent; Alpha .28125 }
+}
+texture optional LFALL4A, 128, 128
+{
+	patch LFALL4, 0, 52 { Style Translucent; Alpha 1 }
+	patch LFALL4, 0,-76 { Style Translucent; Alpha 1 }
+	patch LFALL4, 64, 52 { Style Translucent; Alpha 1 }
+	patch LFALL4, 64,-76 { Style Translucent; Alpha 1 }
+	patch LFALL1, 0, 84 { Style Translucent; Alpha .3125 }
+	patch LFALL1, 0,-44 { Style Translucent; Alpha .3125 }
+	patch LFALL1, 64, 84 { Style Translucent; Alpha .3125 }
+	patch LFALL1, 64,-44 { Style Translucent; Alpha .3125 }
+}
+texture optional LFALL4B, 128, 128
+{
+	patch LFALL4, 0, 54 { Style Translucent; Alpha 1 }
+	patch LFALL4, 0,-74 { Style Translucent; Alpha 1 }
+	patch LFALL4, 64, 54 { Style Translucent; Alpha 1 }
+	patch LFALL4, 64,-74 { Style Translucent; Alpha 1 }
+	patch LFALL1, 0, 86 { Style Translucent; Alpha .34375 }
+	patch LFALL1, 0,-42 { Style Translucent; Alpha .34375 }
+	patch LFALL1, 64, 86 { Style Translucent; Alpha .34375 }
+	patch LFALL1, 64,-42 { Style Translucent; Alpha .34375 }
+}
+texture optional LFALL4C, 128, 128
+{
+	patch LFALL4, 0, 56 { Style Translucent; Alpha 1 }
+	patch LFALL4, 0,-72 { Style Translucent; Alpha 1 }
+	patch LFALL4, 64, 56 { Style Translucent; Alpha 1 }
+	patch LFALL4, 64,-72 { Style Translucent; Alpha 1 }
+	patch LFALL1, 0, 88 { Style Translucent; Alpha .375 }
+	patch LFALL1, 0,-40 { Style Translucent; Alpha .375 }
+	patch LFALL1, 64, 88 { Style Translucent; Alpha .375 }
+	patch LFALL1, 64,-40 { Style Translucent; Alpha .375 }
+}
+texture optional LFALL4D, 128, 128
+{
+	patch LFALL4, 0, 58 { Style Translucent; Alpha 1 }
+	patch LFALL4, 0,-70 { Style Translucent; Alpha 1 }
+	patch LFALL4, 64, 58 { Style Translucent; Alpha 1 }
+	patch LFALL4, 64,-70 { Style Translucent; Alpha 1 }
+	patch LFALL1, 0, 90 { Style Translucent; Alpha .40625 }
+	patch LFALL1, 0,-38 { Style Translucent; Alpha .40625 }
+	patch LFALL1, 64, 90 { Style Translucent; Alpha .40625 }
+	patch LFALL1, 64,-38 { Style Translucent; Alpha .40625 }
+}
+texture optional LFALL4E, 128, 128
+{
+	patch LFALL4, 0, 60 { Style Translucent; Alpha 1 }
+	patch LFALL4, 0,-68 { Style Translucent; Alpha 1 }
+	patch LFALL4, 64, 60 { Style Translucent; Alpha 1 }
+	patch LFALL4, 64,-68 { Style Translucent; Alpha 1 }
+	patch LFALL1, 0, 92 { Style Translucent; Alpha .4375 }
+	patch LFALL1, 0,-36 { Style Translucent; Alpha .4375 }
+	patch LFALL1, 64, 92 { Style Translucent; Alpha .4375 }
+	patch LFALL1, 64,-36 { Style Translucent; Alpha .4375 }
+}
+texture optional LFALL4F, 128, 128
+{
+	patch LFALL4, 0, 62 { Style Translucent; Alpha 1 }
+	patch LFALL4, 0,-66 { Style Translucent; Alpha 1 }
+	patch LFALL4, 64, 62 { Style Translucent; Alpha 1 }
+	patch LFALL4, 64,-66 { Style Translucent; Alpha 1 }
+	patch LFALL1, 0, 94 { Style Translucent; Alpha .46875 }
+	patch LFALL1, 0,-34 { Style Translucent; Alpha .46875 }
+	patch LFALL1, 64, 94 { Style Translucent; Alpha .46875 }
+	patch LFALL1, 64,-34 { Style Translucent; Alpha .46875 }
+}
+texture optional LFALL4G, 128, 128
+{
+	patch LFALL4, 0, 64 { Style Translucent; Alpha 1 }
+	patch LFALL4, 0,-64 { Style Translucent; Alpha 1 }
+	patch LFALL4, 64, 64 { Style Translucent; Alpha 1 }
+	patch LFALL4, 64,-64 { Style Translucent; Alpha 1 }
+	patch LFALL1, 0, 96 { Style Translucent; Alpha .5 }
+	patch LFALL1, 0,-32 { Style Translucent; Alpha .5 }
+	patch LFALL1, 64, 96 { Style Translucent; Alpha .5 }
+	patch LFALL1, 64,-32 { Style Translucent; Alpha .5 }
+}
+texture optional LFALL4H, 128, 128
+{
+	patch LFALL4, 0, 66 { Style Translucent; Alpha 1 }
+	patch LFALL4, 0,-62 { Style Translucent; Alpha 1 }
+	patch LFALL4, 64, 66 { Style Translucent; Alpha 1 }
+	patch LFALL4, 64,-62 { Style Translucent; Alpha 1 }
+	patch LFALL1, 0, 98 { Style Translucent; Alpha .53125 }
+	patch LFALL1, 0,-30 { Style Translucent; Alpha .53125 }
+	patch LFALL1, 64, 98 { Style Translucent; Alpha .53125 }
+	patch LFALL1, 64,-30 { Style Translucent; Alpha .53125 }
+}
+texture optional LFALL4I, 128, 128
+{
+	patch LFALL4, 0, 68 { Style Translucent; Alpha 1 }
+	patch LFALL4, 0,-60 { Style Translucent; Alpha 1 }
+	patch LFALL4, 64, 68 { Style Translucent; Alpha 1 }
+	patch LFALL4, 64,-60 { Style Translucent; Alpha 1 }
+	patch LFALL1, 0, 100 { Style Translucent; Alpha .5625 }
+	patch LFALL1, 0,-28 { Style Translucent; Alpha .5625 }
+	patch LFALL1, 64, 100 { Style Translucent; Alpha .5625 }
+	patch LFALL1, 64,-28 { Style Translucent; Alpha .5625 }
+}
+texture optional LFALL4J, 128, 128
+{
+	patch LFALL4, 0, 70 { Style Translucent; Alpha 1 }
+	patch LFALL4, 0,-58 { Style Translucent; Alpha 1 }
+	patch LFALL4, 64, 70 { Style Translucent; Alpha 1 }
+	patch LFALL4, 64,-58 { Style Translucent; Alpha 1 }
+	patch LFALL1, 0, 102 { Style Translucent; Alpha .59375 }
+	patch LFALL1, 0,-26 { Style Translucent; Alpha .59375 }
+	patch LFALL1, 64, 102 { Style Translucent; Alpha .59375 }
+	patch LFALL1, 64,-26 { Style Translucent; Alpha .59375 }
+}
+texture optional LFALL4K, 128, 128
+{
+	patch LFALL4, 0, 72 { Style Translucent; Alpha 1 }
+	patch LFALL4, 0,-56 { Style Translucent; Alpha 1 }
+	patch LFALL4, 64, 72 { Style Translucent; Alpha 1 }
+	patch LFALL4, 64,-56 { Style Translucent; Alpha 1 }
+	patch LFALL1, 0, 104 { Style Translucent; Alpha .625 }
+	patch LFALL1, 0,-24 { Style Translucent; Alpha .625 }
+	patch LFALL1, 64, 104 { Style Translucent; Alpha .625 }
+	patch LFALL1, 64,-24 { Style Translucent; Alpha .625 }
+}
+texture optional LFALL4L, 128, 128
+{
+	patch LFALL4, 0, 74 { Style Translucent; Alpha 1 }
+	patch LFALL4, 0,-54 { Style Translucent; Alpha 1 }
+	patch LFALL4, 64, 74 { Style Translucent; Alpha 1 }
+	patch LFALL4, 64,-54 { Style Translucent; Alpha 1 }
+	patch LFALL1, 0, 106 { Style Translucent; Alpha .65625 }
+	patch LFALL1, 0,-22 { Style Translucent; Alpha .65625 }
+	patch LFALL1, 64, 106 { Style Translucent; Alpha .65625 }
+	patch LFALL1, 64,-22 { Style Translucent; Alpha .65625 }
+}
+texture optional LFALL4M, 128, 128
+{
+	patch LFALL4, 0, 76 { Style Translucent; Alpha 1 }
+	patch LFALL4, 0,-52 { Style Translucent; Alpha 1 }
+	patch LFALL4, 64, 76 { Style Translucent; Alpha 1 }
+	patch LFALL4, 64,-52 { Style Translucent; Alpha 1 }
+	patch LFALL1, 0, 108 { Style Translucent; Alpha .6875 }
+	patch LFALL1, 0,-20 { Style Translucent; Alpha .6875 }
+	patch LFALL1, 64, 108 { Style Translucent; Alpha .6875 }
+	patch LFALL1, 64,-20 { Style Translucent; Alpha .6875 }
+}
+texture optional LFALL4N, 128, 128
+{
+	patch LFALL4, 0, 78 { Style Translucent; Alpha 1 }
+	patch LFALL4, 0,-50 { Style Translucent; Alpha 1 }
+	patch LFALL4, 64, 78 { Style Translucent; Alpha 1 }
+	patch LFALL4, 64,-50 { Style Translucent; Alpha 1 }
+	patch LFALL1, 0, 110 { Style Translucent; Alpha .71875 }
+	patch LFALL1, 0,-18 { Style Translucent; Alpha .71875 }
+	patch LFALL1, 64, 110 { Style Translucent; Alpha .71875 }
+	patch LFALL1, 64,-18 { Style Translucent; Alpha .71875 }
+}
+texture optional LFALL4O, 128, 128
+{
+	patch LFALL4, 0, 80 { Style Translucent; Alpha 1 }
+	patch LFALL4, 0,-48 { Style Translucent; Alpha 1 }
+	patch LFALL4, 64, 80 { Style Translucent; Alpha 1 }
+	patch LFALL4, 64,-48 { Style Translucent; Alpha 1 }
+	patch LFALL1, 0, 112 { Style Translucent; Alpha .75 }
+	patch LFALL1, 0,-16 { Style Translucent; Alpha .75 }
+	patch LFALL1, 64, 112 { Style Translucent; Alpha .75 }
+	patch LFALL1, 64,-16 { Style Translucent; Alpha .75 }
+}
+texture optional LFALL4P, 128, 128
+{
+	patch LFALL4, 0, 82 { Style Translucent; Alpha 1 }
+	patch LFALL4, 0,-46 { Style Translucent; Alpha 1 }
+	patch LFALL4, 64, 82 { Style Translucent; Alpha 1 }
+	patch LFALL4, 64,-46 { Style Translucent; Alpha 1 }
+	patch LFALL1, 0, 114 { Style Translucent; Alpha .78125 }
+	patch LFALL1, 0,-14 { Style Translucent; Alpha .78125 }
+	patch LFALL1, 64, 114 { Style Translucent; Alpha .78125 }
+	patch LFALL1, 64,-14 { Style Translucent; Alpha .78125 }
+}
+texture optional LFALL4Q, 128, 128
+{
+	patch LFALL4, 0, 84 { Style Translucent; Alpha 1 }
+	patch LFALL4, 0,-44 { Style Translucent; Alpha 1 }
+	patch LFALL4, 64, 84 { Style Translucent; Alpha 1 }
+	patch LFALL4, 64,-44 { Style Translucent; Alpha 1 }
+	patch LFALL1, 0, 116 { Style Translucent; Alpha .8125 }
+	patch LFALL1, 0,-12 { Style Translucent; Alpha .8125 }
+	patch LFALL1, 64, 116 { Style Translucent; Alpha .8125 }
+	patch LFALL1, 64,-12 { Style Translucent; Alpha .8125 }
+}
+texture optional LFALL4R, 128, 128
+{
+	patch LFALL4, 0, 86 { Style Translucent; Alpha 1 }
+	patch LFALL4, 0,-42 { Style Translucent; Alpha 1 }
+	patch LFALL4, 64, 86 { Style Translucent; Alpha 1 }
+	patch LFALL4, 64,-42 { Style Translucent; Alpha 1 }
+	patch LFALL1, 0, 118 { Style Translucent; Alpha .84375 }
+	patch LFALL1, 0,-10 { Style Translucent; Alpha .84375 }
+	patch LFALL1, 64, 118 { Style Translucent; Alpha .84375 }
+	patch LFALL1, 64,-10 { Style Translucent; Alpha .84375 }
+}
+texture optional LFALL4S, 128, 128
+{
+	patch LFALL4, 0, 88 { Style Translucent; Alpha 1 }
+	patch LFALL4, 0,-40 { Style Translucent; Alpha 1 }
+	patch LFALL4, 64, 88 { Style Translucent; Alpha 1 }
+	patch LFALL4, 64,-40 { Style Translucent; Alpha 1 }
+	patch LFALL1, 0, 120 { Style Translucent; Alpha .875 }
+	patch LFALL1, 0,-8 { Style Translucent; Alpha .875 }
+	patch LFALL1, 64, 120 { Style Translucent; Alpha .875 }
+	patch LFALL1, 64,-8 { Style Translucent; Alpha .875 }
+}
+texture optional LFALL4T, 128, 128
+{
+	patch LFALL4, 0, 90 { Style Translucent; Alpha 1 }
+	patch LFALL4, 0,-38 { Style Translucent; Alpha 1 }
+	patch LFALL4, 64, 90 { Style Translucent; Alpha 1 }
+	patch LFALL4, 64,-38 { Style Translucent; Alpha 1 }
+	patch LFALL1, 0, 122 { Style Translucent; Alpha .90625 }
+	patch LFALL1, 0,-6 { Style Translucent; Alpha .90625 }
+	patch LFALL1, 64, 122 { Style Translucent; Alpha .90625 }
+	patch LFALL1, 64,-6 { Style Translucent; Alpha .90625 }
+}
+texture optional LFALL4U, 128, 128
+{
+	patch LFALL4, 0, 92 { Style Translucent; Alpha 1 }
+	patch LFALL4, 0,-36 { Style Translucent; Alpha 1 }
+	patch LFALL4, 64, 92 { Style Translucent; Alpha 1 }
+	patch LFALL4, 64,-36 { Style Translucent; Alpha 1 }
+	patch LFALL1, 0, 124 { Style Translucent; Alpha .9375 }
+	patch LFALL1, 0,-4 { Style Translucent; Alpha .9375 }
+	patch LFALL1, 64, 124 { Style Translucent; Alpha .9375 }
+	patch LFALL1, 64,-4 { Style Translucent; Alpha .9375 }
+}
+texture optional LFALL4V, 128, 128
+{
+	patch LFALL4, 0, 94 { Style Translucent; Alpha 1 }
+	patch LFALL4, 0,-34 { Style Translucent; Alpha 1 }
+	patch LFALL4, 64, 94 { Style Translucent; Alpha 1 }
+	patch LFALL4, 64,-34 { Style Translucent; Alpha 1 }
+	patch LFALL1, 0, 126 { Style Translucent; Alpha .96875 }
+	patch LFALL1, 0,-2 { Style Translucent; Alpha .96875 }
+	patch LFALL1, 64, 126 { Style Translucent; Alpha .96875 }
+	patch LFALL1, 64,-2 { Style Translucent; Alpha .96875 }
+}

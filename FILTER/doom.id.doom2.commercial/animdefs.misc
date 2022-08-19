@@ -1,0 +1,25 @@
+Texture optional FIREMAG1
+    pic FIREMAG1 rand 2 4
+	pic FIREMAG2 rand 2 4
+	pic FIREMAG3 rand 2 4
+Texture optional FIREMAG2
+    pic FIREMAG1 rand 2 4
+	pic FIREMAG2 rand 2 4
+	pic FIREMAG3 rand 2 4
+Texture optional FIREMAG3
+    pic FIREMAG1 rand 2 4
+	pic FIREMAG2 rand 2 4
+	pic FIREMAG3 rand 2 4
+	
+Texture optional FIREWALL
+    pic FIREWALL rand 2 4
+	pic FIREWALA rand 2 4
+	pic FIREWALB rand 2 4
+Texture optional FIREWALA
+    pic FIREWALL rand 2 4
+	pic FIREWALA rand 2 4
+	pic FIREWALB rand 2 4
+Texture optional FIREWALB
+    pic FIREWALL rand 2 4
+	pic FIREWALA rand 2 4
+	pic FIREWALB rand 2 4

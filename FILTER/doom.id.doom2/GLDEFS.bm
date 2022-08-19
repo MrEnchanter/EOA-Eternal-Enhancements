@@ -1,0 +1,26 @@
+brightmap flat ceil3_6      { map "ceil3_6" }
+brightmap flat flat2       { map "flat2" }
+brightmap flat flat17      { map "flat17" }
+brightmap flat Tlite6_1      { map "Tlite6_1" }
+brightmap flat Tlite6_4      { map "Tlite6_4" }
+brightmap flat Tlite6_5      { map "Tlite6_5" }
+brightmap flat Tlite6_6      { map "Tlite6_6" }
+brightmap texture LFALL1	{ map "LFALL1" }
+brightmap texture LFALL2	{ map "LFALL2" }
+brightmap texture LFALL3	{ map "LFALL3" }
+brightmap texture LFALL4	{ map "LFALL4" }
+brightmap texture LAVFALL1	{ map "LAVFALL1" }
+brightmap texture LAVFALL2	{ map "LAVFALL2" }
+brightmap texture LAVFALL3	{ map "LAVFALL3" }
+brightmap texture LAVFALL4	{ map "LAVFALL4" }
+brightmap texture SFALL1	{ map "SFALL1" }
+brightmap texture SFALL2	{ map "SFALL2" }
+brightmap texture SFALL3	{ map "SFALL3" }
+brightmap texture SFALL4	{ map "SFALL4" }
+brightmap texture FIREWALL	{ map "FIREWALL" }
+brightmap texture FIREWALA	{ map "FIREWALA" }
+brightmap texture FIREWALB	{ map "FIREWALB" }
+brightmap texture FIREMAG1	{ map "FIREMAG1" }
+brightmap texture FIREMAG2	{ map "FIREMAG2" }
+brightmap texture FIREMAG3	{ map "FIREMAG3" }
+

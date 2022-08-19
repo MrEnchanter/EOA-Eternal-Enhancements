@@ -1,0 +1,381 @@
+
+/***** Doom Imp Scorches ***************************************************/
+
+decal VPImpScorch1
+{
+	pic CBALSCR1
+	shade "00 00 00"
+	x-scale 0.7
+	y-scale 0.7
+	randomflipx
+	randomflipy
+}
+
+decal VPImpScorch2
+{
+	pic CBALSCR2
+	shade "00 00 00"
+	x-scale 0.8
+	y-scale 0.8
+	randomflipx
+	randomflipy
+}
+
+decalgroup VPImpScorch
+{
+	VPImpScorch1	1
+	VPImpScorch2	1
+}
+
+decal Hole1a
+{
+	pic hole1a
+	shade "00 00 00"
+	x-scale 0.5
+	y-scale 0.5
+	translucent 0.5
+	randomflipx
+}
+
+decal Hole1b
+{
+	pic hole1b
+	shade "00 00 00"
+	x-scale 0.5
+	y-scale 0.5
+	translucent 0.5
+	randomflipx
+}
+
+decal Hole1c
+{
+	pic hole1c
+	shade "00 00 00"
+	x-scale 0.5
+	y-scale 0.5
+	translucent 0.5
+	randomflipx
+}
+
+decal Hole1d
+{
+	pic hole1d
+	shade "00 00 00"
+	x-scale 0.5
+	y-scale 0.5
+	translucent 0.5
+	randomflipx
+}
+
+decal Hole1e
+{
+	pic hole1e
+	shade "00 00 00"
+	x-scale 0.5
+	y-scale 0.5
+	translucent 0.5
+	randomflipx
+}
+
+decalgroup SGHole
+{
+	Hole1a		2
+	Hole1b		1
+	Hole1c		1
+	Hole1d		2
+	Hole1e		2
+}
+
+
+decal Hole2a
+{
+	pic hole2a
+	shade "00 00 00"
+	x-scale 0.8
+	y-scale 0.8
+	translucent 0.5
+	randomflipx
+}
+
+
+decal Hole2b
+{
+	pic hole2b
+	shade "00 00 00"
+	x-scale 0.8
+	y-scale 0.8
+	translucent 0.5
+	randomflipx
+}
+
+decal Hole2c
+{
+	pic hole2c
+	shade "00 00 00"
+	x-scale 0.8
+	y-scale 0.8
+	translucent 0.5
+	randomflipx
+}
+
+decalgroup SawHole
+{
+	Hole2a		1
+	Hole2b		1
+	Hole2c		1
+}
+
+
+decal Hole3a
+{
+	pic hole3a
+	shade "00 00 00"
+	x-scale 0.8
+	y-scale 0.8
+	translucent 0.6
+	randomflipx
+}
+
+
+decal Hole3b
+{
+	pic hole3b
+	shade "00 00 00"
+	x-scale 0.8
+	y-scale 0.8
+	translucent 0.6
+	randomflipx
+}
+
+
+decal Hole3c
+{
+	pic hole3c
+	shade "00 00 00"
+	x-scale 0.8
+	y-scale 0.8
+	translucent 0.6
+	randomflipx
+}
+
+decal Hole3d
+{
+	pic hole3d
+	shade "00 00 00"
+	x-scale 0.8
+	y-scale 0.8
+	translucent 0.6
+	randomflipx
+}
+
+decalgroup BulletHole
+{
+	Hole3a		1
+	Hole3b		2
+	Hole3c		2
+	Hole3d		2
+}
+
+
+decal BaronScorchLower1
+{
+	pic BARFA0
+	shade "00 22 00"
+	x-scale 0.7
+	y-scale 0.7
+	randomflipx
+	randomflipy
+}
+
+decal BaronScorchLower2
+{
+	pic BARXA0
+	shade "00 33 00"
+	x-scale 0.7
+	y-scale 0.7
+	randomflipx
+	randomflipy
+}
+
+
+decal VPBaronScorch1
+{
+	pic BARFA0
+	add 1.0
+	x-scale 0.7
+	y-scale 0.7
+	fullbright
+	animator GoAway
+	randomflipx
+	randomflipy
+	lowerdecal BaronScorchLower1
+}
+
+decal VPBaronScorch2
+{
+	pic BARXA0
+	add 1.0
+	x-scale 0.6
+	y-scale 0.6
+	fullbright
+	animator GoAway
+	randomflipx
+	randomflipy
+	lowerdecal BaronScorchLower2
+}
+
+decalgroup VPBaronScorch
+{
+	VPBaronScorch1 1
+	VPBaronScorch2 1
+}
+
+decal VPCacoScorchLower1
+{
+	pic CBALSCR1
+	shade "00 00 32"
+	x-scale 0.5
+	y-scale 0.5
+	randomflipx
+	randomflipy
+}
+
+decal VPCacoScorchLower2
+{
+	pic CBALSCR2
+	shade "00 00 32"
+	x-scale 0.5
+	y-scale 0.5
+	randomflipx
+	randomflipy
+}
+
+decalgroup VPCacoScorchLower
+{
+	VPCacoScorchLower1 1
+	VPCacoScorchLower2 1
+}
+
+decal VPCacoScorch
+{
+	pic CACFA0
+	add 1.0
+	x-scale 0.7
+	y-scale 0.7
+	fullbright
+	animator GoAway
+	randomflipx
+	randomflipy
+	lowerdecal VPCacoScorchLower
+}
+
+
+/*****  Plasma Scorches *****************************************/
+
+
+decal VPPlasmaScrLower1
+{
+	pic PLASMA1
+	shade "00 00 00"
+	x-scale 0.5
+	y-scale 0.5
+	randomflipx
+	randomflipy
+}
+
+decal VPPlasmaScorch1
+{
+	pic PLSSA0
+	add 1.0
+	x-scale 0.7
+	y-scale 0.7
+	fullbright
+	animator GoAway
+	lowerdecal PlasmaScorchLower2
+}
+
+decal VPPlasmaScrLower2
+{
+	pic PLASMA2
+	shade "00 00 00"
+	x-scale 0.5
+	y-scale 0.5
+	randomflipx
+	randomflipy
+}
+
+decal VPPlasmaScorch2
+{
+	pic PLSSB0
+	add 1.0
+	x-scale 0.7
+	y-scale 0.7
+	fullbright
+	animator GoAway
+	lowerdecal PlasmaScorchLower1
+}
+
+decalgroup VPPlasmaScrLower
+{
+	VPPlasmaScrLower1	1
+	VPPlasmaScrLower2	1
+}
+
+decalgroup VPPlasmaScorch
+{
+	VPPlasmaScorch1	1
+	VPPlasmaScorch2	1
+}
+
+/***** Arachnotron Plasma Scorches *****************************************/
+
+decal VPArachScorch1
+{
+	pic APLSA0
+	add 1.0
+	x-scale 0.5
+	y-scale 0.5
+	animator GoAway
+	lowerdecal PlasmaScorchLower1
+}
+
+decal VPArachScorch2
+{
+	pic APLSB0
+	add 1.0
+	x-scale 0.5
+	y-scale 0.5
+	animator GoAway
+	lowerdecal PlasmaScorchLower2
+}
+
+decalgroup VPArachScorch
+{
+	VPArachScorch1	1
+	VPArachScorch2	1
+}
+
+
+/***** Generators **********************************************************/
+
+
+
+generator Pistol			BulletHole
+generator Shotgun			SGHole
+generator SuperShotgun			SGHole
+generator Chaingun			BulletHole
+generator Chainsaw			SawHole
+
+generator ZombieMan			BulletHole
+generator ShotgunGuy			SGHole
+generator ChaingunGuy			BulletHole
+generator SpiderMastermind		BulletHole
+generator WolfensteinSS			BulletHole
+
+generator VP_CacoBall			VPCacoScorch
+generator VP_ImpBall			VPImpScorch
+generator VP_Rocket			Scorch
+generator VP_Plasma			VPPlasmaScorch
+generator VP_ArachPlasma		VPArachScorch
+generator VP_MancuBall			VPImpScorch
+generator VP_BaronBall			VPBaronScorch

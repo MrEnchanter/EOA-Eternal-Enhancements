@@ -1,0 +1,208 @@
+Glow
+{
+	Texture "F_SKY1", "55, 55, 55", "700",FULLBRIGHT
+	Texture "LAVA1", "99, 50, 00", "250",FULLBRIGHT
+	Texture "LAVA2", "99, 50, 00", "250",FULLBRIGHT
+	Texture "LAVA3", "99, 50, 00", "250",FULLBRIGHT
+	Texture "LAVA4", "99, 50, 00", "250",FULLBRIGHT
+	Texture "LAVA10", "99, 44, 00", "250", FULLBRIGHT
+	Texture "LAVA11", "99, 44, 00", "250", FULLBRIGHT
+	Texture "LAVA12", "99, 44, 00", "250", FULLBRIGHT
+	Texture "LAVA13", "99, 44, 00", "250", FULLBRIGHT
+	Texture "LAVA14", "99, 44, 00", "250", FULLBRIGHT
+	Texture "LAVA15", "99, 44, 00", "250", FULLBRIGHT
+	Texture "LAVA16", "99, 44, 00", "250", FULLBRIGHT
+	Texture "LAVA17", "99, 44, 00", "250", FULLBRIGHT
+	Texture "LAVA18", "99, 44, 00", "250", FULLBRIGHT
+	Texture "LAVA19", "99, 44, 00", "250", FULLBRIGHT
+	Texture "LAVA20", "99, 44, 00", "250", FULLBRIGHT
+	Texture "LAVA21", "99, 44, 00", "250", FULLBRIGHT
+	Texture "LAVA22", "99, 44, 00", "250", FULLBRIGHT
+	Texture "LAVA23", "99, 44, 00", "250", FULLBRIGHT
+	Texture "LAVA24", "99, 44, 00", "250", FULLBRIGHT
+	Texture "LAVA25", "99, 44, 00", "250", FULLBRIGHT
+	Texture "LAVA26", "99, 44, 00", "250", FULLBRIGHT
+	Texture "LAVA27", "99, 44, 00", "250", FULLBRIGHT
+	Texture "LAVA28", "99, 44, 00", "250", FULLBRIGHT
+	Texture "LAVA29", "99, 44, 00", "250", FULLBRIGHT
+	Texture "LAVA30", "99, 44, 00", "250", FULLBRIGHT
+	Texture "LAVA31", "99, 44, 00", "250", FULLBRIGHT
+	Texture "LAVA32", "99, 44, 00", "250", FULLBRIGHT
+	Texture "LAVA33", "99, 44, 00", "250", FULLBRIGHT
+	Texture "LAVA34", "99, 44, 00", "250", FULLBRIGHT
+	Texture "LAVA35", "99, 44, 00", "250", FULLBRIGHT
+	Texture "LAVA36", "99, 44, 00", "250", FULLBRIGHT
+	Texture "LAVA37", "99, 44, 00", "250", FULLBRIGHT
+	Texture "NUKAGE1", "00, 70, 00", "150", FULLBRIGHT
+	Texture "NUKAGE2", "00, 70, 00", "150", FULLBRIGHT
+	Texture "NUKAGE3", "00, 70, 00", "150", FULLBRIGHT
+	Texture "NUKAGE4", "00, 70, 00", "150", FULLBRIGHT
+	Texture "NUKAGE10", "00, 70, 00", "150", FULLBRIGHT
+	Texture "NUKAGE11", "00, 70, 00", "150", FULLBRIGHT
+	Texture "NUKAGE12", "00, 70, 00", "150", FULLBRIGHT
+	Texture "NUKAGE13", "00, 70, 00", "150", FULLBRIGHT
+	Texture "NUKAGE14", "00, 70, 00", "150", FULLBRIGHT
+	Texture "NUKAGE15", "00, 70, 00", "150", FULLBRIGHT
+	Texture "NUKAGE16", "00, 70, 00", "150", FULLBRIGHT
+	Texture "NUKAGE17", "00, 70, 00", "150", FULLBRIGHT
+	Texture "NUKAGE18", "00, 70, 00", "150", FULLBRIGHT
+	Texture "NUKAGE19", "00, 70, 00", "150", FULLBRIGHT
+	Texture "NUKAGE20", "00, 70, 00", "150", FULLBRIGHT
+	Texture "NUKAGE21", "00, 70, 00", "150", FULLBRIGHT
+	Texture "NUKAGE22", "00, 70, 00", "150", FULLBRIGHT
+	Texture "NUKAGE23", "00, 70, 00", "150", FULLBRIGHT
+	Texture "NUKAGE24", "00, 70, 00", "150", FULLBRIGHT
+	Texture "NUKAGE25", "00, 70, 00", "150", FULLBRIGHT
+	Texture "NUKAGE26", "00, 70, 00", "150", FULLBRIGHT
+	Texture "NUKAGE27", "00, 70, 00", "150", FULLBRIGHT
+	Texture "NUKAGE28", "00, 70, 00", "150", FULLBRIGHT
+	Texture "NUKAGE29", "00, 70, 00", "150", FULLBRIGHT
+	Texture "NUKAGE30", "00, 70, 00", "150", FULLBRIGHT
+	Texture "NUKAGE31", "00, 70, 00", "150", FULLBRIGHT
+	Texture "NUKAGE32", "00, 70, 00", "150", FULLBRIGHT
+	Texture "NUKAGE33", "00, 70, 00", "150", FULLBRIGHT
+	Texture "NUKAGE34", "00, 70, 00", "150", FULLBRIGHT
+	Texture "NUKAGE35", "00, 70, 00", "150", FULLBRIGHT
+	Texture "NUKAGE36", "00, 70, 00", "150", FULLBRIGHT
+	Texture "NUKAGE37", "00, 70, 00", "150", FULLBRIGHT
+	
+	Texture "FWATER1", "00, 13, 03", "48"
+	Texture "FWATER2", "00, 13, 03", "48"
+	Texture "FWATER3", "00, 13, 03", "48"
+	Texture "FWATER4", "00, 13, 03", "48"
+	Texture "FWATER10", "00, 13, 03", "48"
+	Texture "FWATER11", "00, 13, 03", "48"
+	Texture "FWATER12", "00, 13, 03", "48"
+	Texture "FWATER13", "00, 13, 03", "48"
+	Texture "FWATER14", "00, 13, 03", "48"
+	Texture "FWATER15", "00, 13, 03", "48"
+	Texture "FWATER16", "00, 13, 03", "48"
+	Texture "FWATER17", "00, 13, 03", "48"
+	Texture "FWATER18", "00, 13, 03", "48"
+	Texture "FWATER19", "00, 13, 03", "48"
+	Texture "FWATER20", "00, 13, 03", "48"
+	Texture "FWATER21", "00, 13, 03", "48"
+	Texture "FWATER22", "00, 13, 03", "48"
+	Texture "FWATER23", "00, 13, 03", "48"
+	Texture "FWATER24", "00, 13, 03", "48"
+	Texture "FWATER25", "00, 13, 03", "48"
+	Texture "FWATER26", "00, 13, 03", "48"
+	Texture "FWATER27", "00, 13, 03", "48"
+	Texture "FWATER28", "00, 13, 03", "48"
+	Texture "FWATER29", "00, 13, 03", "48"
+	Texture "FWATER30", "00, 13, 03", "48"
+	Texture "FWATER31", "00, 13, 03", "48"
+	Texture "FWATER32", "00, 13, 03", "48"
+	Texture "FWATER33", "00, 13, 03", "48"
+	Texture "FWATER34", "00, 13, 03", "48"
+	Texture "FWATER35", "00, 13, 03", "48"
+	Texture "FWATER36", "00, 13, 03", "48"
+	Texture "FWATER37", "00, 13, 03", "48"
+	Texture "FWATER38", "00, 13, 03", "48"
+	Texture "FWATER39", "00, 13, 03", "48"
+	Texture "FWATER40", "00, 13, 03", "48"
+	Texture "FWATER41", "00, 13, 03", "48"
+	Texture "FWATER42", "00, 13, 03", "48"
+	Texture "FWATER43", "00, 13, 03", "48"
+	Texture "FWATER44", "00, 13, 03", "48"
+	Texture "FWATER45", "00, 13, 03", "48"
+	Texture "FWATER46", "00, 13, 03", "48"
+	Texture "FWATER47", "00, 13, 03", "48"
+	Texture "FWATER48", "00, 13, 03", "48"
+	Texture "FWATER49", "00, 13, 03", "48"
+	Texture "FWATER50", "00, 13, 03", "48"
+	Texture "FWATER51", "00, 13, 03", "48"
+	Texture "FWATER52", "00, 13, 03", "48"
+	Texture "FWATER53", "00, 13, 03", "48"
+	Texture "FWATER54", "00, 13, 03", "48"
+	Texture "FWATER55", "00, 13, 03", "48"
+	Texture "FWATER56", "00, 13, 03", "48"
+	Texture "FWATER57", "00, 13, 03", "48"
+	Texture "FWATER58", "00, 13, 03", "48"
+	Texture "FWATER59", "00, 13, 03", "48"
+	Texture "FWATER60", "00, 13, 03", "48"
+	Texture "FWATER61", "00, 13, 03", "48"
+	Texture "FWATER62", "00, 13, 03", "48"
+	Texture "FWATER63", "00, 13, 03", "48"
+	Texture "FWATER64", "00, 13, 03", "48"
+	Texture "FWATER65", "00, 13, 03", "48"
+	Texture "FWATER66", "00, 13, 03", "48"
+	Texture "FWATER67", "00, 13, 03", "48"
+	Texture "FWATER68", "00, 13, 03", "48"
+	Texture "FWATER69", "00, 13, 03", "48"
+	Texture "FWATER70", "00, 13, 03", "48"
+	Texture "FWATER71", "00, 13, 03", "48"
+	Texture "FWATER72", "00, 13, 03", "48"
+	Texture "FWATER73", "00, 13, 03", "48"
+	Texture "FWATER74", "00, 13, 03", "48"
+	Texture "FWATER75", "00, 13, 03", "48"
+	Texture "FWATER76", "00, 13, 03", "48"
+	Texture "FWATER77", "00, 13, 03", "48"
+	Texture "FWATER78", "00, 13, 03", "48"
+	Texture "FWATER79", "00, 13, 03", "48"
+	Texture "FWATER80", "00, 13, 03", "48"
+	Texture "FWATER81", "00, 13, 03", "48"
+	Texture "FWATER82", "00, 13, 03", "48"
+	Texture "FWATER83", "00, 13, 03", "48"
+	Texture "FWATER84", "00, 13, 03", "48"
+	Texture "FWATER85", "00, 13, 03", "48"
+	
+	Texture "BLOOD1", "13, 00, 00", "48"
+	Texture "BLOOD2", "13, 00, 00", "48"
+	Texture "BLOOD3", "13, 00, 00", "48"
+	Texture "BLOOD4", "13, 00, 00", "48"
+	Texture "BLOOD10", "13, 00, 00", "48"
+	Texture "BLOOD11", "13, 00, 00", "48"
+	Texture "BLOOD12", "13, 00, 00", "48"
+	Texture "BLOOD13", "13, 00, 00", "48"
+	Texture "BLOOD14", "13, 00, 00", "48"
+	Texture "BLOOD15", "13, 00, 00", "48"
+	Texture "BLOOD16", "13, 00, 00", "48"
+	Texture "BLOOD17", "13, 00, 00", "48"
+	Texture "BLOOD18", "13, 00, 00", "48"
+	Texture "BLOOD19", "13, 00, 00", "48"
+	Texture "BLOOD20", "13, 00, 00", "48"
+	Texture "BLOOD21", "13, 00, 00", "48"
+	Texture "BLOOD22", "13, 00, 00", "48"
+	Texture "BLOOD23", "13, 00, 00", "48"
+	Texture "BLOOD24", "13, 00, 00", "48"
+	Texture "BLOOD25", "13, 00, 00", "48"
+	Texture "BLOOD26", "13, 00, 00", "48"
+	Texture "BLOOD27", "13, 00, 00", "48"
+	Texture "BLOOD28", "13, 00, 00", "48"
+	Texture "BLOOD29", "13, 00, 00", "48"
+	Texture "BLOOD30", "13, 00, 00", "48"
+	Texture "BLOOD31", "13, 00, 00", "48"
+	Texture "BLOOD32", "13, 00, 00", "48"
+	Texture "BLOOD33", "13, 00, 00", "48"
+	Texture "BLOOD34", "13, 00, 00", "48"
+	Texture "BLOOD35", "13, 00, 00", "48"
+	Texture "BLOOD36", "13, 00, 00", "48"
+	Texture "BLOOD37", "13, 00, 00", "48"
+	Texture "GATE1", "99, 00, 00", "15",FULLBRIGHT
+	Texture "GATE2", "99, 00, 00", "15",FULLBRIGHT
+	Texture "GATE3", "99, 00, 00", "15",FULLBRIGHT
+	Texture "GATE4", "70, 70, 70", "15",FULLBRIGHT
+	Texture "CEIL1_2", "99, 99, 33", "64", FULLBRIGHT
+	Texture "CEIL1_3", "99, 99, 33", "64", FULLBRIGHT
+	Texture "CEIL3_4", "77, 77, 33", "122", FULLBRIGHT
+	Texture "CEIL3_6", "33, 66, 77", "64"
+	Texture "CEIL4_1", "22, 44, 88", "64", FULLBRIGHT
+	Texture "CEIL4_2", "22, 55, 88", "64", FULLBRIGHT
+	Texture "CEIL4_3", "22, 66, 88", "64", FULLBRIGHT
+	Texture "Tlite6_5", d80000, 500
+	Texture "Tlite6_1", ffebdf, 50
+	Texture "Tlite6_4", ffebdf, 50
+	Texture "Tlite6_6", ffb383, 100
+	Texture "Floor1_1", 0000ca, 200
+	Texture "Floor1_7", d80000, 200
+	Texture "Floor1_6", d80000, 75
+	Texture "Floor6_1", d80000, 75
+	Texture "Floor6_2", d80000, 75
+	Texture "Floor7_2", d80000, 75
+	Texture "Flat17", d3d3d3, 100
+	Texture "Flat2", d3d3d3, 100
+	Texture "Flat14", 0000ca, 200
+	Texture "Flat5_3", d80000, 75
+	Texture "Flat22", 2222aa, 18, FULLBRIGHT
+}

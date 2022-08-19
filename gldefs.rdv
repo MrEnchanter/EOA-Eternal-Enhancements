@@ -1,0 +1,6 @@
+#include "fxdefs/rdlights.txt"
+#include "fxdefs/rdmissiles.txt"
+#include "fxdefs/rdeffects.txt"
+#include "fxdefs/rditems.txt"
+#include "fxdefs/rdkeys.txt"
+#include "fxdefs/rdmonsters.txt"

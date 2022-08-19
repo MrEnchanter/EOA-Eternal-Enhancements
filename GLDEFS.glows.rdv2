@@ -1,0 +1,47 @@
+Glow
+{
+	Texture "LAVA1", 701000, 128
+	Texture "LAVA2", 702800, 128
+	Texture "LAVA3", 701800, 128
+	Texture "LAVA4", 702000, 128
+	
+	Texture "NUKAGE1", 002800, 64
+	Texture "NUKAGE2", 003000, 64
+	Texture "NUKAGE3", 003800, 64
+	
+	//teleporters
+	Texture "GATE1", 800000, 48
+	Texture "GATE2", 800000, 48
+	Texture "GATE3", 800000, 48
+	Texture "GATE4", 808080, 48
+	
+	//glowing rocks
+	Texture "RROCK01", 800000, 64
+	Texture "RROCK02", 808000, 64
+	Texture "RROCK05", 400000, 64
+	Texture "RROCK06", 300000, 64
+	Texture "RROCK07", 100000, 64
+	Texture "RROCK08", 080000, 64
+	Texture "SLIME09", 400000, 64
+	Texture "SLIME10", 300000, 64
+	Texture "SLIME11", 100000, 64
+	Texture "SLIME12", 080000, 64
+	
+	//lights
+	Texture "CEIL3_4", 5F5347, 128
+	Texture "CEIL4_3", 000010, 16
+	Texture "FLAT22", 000040, 32
+	Texture "FLOOR1_7", ff8080, 64
+	Texture "TLITE6_1", 807570, 128
+	Texture "TLITE6_4", 807570, 128
+	Texture "TLITE6_5", 804040, 128
+	Texture "TLITE6_6", 806040, 128
+	Texture "CEIL1_2", 808080, 64
+	Texture "CEIL1_3", 808080, 64
+	Texture "CEIL3_6", 404040, 32
+	Texture "FLAT2", 909090, 96
+	Texture "FLAT17", a0a0a0, 128
+	Texture "GRNLITE1", 606060, 48
+
+	Texture "F_SKY1", 604050, 256
+}

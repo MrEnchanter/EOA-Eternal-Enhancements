@@ -1,0 +1,126 @@
+//constant hum
+mood/constant 				CONST
+
+//torch
+$volume mood/torch 0.4
+$attenuation mood/torch 1.4
+$limit mood/torch 2
+mood/torch					TORCH
+
+//explosive barrel
+$volume mood/bubble 0.2
+$attenuation mood/bubble 1.7
+$limit mood/bubble 2
+mood/bubble					BUBBLE
+
+//silver lamp
+$volume mood/hum1 0.5
+$attenuation mood/hum1 1.7
+$limit mood/hum1 2
+mood/hum1					HUM1
+
+//tech pillar
+$volume mood/hum2 0.2
+$attenuation mood/hum2 1.0
+$limit mood/hum2 2
+mood/hum2					HUM2
+
+//tall techlamp
+$volume mood/hum3 0.4
+$attenuation mood/hum3 1.7
+$limit mood/hum3 2
+mood/hum3					HUM3
+
+//short techlamp
+$volume mood/hum4 0.4
+$attenuation mood/hum4 1.7
+$limit mood/hum4 2
+mood/hum4					HUM4
+
+//dead marine
+$volume mood/hum5 0.8
+$attenuation mood/hum5 1.0
+$limit mood/hum5 3
+mood/hum5	                HUM5
+
+//candelabra
+$volume mood/hum6 0.5
+$attenuation mood/hum6 1.0
+$limit mood/hum6 3
+mood/hum6					HUM6
+
+//skulls and candles
+$volume mood/hum7 0.3
+$attenuation mood/hum7 1.0
+$limit mood/hum7 3
+mood/hum7					HUM7
+
+//evil eye
+$volume mood/hum8 0.5
+$attenuation mood/hum8 1.0
+$limit mood/hum8 3
+mood/hum8					HUM8
+
+//stalagmite
+$volume mood/hum9 1.0
+$attenuation mood/hum9 1.0
+$limit mood/hum9 3
+mood/hum9					HUM9
+
+//dead impaled guy
+$volume mood/hum10 1.0
+$attenuation mood/hum10 1.0
+$limit mood/hum10 3
+mood/hum10					HUM10
+
+//twitching impaled guy
+$volume mood/hum11 0.5
+$attenuation mood/hum11 1.0
+$limit mood/hum11 3
+mood/hum11					HUM11
+
+//dead impaled guy
+$volume mood/hum12 1.0
+$attenuation mood/hum12 1.0
+$limit mood/hum12 3
+mood/hum12					HUM12
+
+//
+$volume mood/hum13 1.0
+$attenuation mood/hum13 1.0
+$limit mood/hum13 3
+mood/hum13					HUM13
+
+//gibbed marine
+$volume mood/hum14 0.5
+$attenuation mood/hum14 0.8
+$limit mood/hum14 2
+mood/hum14					HUM14
+
+//skulls and candles
+$volume mood/hum15 0.5
+$limit mood/hum15 1
+mood/hum15					HUM15
+
+//hanging guys
+$volume mood/hum16 0.8
+$limit mood/hum16 2
+mood/hum16					HUM16
+
+//candles
+$attenuation mood/hum17 1.4
+$volume mood/hum17 0.1
+$limit mood/hum17 2
+mood/hum17					HUM17
+
+//big tree
+$volume mood/wind1 0.3
+$attenuation mood/wind1 0.7
+$limit mood/wind1 1
+mood/wind1					WIND1
+
+//little tree
+$volume mood/wind2 0.1
+$attenuation mood/wind2 0.7
+$limit mood/wind2 1
+mood/wind2					WIND2

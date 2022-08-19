@@ -1,0 +1,80 @@
+ Texture optional BLODGR1
+    pic BLODGR1 rand 2 4
+	pic BLODGR2 rand 2 4
+	pic BLODGR3 rand 2 4
+	pic BLODGR4 rand 2 4
+ Texture optional BLODGR2
+    pic BLODGR1 rand 2 4
+	pic BLODGR2 rand 2 4
+	pic BLODGR3 rand 2 4
+	pic BLODGR4 rand 2 4
+ Texture optional BLODGR3
+    pic BLODGR1 rand 2 4
+	pic BLODGR2 rand 2 4
+	pic BLODGR3 rand 2 4
+	pic BLODGR4 rand 2 4
+ Texture optional BLODGR4
+    pic BLODGR1 rand 2 4
+	pic BLODGR2 rand 2 4
+	pic BLODGR3 rand 2 4
+	pic BLODGR4 rand 2 4
+	
+Texture optional BLODRIP1
+    pic BLODRIP1 rand 2 4
+	pic BLODRIP2 rand 2 4
+	pic BLODRIP3 rand 2 4
+	pic BLODRIP4 rand 2 4
+Texture optional BLODRIP2
+    pic BLODRIP1 rand 2 4
+	pic BLODRIP2 rand 2 4
+	pic BLODRIP3 rand 2 4
+	pic BLODRIP4 rand 2 4
+Texture optional BLODRIP3
+    pic BLODRIP1 rand 2 4
+	pic BLODRIP2 rand 2 4
+	pic BLODRIP3 rand 2 4
+	pic BLODRIP4 rand 2 4
+Texture optional BLODRIP4
+    pic BLODRIP1 rand 2 4
+	pic BLODRIP2 rand 2 4
+	pic BLODRIP3 rand 2 4
+	pic BLODRIP4 rand 2 4
+	
+Texture optional GSTFONT1
+    pic GSTFONT1 rand 2 4
+	pic GSTFONT2 rand 2 4
+	pic GSTFONT3 rand 2 4
+Texture optional GSTFONT2
+    pic GSTFONT1 rand 2 4
+	pic GSTFONT2 rand 2 4
+	pic GSTFONT3 rand 2 4
+Texture optional GSTFONT3
+    pic GSTFONT1 rand 2 4
+	pic GSTFONT2 rand 2 4
+	pic GSTFONT3 rand 2 4
+	
+Texture optional FIREMAG1
+    pic FIREMAG1 rand 2 4
+	pic FIREMAG2 rand 2 4
+	pic FIREMAG3 rand 2 4
+Texture optional FIREMAG2
+    pic FIREMAG1 rand 2 4
+	pic FIREMAG2 rand 2 4
+	pic FIREMAG3 rand 2 4
+Texture optional FIREMAG3
+    pic FIREMAG1 rand 2 4
+	pic FIREMAG2 rand 2 4
+	pic FIREMAG3 rand 2 4
+	
+Texture optional FIREWALL
+    pic FIREWALL rand 2 4
+	pic FIREWALA rand 2 4
+	pic FIREWALB rand 2 4
+Texture optional FIREWALA
+    pic FIREWALL rand 2 4
+	pic FIREWALA rand 2 4
+	pic FIREWALB rand 2 4
+Texture optional FIREWALB
+    pic FIREWALL rand 2 4
+	pic FIREWALA rand 2 4
+	pic FIREWALB rand 2 4

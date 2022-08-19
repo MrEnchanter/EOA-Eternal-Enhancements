@@ -1,0 +1,47 @@
+/// reikall's doom voxels
+
+http://www.moddb.com/mods/reikalldoomvoxels
+https://forum.zdoom.org/viewtopic.php?f=46&t=58340
+
+// notes -----------------------------------------------------------------------
+
+reikalldoomvoxels.pk3 -	This is the full set with fancy effects and custom
+			lighting. This is the one I recommend.
+
+reikalldoomsoftvoxels.pk3 - This set is for use with software mode or a gameplay
+			mod that causes conflicts. If the first one doesn't work right or 
+			things overlap each other in weird ways, use this one instead.
+
+These were made for ZDoom. I don't know if other ports can even handle voxels.
+
+I recommend turning on 'sprites face camera' in the OpenGL renderer settings
+menu. This makes the back of the powerup spheres line up better. This is 
+optional and I certainly won't blame you if you think the spheres never look 
+good enough to bother.
+
+My GL lights add a lot of light, so I also recommend Doom or dark sector 
+lighting.
+
+// credits ---------------------------------------------------------------------
+
+Nemo Reikall: voxels, sprites, brightmaps, decals
+All voxels were adapted directly from Id's original sprites. 
+
+Wall detection code by Ryuhi.
+
+Thank you to Team Hellspawn, Voxelbro, and PSTrooper for showing me where to 
+start.
+I don't understand the ways of the mod community yet, but thanks to ZDoom.org 
+forums for being so nice to a total nublet.
+I would thank Id for making Doom, but I buy it pretty much every time it's
+re-released and they aren't nearly as poor as I am.
+
+// permissions -----------------------------------------------------------------
+
+You may not use my voxels in other works without my permission. Permission is 
+pretty easy to get--I mostly just want feedback and to know where they're going.
+I also spend way more time making these than actually playing anything, so it'll
+get me to try new things.
+
+I'd probably love to make some voxels for your project. It's almost a compulsion
+to make them for any mod I play, so you might as well give me a direction. 

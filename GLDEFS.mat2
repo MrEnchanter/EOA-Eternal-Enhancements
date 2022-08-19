@@ -1,0 +1,532 @@
+material texture "GRASS1"
+{
+	shader "shaders/displacement.fp"
+	texture displacement "materials/displacement/GRASS1_d.png"	
+	glossiness 2.0
+	specularlevel 1.0
+}
+material texture "browngrn"
+{
+	shader "shaders/displacement.fp"
+	normal "materials/normalmaps/browngrn.png"
+	metallic "materials/metallic/browngrn.png"
+	roughness "materials/rough/browngrn.png"
+	ao "materials/ao/browngrn.png"
+	texture displacement "materials/displacement/browngrn.png"	
+	glossiness 2.0
+	specularlevel 1.0
+}
+material texture "floor4_8"
+{
+	shader "shaders/displacement.fp"
+	normal "materials/normalmaps/floor4_8.png"
+	metallic "materials/metallic/floor4_8.png"
+	roughness "materials/rough/floor4_8.png"
+	ao "materials/ao/floor4_8.png"
+	texture displacement "materials/displacement/floor4_8.png"	
+	glossiness 2.0
+	specularlevel 1.0
+}
+material texture "floor5_1"
+{
+	shader "shaders/displacement.fp"
+	normal "materials/normalmaps/floor4_8.png"
+	metallic "materials/metallic/floor4_8.png"
+	roughness "materials/rough/floor4_8.png"
+	ao "materials/ao/floor4_8.png"
+	texture displacement "materials/displacement/floor4_8.png"	
+	glossiness 2.0
+	specularlevel 1.0
+}
+material texture "floor5_2"
+{
+	shader "shaders/displacement.fp"
+	normal "materials/normalmaps/floor5_2.png"
+	metallic "materials/metallic/floor4_8.png"
+	roughness "materials/rough/floor5_2.png"
+	ao "materials/ao/floor5_2.png"
+	texture displacement "materials/displacement/floor5_2.png"	
+	glossiness 2.0
+	specularlevel 1.0
+}
+material texture "floor5_3"
+{
+	shader "shaders/displacement.fp"
+	normal "materials/normalmaps/floor5_2.png"
+	metallic "materials/metallic/floor4_8.png"
+	roughness "materials/rough/floor5_2.png"
+	ao "materials/ao/floor5_2.png"
+	texture displacement "materials/displacement/floor5_2.png"	
+	glossiness 2.0
+	specularlevel 1.0
+}
+material texture "starg3"
+{
+	shader "shaders/displacement.fp"
+	normal "materials/normalmaps/starg3.png"
+	metallic "materials/metallic/starg3.png"
+	roughness "materials/rough/starg3.png"
+	ao "materials/ao/starg3.png"
+	texture displacement "materials/displacement/starg3.png"	
+	glossiness 2.0
+	specularlevel 1.0
+}
+material texture "startan3"
+{
+	shader "shaders/displacement.fp"
+	normal "materials/normalmaps/starg3.png"
+	metallic "materials/metallic/starg3.png"
+	roughness "materials/rough/starg3.png"
+	ao "materials/ao/starg3.png"
+	texture displacement "materials/displacement/starg3.png"	
+	glossiness 2.0
+	specularlevel 1.0
+}
+material texture "startan2"
+{
+	shader "shaders/displacement.fp"
+	normal "materials/normalmaps/startan2.png"
+	metallic "materials/metallic/starg3.png"
+	roughness "materials/rough/starg3.png"
+	ao "materials/ao/starg3.png"
+	texture displacement "materials/displacement/startan2.png"	
+	glossiness 2.0
+	specularlevel 1.0
+}
+material texture "stargr1"
+{
+	shader "shaders/displacement.fp"
+	normal "materials/normalmaps/stargr1.png"
+	metallic "materials/metallic/stargr1.png"
+	roughness "materials/rough/stargr1.png"
+	ao "materials/ao/stargr1.png"
+	texture displacement "materials/displacement/stargr1.png"	
+	glossiness 2.0
+	specularlevel 1.0
+}
+material texture "starg1"
+{
+	shader "shaders/displacement.fp"
+	normal "materials/normalmaps/stargr1.png"
+	metallic "materials/metallic/stargr1.png"
+	roughness "materials/rough/stargr1.png"
+	ao "materials/ao/stargr1.png"
+	texture displacement "materials/displacement/stargr1.png"	
+	glossiness 2.0
+	specularlevel 1.0
+}
+material texture "startan1"
+{
+	shader "shaders/displacement.fp"
+	normal "materials/normalmaps/stargr1.png"
+	metallic "materials/metallic/stargr1.png"
+	roughness "materials/rough/stargr1.png"
+	ao "materials/ao/stargr1.png"
+	texture displacement "materials/displacement/stargr1.png"	
+	glossiness 2.0
+	specularlevel 1.0
+}
+material texture "ceil3_5"
+{
+	shader "shaders/displacement.fp"
+	normal "materials/normalmaps/ceil3_5.png"
+	metallic "materials/metallic/ceil3_5.png"
+	roughness "materials/rough/ceil3_5.png"
+	ao "materials/ao/ceil3_5.png"
+	texture displacement "materials/displacement/ceil3_5.png"	
+	glossiness 2.0
+	specularlevel 1.0
+}
+material texture "door3"
+{
+	shader "shaders/displacement.fp"
+	normal "materials/normalmaps/door3.png"
+	metallic "materials/metallic/door3.png"
+	roughness "materials/rough/door3.png"
+	ao "materials/ao/door3.png"
+	texture displacement "materials/displacement/door3.png"	
+	glossiness 1.0
+	specularlevel 1.0
+}
+material texture "nukage1"
+{
+	shader "shaders/displacement.fp"
+	normal "materials/normalmaps/nukage1.png"
+	specular "materials/rough/nukage1.png"
+	texture displacement "materials/displacement/nukage1.png"
+	
+		
+	glossiness 0.5
+	specularlevel 2.0
+}
+material texture "nukage2"
+{
+	shader "shaders/displacement.fp"
+	normal "materials/normalmaps/nukage2.png"
+	specular "materials/specular/nukage2.png"
+	texture displacement "materials/displacement/nukage2.png"
+		
+	glossiness 0.5
+	specularlevel 2.0
+}
+material texture "nukage3"
+{
+	shader "shaders/displacement.fp"
+	normal "materials/normalmaps/nukage3.png"
+	specular "materials/specular/nukage3.png"
+	texture displacement "materials/displacement/nukage3.png"
+		
+	glossiness 0.5
+	specularlevel 2.0
+}
+
+
+material texture "brown1"
+{
+	shader "shaders/displacement.fp"
+	normal "materials/normalmaps/brown1.png"
+	metallic "materials/metallic/brown1.png"
+	roughness "materials/rough/brown1.png"
+	ao "materials/ao/brown1.png"
+	texture displacement "materials/displacement/brown1.png"	
+	glossiness 2.0
+	specularlevel 1.0
+}
+material texture "flat14"
+{
+	shader "shaders/displacement.fp"
+	normal "materials/normalmaps/flat14.png"
+	metallic "materials/metallic/flat14.png"
+	roughness "materials/rough/flat14.png"
+	ao "materials/ao/flat14.png"
+	texture displacement "materials/displacement/flat14.png"	
+	glossiness 2.0
+	specularlevel 1.0
+}
+material texture "floor1_1"
+{
+	shader "shaders/displacement.fp"
+	normal "materials/normalmaps/flat14.png"
+	metallic "materials/metallic/flat14.png"
+	roughness "materials/rough/flat14.png"
+	ao "materials/ao/flat14.png"
+	texture displacement "materials/displacement/flat14.png"	
+	glossiness 2.0
+	specularlevel 1.0
+}
+material texture "lite3"
+{
+	shader "shaders/displacement.fp"
+	normal "materials/normalmaps/lite3.png"
+	metallic "materials/metallic/lite3.png"
+	roughness "materials/rough/lite3.png"
+	ao "materials/ao/lite3.png"
+	texture displacement "materials/displacement/lite3.png"	
+	glossiness 2.0
+	specularlevel 1.0
+}
+material texture "support2"
+{
+	shader "shaders/displacement.fp"
+	normal "materials/normalmaps/support2.png"
+	metallic "materials/metallic/support2.png"
+	roughness "materials/rough/support2.png"
+	ao "materials/ao/support2.png"
+	texture displacement "materials/displacement/support2.png"	
+	glossiness 2.0
+	specularlevel 1.0
+}
+material texture "compute2"
+{
+	shader "shaders/displacement.fp"
+	normal "materials/normalmaps/compute2.png"
+	specular "materials/specular/compute2.png"
+	texture displacement "materials/displacement/compute2.png"
+	brightmap "materials/brightmaps/compute2.png"	
+	glossiness 1.0
+	specularlevel 0.7
+}
+material texture "compute3"
+{
+	shader "shaders/displacement.fp"
+	normal "materials/normalmaps/compute3.png"
+	specular "materials/specular/compute3.png"
+	texture displacement "materials/displacement/compute3.png"
+	brightmap "materials/brightmaps/compute3.png"	
+	glossiness 1.0
+	specularlevel 0.7
+}
+material texture "comptall"
+{
+	shader "shaders/displacement.fp"
+	normal "materials/normalmaps/comptall.png"
+	specular "materials/specular/comptall.png"
+	texture displacement "materials/displacement/comptall.png"
+	brightmap "materials/brightmaps/comptall.png"	
+	glossiness 30.0
+	specularlevel 3.0
+}
+material texture "planet1"
+{
+	shader "shaders/displacement.fp"
+	normal "materials/normalmaps/planet1.png"
+	specular "materials/specular/planet1.png"
+	texture displacement "materials/displacement/planet1.png"
+	brightmap "materials/brightmaps/planet1.png"	
+	glossiness 30.0
+	specularlevel 3.0
+}
+material texture "tekwall4"
+{
+	shader "shaders/displacement.fp"
+	normal "materials/normalmaps/tekwall4.png"
+	metallic "materials/rough/tekwall4.png"
+	roughness "materials/rough/tekwall4.png"
+	ao "materials/ao/tekwall4.png"
+	texture displacement "materials/displacement/tekwall4.png"		
+	glossiness 30.0
+	specularlevel 3.0
+}
+material texture "nukeslad"
+{
+	shader "shaders/displacement.fp"
+	normal "materials/normalmaps/sladwall.png"
+	metallic "materials/rough/sladwall.png"
+	roughness "materials/rough/sladwall.png"
+	ao "materials/ao/sladwall.png"
+	texture displacement "materials/displacement/nukeslad.png"		
+	glossiness 30.0
+	specularlevel 3.0
+}
+material texture "sladwall"
+{
+	shader "shaders/displacement.fp"
+	normal "materials/normalmaps/sladwall.png"
+	metallic "materials/rough/sladwall.png"
+	roughness "materials/rough/sladwall.png"
+	ao "materials/ao/sladwall.png"
+	texture displacement "materials/displacement/nukeslad.png"		
+	glossiness 30.0
+	specularlevel 3.0
+}
+material texture "sladpois"
+{
+	shader "shaders/displacement.fp"
+	normal "materials/normalmaps/sladpois.png"
+	metallic "materials/metallic/sladpois.png"
+	roughness "materials/rough/sladpois.png"
+	ao "materials/ao/sladpois.png"
+	texture displacement "materials/displacement/sladpois.png"		
+	glossiness 30.0
+	specularlevel 3.0
+}
+material texture "sladrip1"
+{
+	shader "shaders/displacement.fp"
+	normal "materials/normalmaps/sladrip1.png"
+	metallic "materials/metallic/sladpois.png"
+	roughness "materials/rough/sladpois.png"
+	ao "materials/ao/sladpois.png"
+	texture displacement "materials/displacement/sladrip1.png"		
+	glossiness 30.0
+	specularlevel 3.0
+}
+material texture "sladrip2"
+{
+	shader "shaders/displacement.fp"
+	normal "materials/normalmaps/sladrip1.png"
+	metallic "materials/metallic/sladpois.png"
+	roughness "materials/rough/sladpois.png"
+	ao "materials/ao/sladpois.png"
+	texture displacement "materials/displacement/sladrip1.png"		
+	glossiness 30.0
+	specularlevel 3.0
+}
+material texture "sladrip3"
+{
+	shader "shaders/displacement.fp"
+	normal "materials/normalmaps/sladrip1.png"
+	metallic "materials/metallic/sladpois.png"
+	roughness "materials/rough/sladpois.png"
+	ao "materials/ao/sladpois.png"
+	texture displacement "materials/displacement/sladrip1.png"		
+	glossiness 30.0
+	specularlevel 3.0
+}
+material texture "comptile"
+{
+	shader "shaders/displacement.fp"
+	normal "materials/normalmaps/comptile.png"
+	metallic "materials/metallic/comptile.png"
+	roughness "materials/rough/comptile.png"
+	ao "materials/ao/comptile.png"
+	texture displacement "materials/displacement/comptile.png"		
+	glossiness 30.0
+	specularlevel 3.0
+}
+material texture "dem1_5"
+{
+	shader "shaders/displacement.fp"
+	normal "materials/normalmaps/dem1_5.png"
+	metallic "materials/metallic/dem1_5.png"
+	roughness "materials/rough/dem1_5.png"
+	ao "materials/ao/dem1_5.png"
+	texture displacement "materials/displacement/dem1_5.png"		
+	glossiness 30.0
+	specularlevel 3.0
+}
+material texture "floor7_2"
+{
+	shader "shaders/displacement.fp"
+	normal "materials/normalmaps/dem1_5.png"
+	metallic "materials/metallic/dem1_5.png"
+	roughness "materials/rough/dem1_5.png"
+	ao "materials/ao/dem1_5.png"
+	texture displacement "materials/displacement/dem1_5.png"		
+	glossiness 30.0
+	specularlevel 3.0
+}
+material texture "compspan"
+{
+	shader "shaders/displacement.fp"
+	normal "materials/normalmaps/compspan.png"
+	metallic "materials/metallic/compspan.png"
+	roughness "materials/rough/compspan.png"
+	ao "materials/ao/dem1_5.png"
+	texture displacement "materials/displacement/compspan.png"		
+	glossiness 30.0
+	specularlevel 3.0
+}
+material texture "floor0_3"
+{
+	shader "shaders/displacement.fp"
+	normal "materials/normalmaps/floor0_3.png"
+	metallic "materials/metallic/floor0_3.png"
+	roughness "materials/rough/floor0_3.png"
+	ao "materials/ao/floor0_3.png"
+	texture displacement "materials/displacement/floor0_3.png"		
+	glossiness 30.0
+	specularlevel 3.0
+}
+material texture "floor0_1"
+{
+	shader "shaders/displacement.fp"
+	normal "materials/normalmaps/floor0_3.png"
+	metallic "materials/metallic/floor0_3.png"
+	roughness "materials/rough/floor0_3.png"
+	ao "materials/ao/floor0_3.png"
+	texture displacement "materials/displacement/floor0_3.png"		
+	glossiness 30.0
+	specularlevel 3.0
+}
+material texture "floor0_2"
+{
+	shader "shaders/displacement.fp"
+	normal "materials/normalmaps/floor0_3.png"
+	metallic "materials/metallic/floor0_3.png"
+	roughness "materials/rough/floor0_3.png"
+	ao "materials/ao/floor0_3.png"
+	texture displacement "materials/displacement/floor0_3.png"		
+	glossiness 30.0
+	specularlevel 3.0
+}
+material texture "bigdoor2"
+{
+	shader "shaders/displacement.fp"
+	normal "materials/normalmaps/bigdoor2.png"
+	metallic "materials/metallic/bigdoor2.png"
+	roughness "materials/rough/bigdoor2.png"
+	ao "materials/ao/bigdoor2.png"
+	texture displacement "materials/displacement/bigdoor2.png"		
+	glossiness 30.0
+	specularlevel 3.0
+}
+material texture "bigdoor3"
+{
+	shader "shaders/displacement.fp"
+	normal "materials/normalmaps/bigdoor2.png"
+	metallic "materials/metallic/bigdoor2.png"
+	roughness "materials/rough/bigdoor3.png"
+	ao "materials/ao/bigdoor2.png"
+	texture displacement "materials/displacement/bigdoor2.png"		
+	glossiness 30.0
+	specularlevel 3.0
+}
+material texture "bigdoor4"
+{
+	shader "shaders/displacement.fp"
+	normal "materials/normalmaps/bigdoor2.png"
+	metallic "materials/metallic/bigdoor2.png"
+	roughness "materials/rough/bigdoor3.png"
+	ao "materials/ao/bigdoor2.png"
+	texture displacement "materials/displacement/bigdoor2.png"		
+	glossiness 30.0
+	specularlevel 3.0
+}
+material texture "exitdoor"
+{
+	shader "shaders/displacement.fp"
+	normal "materials/normalmaps/exitdoor.png"
+	metallic "materials/metallic/exitdoor.png"
+	roughness "materials/rough/exitdoor.png"
+	ao "materials/ao/exitdoor.png"
+	texture displacement "materials/displacement/exitdoor.png"		
+	glossiness 30.0
+	specularlevel 3.0
+}
+material texture "pipe2"
+{
+	shader "shaders/displacement.fp"
+	normal "materials/normalmaps/pipe2.png"
+	metallic "materials/metallic/pipe2.png"
+	roughness "materials/rough/pipe2.png"
+	ao "materials/ao/pipe2.png"
+	texture displacement "materials/displacement/pipe2.png"		
+	glossiness 30.0
+	specularlevel 3.0
+}
+material texture "pipe1"
+{
+	shader "shaders/displacement.fp"
+	normal "materials/normalmaps/pipe2.png"
+	metallic "materials/metallic/pipe2.png"
+	roughness "materials/rough/pipe2.png"
+	ao "materials/ao/pipe2.png"
+	texture displacement "materials/displacement/pipe2.png"		
+	glossiness 30.0
+	specularlevel 3.0
+}
+material texture "pipe4"
+{
+	shader "shaders/displacement.fp"
+	normal "materials/normalmaps/pipe2.png"
+	metallic "materials/metallic/pipe2.png"
+	roughness "materials/rough/pipe2.png"
+	ao "materials/ao/pipe2.png"
+	texture displacement "materials/displacement/pipe2.png"		
+	glossiness 30.0
+	specularlevel 3.0
+}
+material texture "pipe6"
+{
+	shader "shaders/displacement.fp"
+	normal "materials/normalmaps/pipe2.png"
+	metallic "materials/metallic/pipe2.png"
+	roughness "materials/rough/pipe2.png"
+	ao "materials/ao/pipe2.png"
+	texture displacement "materials/displacement/pipe2.png"		
+	glossiness 30.0
+	specularlevel 3.0
+}
+material texture "plat1"
+{
+	shader "shaders/displacement.fp"
+	normal "materials/normalmaps/pipe2.png"
+	metallic "materials/metallic/pipe2.png"
+	roughness "materials/rough/pipe2.png"
+	ao "materials/ao/pipe2.png"
+	texture displacement "materials/displacement/plat1.png"		
+	glossiness 30.0
+	specularlevel 3.0
+}
+

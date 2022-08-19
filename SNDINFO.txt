@@ -1,0 +1,217 @@
+/* --- SOUND DEFINITIONS ---------------------------------------------------- */
+/* --- WORLD SOUND DEFINITIONS ---------------------------------------------- */
+
+world/water			WSWATER		// Water sound (Quake)
+world/drips			WSDRIPS		// Cave dripping sound (Quake)
+world/swamp			WSSWAMP		// Swamp sounds (Quake)
+world/fire			WSFIRE		// Fire sound (Quake)
+world/wind1			WSWIND1		// Wind sound 1 (Quake)
+world/wind2			WSWIND2		// Wind sound 2 (Quake)
+world/wind3			WSWIND3		// Wind sound 3
+world/wind4			WSWIND4		// Wind sound 4
+world/lighthum		WSFLHUM		// Fluorescent light hum (Quake)
+world/machine1		WSMACH1		// Machine sound 1
+world/machine2		WSMACH2		// Machine sound 2
+world/techbase1		WSTECHB1	// Techbase sound 1 (Quake)
+world/techbase2		WSTECHB2	// Techbase sound 2
+world/techbase3		WSTECHB3	// Techbase sound 3
+world/techbase4		WSTECHB4	// Techbase sound 4 (Doom 3)
+world/techbase5		WSTECHB5	// Techbase sound 5 (Doom 3)
+world/techbase6		WSTECHB6	// Techbase sound 6 (Quake)
+world/compbeep1		WSCOMBP1	// Computer beep 1
+world/compbeep2		WSCOMBP2	// Computer beep 2
+world/compbeep3		WSCOMBP3	// Computer beep 3
+world/compbeep4		WSCOMBP4	// Computer beep 4
+world/metalbang1	WSMTBNG1	// Metal bang sound 1
+world/metalbang2	WSMTBNG2	// Metal bang sound 2
+world/metalbang3	WSMTBNG3	// Metal bang sound 3
+world/metalbang4	WSMTBNG4	// Metal bang sound 4
+
+$random world/compbeep
+{
+	world/compbeep1
+	world/compbeep2
+	world/compbeep3
+	world/compbeep4
+}
+
+$random world/metalbang
+{
+	world/metalbang1
+	world/metalbang2
+	world/metalbang3
+	world/metalbang4
+}
+
+/* --- ASSIGN INDEXES TO CUSTOM AMBIENT SOUND THING ------------------------- */
+
+// INDEX ASSIGNMENT				TYPE 	MODE				VOLUME
+$ambient 1 "world/water"		POINT 	CONTINUOUS			0.7
+$ambient 2 "world/drips"		POINT 	CONTINUOUS			0.7
+$ambient 3 "world/swamp"		POINT 	CONTINUOUS			0.6
+$ambient 4 "world/fire"			POINT 	CONTINUOUS			0.8
+$ambient 5 "world/wind1"		POINT 	CONTINUOUS			1.0
+$ambient 6 "world/wind2"		POINT 	CONTINUOUS			1.0
+$ambient 7 "world/wind3"		POINT 	CONTINUOUS			1.0
+$ambient 8 "world/wind4"		POINT 	CONTINUOUS			1.0
+$ambient 9 "world/lighthum"		POINT 	CONTINUOUS			1.0
+$ambient 10 "world/machine1"	POINT 	CONTINUOUS			1.0
+$ambient 11 "world/machine2"	POINT 	CONTINUOUS			1.0
+$ambient 12 "world/techbase1"	POINT 	CONTINUOUS			1.0
+$ambient 13 "world/techbase2"	POINT 	CONTINUOUS			1.0
+$ambient 14 "world/techbase3"	POINT 	CONTINUOUS			1.0
+$ambient 15 "world/techbase4"	POINT	CONTINUOUS			1.0
+$ambient 16 "world/techbase5"	POINT 	CONTINUOUS			1.0
+$ambient 17 "world/techbase6"	POINT 	CONTINUOUS			1.0
+$ambient 18 "world/compbeep"	POINT 	RANDOM 2.0 4.0		1.0
+$ambient 19 "world/metalbang"	POINT 	RANDOM 30.0 120.0	1.0
+
+/* --- SET WORLD SOUND ROLLOFF VALUES --------------------------------------- */
+// DEFAULT VALUES ARE: 200 (mindist) and 1200 (maxdist)
+//	mindist = distance from center in which sound is played at full volume
+//	maxdist = distance from center in which sound becomes inaudible
+
+$rolloff world/water		8 400
+$rolloff world/drips		8 400
+$rolloff world/swamp		8 1280
+$rolloff world/fire			8 280
+$rolloff world/wind1		8 1280
+$rolloff world/wind2		8 1280
+$rolloff world/wind3		8 1280
+$rolloff world/wind4		8 1280
+$rolloff world/lighthum		8 360
+$rolloff world/machine1		8 400
+$rolloff world/machine2		8 400
+$rolloff world/techbase1	8 360
+$rolloff world/techbase2	8 360
+$rolloff world/techbase3	8 360
+$rolloff world/techbase4	8 480
+$rolloff world/techbase5	8 480
+$rolloff world/techbase6	8 360
+
+$rolloff world/compbeep		8 400
+$rolloff world/compbeep1	8 400
+$rolloff world/compbeep2	8 400
+$rolloff world/compbeep3	8 400
+$rolloff world/compbeep4	8 400
+
+$rolloff world/metalbang	8 2048
+$rolloff world/metalbang1	8 2048
+$rolloff world/metalbang2	8 2048
+$rolloff world/metalbang3	8 2048
+$rolloff world/metalbang4	8 2048
+
+/* --- VOLUMES AND ATTENUATIONS --------------------------------------------- */
+
+$attenuation switches/normbutn 0.9
+$attenuation world/barrelx 0.9
+
+
+//==============================================================================
+// Ambient and Generator sounds
+//==============================================================================
+
+//All ambient sounds were taken S.T.A.L.K.E.R.: Shadow of Chernobyl.
+//Generator sounds come from Silent Hill 1 and Resident Evil 1.
+
+Darker/generator1	NSGENE01
+Darker/generator2	NSGENE02
+Darker/generator3	NSGENE03
+Darker/generator4	NSGENE04
+
+$Pitchshift Darker/generator1 0
+$Pitchshift Darker/generator2 0
+$Pitchshift Darker/generator3 0
+$Pitchshift Darker/generator4 0
+
+$Random darker/amb1 {DAR11 DAR12 DAR13 DAR14 DARN1 }
+$Random darker/amb2 {DAR21 DAR22 DAR23 DAR24 DARN2 }
+$Random darker/amb3 {DAR31 DAR32 DAR33 DAR34 DARN3 }
+$Random darker/amb4 {DAR41 DAR42 DAR43 DAR44 DARN4 }
+$Random darker/amb5 {DAR51 DAR52 DAR53 DAR54}
+$Random darker/amb6 {DAR61 DAR62 DAR63 DAR64}
+$Random darker/amb7 {DAR71 DAR72 DAR73 DAR74}
+$Random darker/amb8 {DAR81 DAR82 DAR83 DAR84}
+$Random darker/amb9 {DAR91 DAR92 DAR93 DAR94}
+$Random darker/amb0 {DAR01 DAR02 DAR03 DAR04}
+
+DAR11	NSDARK11
+DAR12	NSDARK12
+DAR13	NSDARK13
+DAR14	NSDARK14
+
+DAR21	NSDARK21
+DAR22	NSDARK22
+DAR23	NSDARK23
+DAR24	NSDARK24
+
+DAR31	NSDARK31
+DAR32	NSDARK32
+DAR33	NSDARK33
+DAR34	NSDARK34
+
+DAR41	NSDARK41
+DAR42	NSDARK42
+DAR43	NSDARK43
+DAR44	NSDARK44
+
+DAR51	NSDARK51
+DAR52	NSDARK52
+DAR53	NSDARK53
+DAR54	NSDARK54
+
+DAR61	NSDARK61
+DAR62	NSDARK62
+DAR63	NSDARK63
+DAR64	NSDARK64
+
+DAR71	NSDARK71
+DAR72	NSDARK72
+DAR73	NSDARK73
+DAR74	NSDARK74
+
+DAR81	NSDARK81
+DAR82	NSDARK82
+DAR83	NSDARK83
+DAR84	NSDARK84
+
+DAR91	NSDARK91
+DAR92	NSDARK92
+DAR93	NSDARK93
+DAR94	NSDARK94
+
+DAR01	NSDARK01
+DAR02	NSDARK02
+DAR03	NSDARK03
+DAR04	NSDARK04
+
+DARN1	NDARN1
+DARN2	NDARN2
+DARN3	NDARN3
+DARN4	NDARN4
+
+$Volume		DARN1	0.20
+$Volume		DARN2	0.20
+$Volume		DARN3	0.20
+$Volume		DARN4	0.20
+
+$Limit Darker/generator1	1
+$Limit Darker/generator2	1
+$Limit Darker/generator3	1
+$Limit Darker/generator4	1
+
+$Limit darker/amb1	1
+$Limit darker/amb2	1
+$Limit darker/amb3	1
+$Limit darker/amb4	1
+$Limit darker/amb5	1
+$Limit darker/amb6	1
+$Limit darker/amb7	1
+$Limit darker/amb8	1
+$Limit darker/amb9	1
+$Limit darker/amb0	1
+
+$Volume Darker/generator1	0.65
+$Volume Darker/generator2	0.65
+$Volume Darker/generator3	0.65
+$Volume Darker/generator4	0.65

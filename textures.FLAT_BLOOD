@@ -1,0 +1,122 @@
+flat optional BLOOD10, 64, 64
+{
+	patch BLOOD1, 0, 0
+	patch BLOOD2, 0, 0 { Style Translucent; Alpha 0.0 }
+}
+flat optional BLOOD11, 64, 64
+{
+	patch BLOOD1, 0, 0
+	patch BLOOD2, 0, 0 { Style Translucent; Alpha 0.125 }
+}
+flat optional BLOOD12, 64, 64
+{
+	patch BLOOD1, 0, 0
+	patch BLOOD2, 0, 0 { Style Translucent; Alpha 0.25 }
+}
+flat optional BLOOD13, 64, 64
+{
+	patch BLOOD1, 0, 0
+	patch BLOOD2, 0, 0 { Style Translucent; Alpha 0.375 }
+}
+flat optional BLOOD14, 64, 64
+{
+	patch BLOOD1, 0, 0
+	patch BLOOD2, 0, 0 { Style Translucent; Alpha 0.5 }
+}
+flat optional BLOOD15, 64, 64
+{
+	patch BLOOD1, 0, 0
+	patch BLOOD2, 0, 0 { Style Translucent; Alpha 0.625 }
+}
+flat optional BLOOD16, 64, 64
+{
+	patch BLOOD1, 0, 0
+	patch BLOOD2, 0, 0 { Style Translucent; Alpha 0.75 }
+}
+flat optional BLOOD17, 64, 64
+{
+	patch BLOOD1, 0, 0
+	patch BLOOD2, 0, 0 { Style Translucent; Alpha 0.875 }
+}
+
+flat optional BLOOD20, 64, 64
+{
+	patch BLOOD2, 0, 0
+	patch BLOOD3, 0, 0 { Style Translucent; Alpha 0.0 }
+}
+flat optional BLOOD21, 64, 64
+{
+	patch BLOOD2, 0, 0
+	patch BLOOD3, 0, 0 { Style Translucent; Alpha 0.125 }
+}
+flat optional BLOOD22, 64, 64
+{
+	patch BLOOD2, 0, 0
+	patch BLOOD3, 0, 0 { Style Translucent; Alpha 0.25 }
+}
+flat optional BLOOD23, 64, 64
+{
+	patch BLOOD2, 0, 0
+	patch BLOOD3, 0, 0 { Style Translucent; Alpha 0.375 }
+}
+flat optional BLOOD24, 64, 64
+{
+	patch BLOOD2, 0, 0
+	patch BLOOD3, 0, 0 { Style Translucent; Alpha 0.5 }
+}
+flat optional BLOOD25, 64, 64
+{
+	patch BLOOD2, 0, 0
+	patch BLOOD3, 0, 0 { Style Translucent; Alpha 0.625 }
+}
+flat optional BLOOD26, 64, 64
+{
+	patch BLOOD2, 0, 0
+	patch BLOOD3, 0, 0 { Style Translucent; Alpha 0.75 }
+}
+flat optional BLOOD27, 64, 64
+{
+	patch BLOOD2, 0, 0
+	patch BLOOD3, 0, 0 { Style Translucent; Alpha 0.875 }
+}
+
+flat optional BLOOD30, 64, 64
+{
+	patch BLOOD3, 0, 0
+	patch BLOOD1, 0, 0 { Style Translucent; Alpha 0.0 }
+}
+flat optional BLOOD31, 64, 64
+{
+	patch BLOOD3, 0, 0
+	patch BLOOD1, 0, 0 { Style Translucent; Alpha 0.125 }
+}
+flat optional BLOOD32, 64, 64
+{
+	patch BLOOD3, 0, 0
+	patch BLOOD1, 0, 0 { Style Translucent; Alpha 0.25 }
+}
+flat optional BLOOD33, 64, 64
+{
+	patch BLOOD3, 0, 0
+	patch BLOOD1, 0, 0 { Style Translucent; Alpha 0.375 }
+}
+flat optional BLOOD34, 64, 64
+{
+	patch BLOOD3, 0, 0
+	patch BLOOD1, 0, 0 { Style Translucent; Alpha 0.5 }
+}
+flat optional BLOOD35, 64, 64
+{
+	patch BLOOD3, 0, 0
+	patch BLOOD1, 0, 0 { Style Translucent; Alpha 0.625 }
+}
+flat optional BLOOD36, 64, 64
+{
+	patch BLOOD3, 0, 0
+	patch BLOOD1, 0, 0 { Style Translucent; Alpha 0.75 }
+}
+flat optional BLOOD37, 64, 64
+{
+	patch BLOOD3, 0, 0
+	patch BLOOD1, 0, 0 { Style Translucent; Alpha 0.875 }
+}

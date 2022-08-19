@@ -1,0 +1,11 @@
+
+//  Replacement sounds for standart doom erffects
+
+world/tele					teleport
+
+
+//howto:
+
+//steps/crwood2					pcrwdst2
+
+//$random steps/crwood				{ steps/crwood1 steps/crwood2 }

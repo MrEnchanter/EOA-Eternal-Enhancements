@@ -1,0 +1,7 @@
+flickerlight FireSkull
+{
+	color 1 0.5 0
+	size 72
+	secondarysize 76
+	offset 0 16 0
+}

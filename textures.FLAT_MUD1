@@ -1,0 +1,122 @@
+flat optional MUD110, 64, 64
+{
+	patch SLIME01, 0, 0
+	patch SLIME02, 0, 0 { Style Translucent; Alpha 0.0 }
+}
+flat optional MUD111, 64, 64
+{
+	patch SLIME01, 0, 0
+	patch SLIME02, 0, 0 { Style Translucent; Alpha 0.125 }
+}
+flat optional MUD112, 64, 64
+{
+	patch SLIME01, 0, 0
+	patch SLIME02, 0, 0 { Style Translucent; Alpha 0.25 }
+}
+flat optional MUD113, 64, 64
+{
+	patch SLIME01, 0, 0
+	patch SLIME02, 0, 0 { Style Translucent; Alpha 0.375 }
+}
+flat optional MUD114, 64, 64
+{
+	patch SLIME01, 0, 0
+	patch SLIME02, 0, 0 { Style Translucent; Alpha 0.5 }
+}
+flat optional MUD115, 64, 64
+{
+	patch SLIME01, 0, 0
+	patch SLIME02, 0, 0 { Style Translucent; Alpha 0.625 }
+}
+flat optional MUD116, 64, 64
+{
+	patch SLIME01, 0, 0
+	patch SLIME02, 0, 0 { Style Translucent; Alpha 0.75 }
+}
+flat optional MUD117, 64, 64
+{
+	patch SLIME01, 0, 0
+	patch SLIME02, 0, 0 { Style Translucent; Alpha 0.875 }
+}
+
+flat optional MUD120, 64, 64
+{
+	patch SLIME02, 0, 0
+	patch SLIME03, 0, 0 { Style Translucent; Alpha 0.0 }
+}
+flat optional MUD121, 64, 64
+{
+	patch SLIME02, 0, 0
+	patch SLIME03, 0, 0 { Style Translucent; Alpha 0.125 }
+}
+flat optional MUD122, 64, 64
+{
+	patch SLIME02, 0, 0
+	patch SLIME03, 0, 0 { Style Translucent; Alpha 0.25 }
+}
+flat optional MUD123, 64, 64
+{
+	patch SLIME02, 0, 0
+	patch SLIME03, 0, 0 { Style Translucent; Alpha 0.375 }
+}
+flat optional MUD124, 64, 64
+{
+	patch SLIME02, 0, 0
+	patch SLIME03, 0, 0 { Style Translucent; Alpha 0.5 }
+}
+flat optional MUD125, 64, 64
+{
+	patch SLIME02, 0, 0
+	patch SLIME03, 0, 0 { Style Translucent; Alpha 0.625 }
+}
+flat optional MUD126, 64, 64
+{
+	patch SLIME02, 0, 0
+	patch SLIME03, 0, 0 { Style Translucent; Alpha 0.75 }
+}
+flat optional MUD127, 64, 64
+{
+	patch SLIME02, 0, 0
+	patch SLIME03, 0, 0 { Style Translucent; Alpha 0.875 }
+}
+
+flat optional MUD130, 64, 64
+{
+	patch SLIME03, 0, 0
+	patch SLIME01, 0, 0 { Style Translucent; Alpha 0.0 }
+}
+flat optional MUD131, 64, 64
+{
+	patch SLIME03, 0, 0
+	patch SLIME01, 0, 0 { Style Translucent; Alpha 0.125 }
+}
+flat optional MUD132, 64, 64
+{
+	patch SLIME03, 0, 0
+	patch SLIME01, 0, 0 { Style Translucent; Alpha 0.25 }
+}
+flat optional MUD133, 64, 64
+{
+	patch SLIME03, 0, 0
+	patch SLIME01, 0, 0 { Style Translucent; Alpha 0.375 }
+}
+flat optional MUD134, 64, 64
+{
+	patch SLIME03, 0, 0
+	patch SLIME01, 0, 0 { Style Translucent; Alpha 0.5 }
+}
+flat optional MUD135, 64, 64
+{
+	patch SLIME03, 0, 0
+	patch SLIME01, 0, 0 { Style Translucent; Alpha 0.625 }
+}
+flat optional MUD136, 64, 64
+{
+	patch SLIME03, 0, 0
+	patch SLIME01, 0, 0 { Style Translucent; Alpha 0.75 }
+}
+flat optional MUD137, 64, 64
+{
+	patch SLIME03, 0, 0
+	patch SLIME01, 0, 0 { Style Translucent; Alpha 0.875 }
+}

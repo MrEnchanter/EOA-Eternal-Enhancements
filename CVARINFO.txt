@@ -1,0 +1,8 @@
+user bool LR_lowhealth = false;
+user bool LR_invul = false;
+
+
+
+
+
+

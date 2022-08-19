@@ -1,0 +1,58 @@
+
+//Teleport Fog. Last Improved 05.01.2020 GRAU, ConradRDW
+
+flickerlight VPTeleX1
+{
+	color 0.5 1.0 0
+	size 128
+	secondarysize 96
+	offset 0 28 0
+}
+
+flickerlight VPTeleX2
+{
+	color 0.4 1.0 0
+	size 112
+	secondarysize 84
+	offset 0 28 0
+}
+flickerlight VPTeleX3
+{
+	color 0.3 1.0 0.1
+	size 96
+	secondarysize 72
+	offset 0 28 0
+}
+
+flickerlight VPTeleX4
+{
+	color 0.3 1.0 0.2
+	size 80
+	secondarysize 60
+	offset 0 28 0
+}
+
+pointlight VPTeleX5
+{
+	color 0.3 1.0 0.2
+	size 64
+	offset 0 28 0
+}
+
+pointlight VPTeleX6
+{
+	color 0.2 1.0 0.2
+	size 52
+	offset 0 28 0
+}
+
+
+object VP_TeleFog
+{
+	frame TELSA { light VPTeleX1 }
+	frame TELSB { light VPTeleX2 }
+	frame TELSC { light VPTeleX3 }
+	frame TELSD { light VPTeleX4 }
+	frame TELSE { light VPTeleX5 }
+	frame TELSF { light VPTeleX6 }
+}

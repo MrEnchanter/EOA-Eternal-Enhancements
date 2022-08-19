@@ -1,0 +1,656 @@
+flat optional FWATER10, 64, 64
+{
+	patch FWATER1, 0, 0
+	patch FWATER2, 0, 0 { Style Translucent; Alpha 0.0 }
+	patch FWATER1, 0, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }
+	patch FWATER2, 0, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }
+	patch FWATER1, -64, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }
+	patch FWATER2, 64, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }
+}
+flat optional FWATER11, 64, 64
+{
+	patch FWATER1, 0, 0
+	patch FWATER2, 0, 0 { Style Translucent; Alpha 0.125 }
+	patch FWATER1, 1, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }
+	patch FWATER2, -1, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }
+	patch FWATER1, -63, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }	
+	patch FWATER2, 63, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }
+}
+flat optional FWATER12, 64, 64
+{
+	patch FWATER1, 0, 0
+	patch FWATER2, 0, 0 { Style Translucent; Alpha 0.25 }
+	patch FWATER1, 2, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }
+	patch FWATER2, -2, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }
+	patch FWATER1, -62, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }	
+	patch FWATER2, 62, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }
+}
+flat optional FWATER13, 64, 64
+{
+	patch FWATER1, 0, 0
+	patch FWATER2, 0, 0 { Style Translucent; Alpha 0.375 }
+	patch FWATER1, 3, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }
+	patch FWATER2, -3, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }
+	patch FWATER1, -61, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }	
+	patch FWATER2, 61, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }
+}
+flat optional FWATER14, 64, 64
+{
+	patch FWATER1, 0, 0
+	patch FWATER2, 0, 0 { Style Translucent; Alpha 0.5 }
+	patch FWATER1, 4, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }
+	patch FWATER2, -4, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }
+	patch FWATER1, -60, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }	
+	patch FWATER2, 60, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }
+}
+flat optional FWATER15, 64, 64
+{
+	patch FWATER1, 0, 0
+	patch FWATER2, 0, 0 { Style Translucent; Alpha 0.625 }
+	patch FWATER1, 5, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }
+	patch FWATER2, -5, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }
+	patch FWATER1, -59, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }	
+	patch FWATER2, 59, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }
+}
+flat optional FWATER16, 64, 64
+{
+	patch FWATER1, 0, 0
+	patch FWATER2, 0, 0 { Style Translucent; Alpha 0.75 }
+	patch FWATER1, 6, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }
+	patch FWATER2, -6, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }
+	patch FWATER1, -58, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }	
+	patch FWATER2, 58, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }
+}
+flat optional FWATER17, 64, 64
+{
+	patch FWATER1, 0, 0
+	patch FWATER2, 0, 0 { Style Translucent; Alpha 0.875 }
+	patch FWATER1, 7, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }
+	patch FWATER2, -7, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }
+	patch FWATER1, -57, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }	
+	patch FWATER2, 57, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }
+}
+
+flat optional FWATER20, 64, 64
+{
+	patch FWATER2, 0, 0
+	patch FWATER3, 0, 0 { Style Translucent; Alpha 0.0 }
+	patch FWATER1, 8, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }
+	patch FWATER2, -8, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }
+	patch FWATER1, -56, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }	
+	patch FWATER2, 56, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }
+}
+flat optional FWATER21, 64, 64
+{
+	patch FWATER2, 0, 0
+	patch FWATER3, 0, 0 { Style Translucent; Alpha 0.125 }
+	patch FWATER1, 9, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }
+	patch FWATER2, -9, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }
+	patch FWATER1, -55, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }	
+	patch FWATER2, 55, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }
+}
+flat optional FWATER22, 64, 64
+{
+	patch FWATER2, 0, 0
+	patch FWATER3, 0, 0 { Style Translucent; Alpha 0.25 }
+	patch FWATER1, 10, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }
+	patch FWATER2, -10, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }
+	patch FWATER1, -54, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }	
+	patch FWATER2, 54, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }
+}
+flat optional FWATER23, 64, 64
+{
+	patch FWATER2, 0, 0
+	patch FWATER3, 0, 0 { Style Translucent; Alpha 0.375 }
+	patch FWATER1, 11, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }
+	patch FWATER2, -11, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }
+	patch FWATER1, -53, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }	
+	patch FWATER2, 53, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }
+}
+flat optional FWATER24, 64, 64
+{
+	patch FWATER2, 0, 0
+	patch FWATER3, 0, 0 { Style Translucent; Alpha 0.5 }
+	patch FWATER1, 12, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }
+	patch FWATER2, -12, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }
+	patch FWATER1, -52, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }	
+	patch FWATER2, 52, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }
+}
+flat optional FWATER25, 64, 64
+{
+	patch FWATER2, 0, 0
+	patch FWATER3, 0, 0 { Style Translucent; Alpha 0.625 }
+	patch FWATER1, 13, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }
+	patch FWATER2, -13, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }
+	patch FWATER1, -51, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }	
+	patch FWATER2, 51, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }
+}
+flat optional FWATER26, 64, 64
+{
+	patch FWATER2, 0, 0
+	patch FWATER3, 0, 0 { Style Translucent; Alpha 0.75 }
+	patch FWATER1, 14, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }
+	patch FWATER2, -14, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }
+	patch FWATER1, -50, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }	
+	patch FWATER2, 50, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }
+}
+flat optional FWATER27, 64, 64
+{
+	patch FWATER2, 0, 0
+	patch FWATER3, 0, 0 { Style Translucent; Alpha 0.875 }
+	patch FWATER1, 15, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }
+	patch FWATER2, -15, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }
+	patch FWATER1, -49, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }	
+	patch FWATER2, 49, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }
+}
+
+flat optional FWATER30, 64, 64
+{
+	patch FWATER3, 0, 0
+	patch FWATER1, 0, 0 { Style Translucent; Alpha 0.0 }
+	patch FWATER1, 16, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }
+	patch FWATER2, -16, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }
+	patch FWATER1, -48, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }	
+	patch FWATER2, 48, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }
+}
+flat optional FWATER31, 64, 64
+{
+	patch FWATER3, 0, 0
+	patch FWATER1, 0, 0 { Style Translucent; Alpha 0.125 }
+	patch FWATER1, 17, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }
+	patch FWATER2, -17, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }
+	patch FWATER1, -47, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }	
+	patch FWATER2, 47, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }
+}
+flat optional FWATER32, 64, 64
+{
+	patch FWATER3, 0, 0
+	patch FWATER1, 0, 0 { Style Translucent; Alpha 0.25 }
+	patch FWATER1, 18, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }
+	patch FWATER2, -18, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }
+	patch FWATER1, -46, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }	
+	patch FWATER2, 46, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }
+}
+flat optional FWATER33, 64, 64
+{
+	patch FWATER3, 0, 0
+	patch FWATER1, 0, 0 { Style Translucent; Alpha 0.375 }
+	patch FWATER1, 19, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }
+	patch FWATER2, -19, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }
+	patch FWATER1, -45, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }	
+	patch FWATER2, 45, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }
+}
+flat optional FWATER34, 64, 64
+{
+	patch FWATER3, 0, 0
+	patch FWATER1, 0, 0 { Style Translucent; Alpha 0.5 }
+	patch FWATER1, 20, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }
+	patch FWATER2, -20, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }
+	patch FWATER1, -44, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }	
+	patch FWATER2, 44, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }
+}
+flat optional FWATER35, 64, 64
+{
+	patch FWATER3, 0, 0
+	patch FWATER1, 0, 0 { Style Translucent; Alpha 0.625 }
+	patch FWATER1, 21, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }
+	patch FWATER2, -21, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }
+	patch FWATER1, -43, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }	
+	patch FWATER2, 43, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }
+}
+flat optional FWATER36, 64, 64
+{
+	patch FWATER3, 0, 0
+	patch FWATER1, 0, 0 { Style Translucent; Alpha 0.75 }
+	patch FWATER1, 22, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }
+	patch FWATER2, -22, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }
+	patch FWATER1, -42, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }	
+	patch FWATER2, 42, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }
+}
+flat optional FWATER37, 64, 64
+{
+	patch FWATER3, 0, 0
+	patch FWATER1, 0, 0 { Style Translucent; Alpha 0.875 }
+	patch FWATER1, 23, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }
+	patch FWATER2, -23, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }
+	patch FWATER1, -41, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }	
+	patch FWATER2, 41, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }
+}
+
+flat optional FWATER38, 64, 64
+{
+	patch FWATER1, 0, 0
+	patch FWATER2, 0, 0 { Style Translucent; Alpha 0.0 }
+	patch FWATER1, 24, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }
+	patch FWATER2, -24, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }
+	patch FWATER1, -40, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }
+	patch FWATER2, 40, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }
+}
+flat optional FWATER39, 64, 64
+{
+	patch FWATER1, 0, 0
+	patch FWATER2, 0, 0 { Style Translucent; Alpha 0.125 }
+	patch FWATER1, 25, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }
+	patch FWATER2, -25, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }
+	patch FWATER1, -39, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }	
+	patch FWATER2, 39, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }
+}
+flat optional FWATER40, 64, 64
+{
+	patch FWATER1, 0, 0
+	patch FWATER2, 0, 0 { Style Translucent; Alpha 0.25 }
+	patch FWATER1, 26, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }
+	patch FWATER2, -26, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }
+	patch FWATER1, -38, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }	
+	patch FWATER2, 38, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }
+}
+flat optional FWATER41, 64, 64
+{
+	patch FWATER1, 0, 0
+	patch FWATER2, 0, 0 { Style Translucent; Alpha 0.375 }
+	patch FWATER1, 27, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }
+	patch FWATER2, -27, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }
+	patch FWATER1, -37, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }	
+	patch FWATER2, 37, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }
+}
+flat optional FWATER42, 64, 64
+{
+	patch FWATER1, 0, 0
+	patch FWATER2, 0, 0 { Style Translucent; Alpha 0.5 }
+	patch FWATER1, 28, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }
+	patch FWATER2, -28, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }
+	patch FWATER1, -36, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }	
+	patch FWATER2, 36, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }
+}
+flat optional FWATER43, 64, 64
+{
+	patch FWATER1, 0, 0
+	patch FWATER2, 0, 0 { Style Translucent; Alpha 0.625 }
+	patch FWATER1, 29, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }
+	patch FWATER2, -29, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }
+	patch FWATER1, -35, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }	
+	patch FWATER2, 35, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }
+}
+flat optional FWATER44, 64, 64
+{
+	patch FWATER1, 0, 0
+	patch FWATER2, 0, 0 { Style Translucent; Alpha 0.75 }
+	patch FWATER1, 30, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }
+	patch FWATER2, -30, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }
+	patch FWATER1, -34, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }	
+	patch FWATER2, 34, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }
+}
+flat optional FWATER45, 64, 64
+{
+	patch FWATER1, 0, 0
+	patch FWATER2, 0, 0 { Style Translucent; Alpha 0.875 }
+	patch FWATER1, 31, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }
+	patch FWATER2, -31, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }
+	patch FWATER1, -33, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }	
+	patch FWATER2, 33, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }
+}
+
+flat optional FWATER46, 64, 64
+{
+	patch FWATER2, 0, 0
+	patch FWATER3, 0, 0 { Style Translucent; Alpha 0.0 }
+	patch FWATER1, 32, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }
+	patch FWATER2, -32, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }
+	patch FWATER1, -32, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }	
+	patch FWATER2, 32, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }
+}
+flat optional FWATER47, 64, 64
+{
+	patch FWATER2, 0, 0
+	patch FWATER3, 0, 0 { Style Translucent; Alpha 0.125 }
+	patch FWATER1, 33, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }
+	patch FWATER2, -33, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }
+	patch FWATER1, -31, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }	
+	patch FWATER2, 31, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }
+}
+flat optional FWATER48, 64, 64
+{
+	patch FWATER2, 0, 0
+	patch FWATER3, 0, 0 { Style Translucent; Alpha 0.25 }
+	patch FWATER1, 34, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }
+	patch FWATER2, -34, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }
+	patch FWATER1, -30, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }	
+	patch FWATER2, 30, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }
+}
+flat optional FWATER49, 64, 64
+{
+	patch FWATER2, 0, 0
+	patch FWATER3, 0, 0 { Style Translucent; Alpha 0.375 }
+	patch FWATER1, 35, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }
+	patch FWATER2, -35, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }
+	patch FWATER1, -29, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }	
+	patch FWATER2, 29, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }
+}
+flat optional FWATER50, 64, 64
+{
+	patch FWATER2, 0, 0
+	patch FWATER3, 0, 0 { Style Translucent; Alpha 0.5 }
+	patch FWATER1, 36, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }
+	patch FWATER2, -36, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }
+	patch FWATER1, -28, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }	
+	patch FWATER2, 28, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }
+}
+flat optional FWATER51, 64, 64
+{
+	patch FWATER2, 0, 0
+	patch FWATER3, 0, 0 { Style Translucent; Alpha 0.625 }
+	patch FWATER1, 37, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }
+	patch FWATER2, -37, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }
+	patch FWATER1, -27, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }	
+	patch FWATER2, 27, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }
+}
+flat optional FWATER52, 64, 64
+{
+	patch FWATER2, 0, 0
+	patch FWATER3, 0, 0 { Style Translucent; Alpha 0.75 }
+	patch FWATER1, 38, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }
+	patch FWATER2, -38, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }
+	patch FWATER1, -26, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }	
+	patch FWATER2, 26, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }
+}
+flat optional FWATER53, 64, 64
+{
+	patch FWATER2, 0, 0
+	patch FWATER3, 0, 0 { Style Translucent; Alpha 0.875 }
+	patch FWATER1, 39, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }
+	patch FWATER2, -39, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }
+	patch FWATER1, -25, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }	
+	patch FWATER2, 25, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }
+}
+
+flat optional FWATER54, 64, 64
+{
+	patch FWATER3, 0, 0
+	patch FWATER1, 0, 0 { Style Translucent; Alpha 0.0 }
+	patch FWATER1, 40, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }
+	patch FWATER2, -40, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }
+	patch FWATER1, -24, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }	
+	patch FWATER2, 24, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }
+}
+flat optional FWATER55, 64, 64
+{
+	patch FWATER3, 0, 0
+	patch FWATER1, 0, 0 { Style Translucent; Alpha 0.125 }
+	patch FWATER1, 41, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }
+	patch FWATER2, -41, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }
+	patch FWATER1, -23, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }	
+	patch FWATER2, 23, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }
+}
+flat optional FWATER56, 64, 64
+{
+	patch FWATER3, 0, 0
+	patch FWATER1, 0, 0 { Style Translucent; Alpha 0.25 }
+	patch FWATER1, 42, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }
+	patch FWATER2, -42, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }
+	patch FWATER1, -22, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }	
+	patch FWATER2, 22, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }
+}
+flat optional FWATER57, 64, 64
+{
+	patch FWATER3, 0, 0
+	patch FWATER1, 0, 0 { Style Translucent; Alpha 0.375 }
+	patch FWATER1, 43, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }
+	patch FWATER2, -43, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }
+	patch FWATER1, -21, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }	
+	patch FWATER2, 21, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }
+}
+flat optional FWATER58, 64, 64
+{
+	patch FWATER3, 0, 0
+	patch FWATER1, 0, 0 { Style Translucent; Alpha 0.5 }
+	patch FWATER1, 44, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }
+	patch FWATER2, -44, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }
+	patch FWATER1, -20, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }	
+	patch FWATER2, 20, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }
+}
+flat optional FWATER59, 64, 64
+{
+	patch FWATER3, 0, 0
+	patch FWATER1, 0, 0 { Style Translucent; Alpha 0.625 }
+	patch FWATER1, 45, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }
+	patch FWATER2, -45, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }
+	patch FWATER1, -19, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }	
+	patch FWATER2, 19, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }
+}
+flat optional FWATER60, 64, 64
+{
+	patch FWATER3, 0, 0
+	patch FWATER1, 0, 0 { Style Translucent; Alpha 0.75 }
+	patch FWATER1, 46, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }
+	patch FWATER2, -46, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }
+	patch FWATER1, -18, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }	
+	patch FWATER2, 18, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }
+}
+flat optional FWATER61, 64, 64
+{
+	patch FWATER3, 0, 0
+	patch FWATER1, 0, 0 { Style Translucent; Alpha 0.875 }
+	patch FWATER1, 47, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }
+	patch FWATER2, -47, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }
+	patch FWATER1, -17, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }	
+	patch FWATER2, 17, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }
+}
+
+flat optional FWATER62, 64, 64
+{
+	patch FWATER1, 0, 0
+	patch FWATER2, 0, 0 { Style Translucent; Alpha 0.0 }
+	patch FWATER1, 48, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }
+	patch FWATER2, -48, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }
+	patch FWATER1, -16, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }
+	patch FWATER2, 16, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }
+}
+flat optional FWATER63, 64, 64
+{
+	patch FWATER1, 0, 0
+	patch FWATER2, 0, 0 { Style Translucent; Alpha 0.125 }
+	patch FWATER1, 49, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }
+	patch FWATER2, -49, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }
+	patch FWATER1, -15, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }	
+	patch FWATER2, 15, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }
+}
+flat optional FWATER64, 64, 64
+{
+	patch FWATER1, 0, 0
+	patch FWATER2, 0, 0 { Style Translucent; Alpha 0.25 }
+	patch FWATER1, 50, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }
+	patch FWATER2, -50, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }
+	patch FWATER1, -14, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }	
+	patch FWATER2, 14, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }
+}
+flat optional FWATER65, 64, 64
+{
+	patch FWATER1, 0, 0
+	patch FWATER2, 0, 0 { Style Translucent; Alpha 0.375 }
+	patch FWATER1, 51, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }
+	patch FWATER2, -51, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }
+	patch FWATER1, -13, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }	
+	patch FWATER2, 13, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }
+}
+flat optional FWATER66, 64, 64
+{
+	patch FWATER1, 0, 0
+	patch FWATER2, 0, 0 { Style Translucent; Alpha 0.5 }
+	patch FWATER1, 52, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }
+	patch FWATER2, -52, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }
+	patch FWATER1, -12, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }	
+	patch FWATER2, 12, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }
+}
+flat optional FWATER67, 64, 64
+{
+	patch FWATER1, 0, 0
+	patch FWATER2, 0, 0 { Style Translucent; Alpha 0.625 }
+	patch FWATER1, 53, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }
+	patch FWATER2, -53, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }
+	patch FWATER1, -11, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }	
+	patch FWATER2, 11, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }
+}
+flat optional FWATER68, 64, 64
+{
+	patch FWATER1, 0, 0
+	patch FWATER2, 0, 0 { Style Translucent; Alpha 0.75 }
+	patch FWATER1, 54, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }
+	patch FWATER2, -54, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }
+	patch FWATER1, -10, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }	
+	patch FWATER2, 10, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }
+}
+flat optional FWATER69, 64, 64
+{
+	patch FWATER1, 0, 0
+	patch FWATER2, 0, 0 { Style Translucent; Alpha 0.875 }
+	patch FWATER1, 55, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }
+	patch FWATER2, -55, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }
+	patch FWATER1, -9, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }	
+	patch FWATER2, 9, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }
+}
+
+flat optional FWATER70, 64, 64
+{
+	patch FWATER2, 0, 0
+	patch FWATER3, 0, 0 { Style Translucent; Alpha 0.0 }
+	patch FWATER1, 56, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }
+	patch FWATER2, -56, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }
+	patch FWATER1, -8, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }	
+	patch FWATER2, 8, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }
+}
+flat optional FWATER71, 64, 64
+{
+	patch FWATER2, 0, 0
+	patch FWATER3, 0, 0 { Style Translucent; Alpha 0.125 }
+	patch FWATER1, 56, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }
+	patch FWATER2, -56, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }
+	patch FWATER1, -8, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }	
+	patch FWATER2, 8, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }
+}
+flat optional FWATER72, 64, 64
+{
+	patch FWATER2, 0, 0
+	patch FWATER3, 0, 0 { Style Translucent; Alpha 0.25 }
+	patch FWATER1, 57, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }
+	patch FWATER2, -57, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }
+	patch FWATER1, -7, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }	
+	patch FWATER2, 7, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }
+}
+flat optional FWATER73, 64, 64
+{
+	patch FWATER2, 0, 0
+	patch FWATER3, 0, 0 { Style Translucent; Alpha 0.375 }
+	patch FWATER1, 57, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }
+	patch FWATER2, -57, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }
+	patch FWATER1, -7, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }	
+	patch FWATER2, 7, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }
+}
+flat optional FWATER74, 64, 64
+{
+	patch FWATER2, 0, 0
+	patch FWATER3, 0, 0 { Style Translucent; Alpha 0.5 }
+	patch FWATER1, 58, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }
+	patch FWATER2, -58, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }
+	patch FWATER1, -6, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }	
+	patch FWATER2, 6, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }
+}
+flat optional FWATER75, 64, 64
+{
+	patch FWATER2, 0, 0
+	patch FWATER3, 0, 0 { Style Translucent; Alpha 0.625 }
+	patch FWATER1, 58, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }
+	patch FWATER2, -58, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }
+	patch FWATER1, -6, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }	
+	patch FWATER2, 6, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }
+}
+flat optional FWATER76, 64, 64
+{
+	patch FWATER2, 0, 0
+	patch FWATER3, 0, 0 { Style Translucent; Alpha 0.75 }
+	patch FWATER1, 59, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }
+	patch FWATER2, -59, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }
+	patch FWATER1, -5, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }	
+	patch FWATER2, 5, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }
+}
+flat optional FWATER77, 64, 64
+{
+	patch FWATER2, 0, 0
+	patch FWATER3, 0, 0 { Style Translucent; Alpha 0.875 }
+	patch FWATER1, 59, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }
+	patch FWATER2, -59, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }
+	patch FWATER1, -5, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }	
+	patch FWATER2, 5, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }
+}
+
+flat optional FWATER78, 64, 64
+{
+	patch FWATER3, 0, 0
+	patch FWATER1, 0, 0 { Style Translucent; Alpha 0.0 }
+	patch FWATER1, 60, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }
+	patch FWATER2, -60, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }
+	patch FWATER1, -4, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }	
+	patch FWATER2, 4, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }
+}
+flat optional FWATER79, 64, 64
+{
+	patch FWATER3, 0, 0
+	patch FWATER1, 0, 0 { Style Translucent; Alpha 0.125 }
+	patch FWATER1, 60, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }
+	patch FWATER2, -60, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }
+	patch FWATER1, -4, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }	
+	patch FWATER2, 4, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }
+}
+flat optional FWATER80, 64, 64
+{
+	patch FWATER3, 0, 0
+	patch FWATER1, 0, 0 { Style Translucent; Alpha 0.25 }
+	patch FWATER1, 61, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }
+	patch FWATER2, -61, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }
+	patch FWATER1, -3, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }	
+	patch FWATER2, 3, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }
+}
+flat optional FWATER81, 64, 64
+{
+	patch FWATER3, 0, 0
+	patch FWATER1, 0, 0 { Style Translucent; Alpha 0.375 }
+	patch FWATER1, 61, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }
+	patch FWATER2, -61, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }
+	patch FWATER1, -3, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }	
+	patch FWATER2, 3, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }
+}
+flat optional FWATER82, 64, 64
+{
+	patch FWATER3, 0, 0
+	patch FWATER1, 0, 0 { Style Translucent; Alpha 0.5 }
+	patch FWATER1, 62, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }
+	patch FWATER2, -62, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }
+	patch FWATER1, -2, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }	
+	patch FWATER2, 2, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }
+}
+flat optional FWATER83, 64, 64
+{
+	patch FWATER3, 0, 0
+	patch FWATER1, 0, 0 { Style Translucent; Alpha 0.625 }
+	patch FWATER1, 62, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }
+	patch FWATER2, -62, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }
+	patch FWATER1, -2, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }	
+	patch FWATER2, 2, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }
+}
+flat optional FWATER84, 64, 64
+{
+	patch FWATER3, 0, 0
+	patch FWATER1, 0, 0 { Style Translucent; Alpha 0.75 }
+	patch FWATER1, 63, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }
+	patch FWATER2, -63, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }
+	patch FWATER1, -1, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }	
+	patch FWATER2, 1, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }
+}
+flat optional FWATER85, 64, 64
+{
+	patch FWATER3, 0, 0
+	patch FWATER1, 0, 0 { Style Translucent; Alpha 0.875 }
+	patch FWATER1, 63, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }
+	patch FWATER2, -63, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }
+	patch FWATER1, -1, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }	
+	patch FWATER2, 1, 0 { Style Add; Translation "196:207=80:95", "240:247=200:207"; Alpha 0.21 }
+}

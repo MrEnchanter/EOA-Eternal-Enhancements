@@ -1,0 +1,137 @@
+0.21	(30.06.2019)
+	Added new voxel for item ExplosiveBarrel (dbrla.kvx)
+
+0.22	(14.07.2019)
+	Added new voxels for all 3 lower Torches (red, green, blue) (lreda.kvx, lgrna.kvx, lblua.kvx)
+	Added new voxels for Candlestick(Single black candle) (candb.kvx-candf.kvx)
+	Added new decorate code, sprite effects for all 3 lower Torches, Candlestick (actors\vplights.txt)
+	Added dynamic light definition for all 3 lower Torches, candlestick (fxdefs\vlights.txt)
+
+0.23	(03.08.2019)
+	Added new voxel for item Stimpack (stimpack.kvx)
+
+0.24	(25.08.2019)
+	Added new sprites for improving blue flame (blufi.png-blufn.png)
+	Improved code for Tall Blue Torch and blue flame (actors\vplights.txt)
+	Removed unused voxels (tallblub-tallblud.kvx)
+	Improved voxel for Tall Blue Torch (tallblua.kvx) and renamed (tblua.kvx)
+	Added new voxel for Brainstem (brains1.kvx)
+
+0.26	(31.08.2019)
+	Added advanced decorate class VP_AmmoBox, replaces ClipBox
+	Added new voxels for item VP_AmmoBox[ClipBox] (ammoa.kvx, ammob.kvx)
+	Added new voxels for item RocketBox (rboxa.kvx)
+	Added new voxels for powerup ArmorBonus (armba.kvx-armbd.kvx)
+	Added dynamic light definitions for ArmorBonus (fxdefs\rditems.txt)
+
+0.265	(05.09.2019)
+	Added new voxels for Candlectick (canda.kvx-candf.kvx)
+	Improved dynamic light definition for Candlestick (fxdefs\rdlights.txt)
+
+0.27	(08.09.2019)
+	Added new voxels for item GreenArmor (armor1a.kvx, armor1b.kvx)
+	Added dynamic light definition for GreenArmor (fxdefs\rditems.txt)
+	Added new voxels for item BlueArmor (armor2a.kvx, armor2b.kvx)
+	Added dynamic light definition for BlueArmor (fxdefs\rditems.txt)
+
+0.275	(09.09.2019)
+	Added new decals for hitscan attacks(also monster hitscan attacks)
+
+0.28	(11.09.2019)
+	Recreated bullet attack decals
+	Improved shell attack decals
+	Added new voxel for item RocketAmmo (rocka.kvx, rockc.kvx)
+
+0.285	(12.09.2019)
+	Improved voxel for item RocketAmmo (rocka.kvx)
+	Added new voxel for flying Rocket (misla.kvx)
+	Improved flying Rocket effects
+	Improved imp fireball effects
+	Improved explosion effect, smoke added
+
+0.29	(19.09.2019)
+	Added custom PLAYPAL(palete) and COLORMAP files
+	to add some new lite-blue gradient for blue dynlights
+	Added hires version of Soulsphere sprites (soula0-sould0)
+
+0.3	(28.09.2019)
+	Added new voxels for all 3 skull keys (rskla.kvx, bskla.kvx, yskla.kvx)
+
+0.31	(04.10.2019)
+	Added new voxel for SmallBloodPool (pob2a.kvx)
+	Added new voxel for BrainStem (brains1.kvx)
+	Added new voxel for Clip (clipa.kvx)
+
+0.32	(14.10.2019)
+	Added new voxels for all 3 Keycards (rcrda.kvx, rcrdb.kvx, ycrda.kvx, ycrdb.kvx, bcrda.kvx, bcrdb.kvx)
+	Improved voxels for all 3 Skullkeys (rskla.kvx, bskla.kvx, yskla.kvx)
+	Added new voxel frames for all 3 Skullkeys(rsklb.kvx, bsklb.kvx, yskla.kvb)
+	Added dynamic light definition for all skull & card Keys (fxdefs\rdkeys.txt)
+	Renamed dynamic light definition files (fxdefs\rditems.txt, fxdefs\rdlights.txt, fxdefs\rdmissiles.txt, fxdefs\rdeffects.txt)
+
+0.33	(23.10.2019)
+	Added new voxel for Energy Cell (cella.kvx)
+	Added new voxel for SuperShotgun (sgn2a.kvx)
+	Added alter voxel for SuperShotgun, not used (sgn2b.kvx)
+
+0.34	(05.11.2019)
+	Added alternative voxel for Energy Cell (cellb.kvx)
+	Added new voxel for simple Shotgun (shota.kvx)
+	Added new voxel for 4 Shotshells (shela.kvx)
+	FIXED all 6 keys (were disabled to open any door due to object replacement)
+
+0.35	(24.11.2019)
+	Fixed some voxel names in voxeldef, removed unused code.
+	Deleted older unused files from the package
+	Added new voxel for Column (colua.kvx). a small metall column with yellow light
+	Added dynamic light definition for Column (fxdefs\rdlights.txt)
+	Added dynamic light definition for Candelabra (fxdefs\rdlights.txt)
+	Added new voxel for RocketLauncher (launa.kvx)
+
+0.36	(25.11.2019)
+	
+First public release!
+
+	Added new voxels for HealthBonus (hviaa.kvx - hviad), internal liquid level may not work correct in all z-ports
+	Added dynamic light definition for HealthBonus (fxdefs\rditems.txt)
+	Improved dynamic light definitions for ArmorBonus (fxdefs\rditems.txt)
+	Improved dynamic light definitions for Soulsphere (fxdefs\rditems.txt)
+	Improved dynamic light definition for BlueArmor (fxdefs\rditems.txt)
+	Improved dynamic light definition for GreenArmor (fxdefs\rditems.txt)
+	Added new voxel for BackPack (bpaka.kvx)
+
+0.37	(19.12.2019)
+
+	Added new voxel for PlasmaGun (plsga.kvx)
+	Added new voxel for Box of Shells (sboxa.kvx)
+	Added new voxel for Computer Map (pmapa.kvx pmapb.kvx)
+	Added new voxel for Hanged body 3 (looking down, legs removed) (hanged3.kvx)
+
+0.38	(09.01.2020)
+	
+	Added new voxel for CellPack (cellpack.kvx)
+	Added new voxel for BossCube (cubea.kvx)
+	Added new voxel for VP_TallTech (Tall bronze-looking Lamp, talltech.kvx)
+	Added lightdefs and updated voxeldef for VP_TallTech
+	Renamed voxel LTECA.kvx to lowtech.kvx. All definitions updated
+	Improved game palete. Heavy changes to blue, some to orange yellow green and brown
+	Added some chainguy graphics and a few textures to fix the look with new palete
+	Added 2X res sprites for Arachnatron Plasma (fxdefs/rdeffects.txt)
+	Added 2X res sprites for BlurSphere (PINSA0.png - PINSD0.png)
+	Added light definitions for BlurSphere
+
+0.39
+
+	Added new voxel for Head on kebab (headstik.kvx)
+	Added new voxel for 5skulls on kebab (skulstik.kvx)
+	Added new voxel for item BFG9000 (bfuga.kvx)
+	Added new voxel for item Berserket Kit (brska.kvx)
+	Added voxel set for monster LostSoul (skulla.kvx-skullg.kvx)
+	Added code and some sprites, extra voxels for advanced LostSoul effects
+
+0.40
+
+	Added new voxel for item Chainsaw (chainsaw.kvx)
+	Added new voxel for SkullCandles (skulcake.kvx)
+	Added code and some mew sprites for advanced BFG Shot and BFG Spray effects
+	Added code and some new sprites for Blood Splat effect

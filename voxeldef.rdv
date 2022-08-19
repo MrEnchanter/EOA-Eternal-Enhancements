@@ -1,0 +1,326 @@
+//---------------Lights
+
+cbraa = "candlbra"		//Cndelabra - created by ConradRDW long-long ago in a far far 2016
+
+
+colua = "smallamp"		//Cylindric yellow lamp - created on 22.11.2019 by GRAU
+
+
+TLP2A = "lowtech"		//Low Tech Lamp Created on 28.12.2019 by GRAU
+
+
+TLMPA = "talltech"		//Tall Tech Lamp Created on 08.01.2020 by GRAU
+
+POL2A = "skulstik"		//5skulls Kebab Created on 18.01.2020 by GRAU
+
+
+POL3A = "skulcake"
+{ Scale = 0.9}		//A Cake of skulls Created on 28.04.2020 by GRAU
+POL3B = "skulcake"
+{ Scale = 0.9}
+
+POL4A = "headstik"		//Punk head on Kebab Created on 29.01.2020 by GRAU
+
+//-----------------------Items
+
+
+stima = "stima"		//Created on 03.08.2019 by GRAU
+{
+	Scale = 0.9
+}
+
+
+media = "medka"
+{
+}
+
+arm1 = "armor1a"	//Green Armor Created on 07.09.2019 by GRAU
+{
+}
+
+arm2a = "armor2a"	//Blue Armor Created on 08.09.2019 by GRAU
+{
+}
+
+arm2b = "armor2b"
+{
+}
+
+bon2a = "armba"
+{
+	Scale = 0.9
+}
+
+bon2b = "armbb"
+{
+	Scale = 0.9
+}
+
+bon2c = "armbc"
+{
+	Scale = 0.9
+}
+
+bon2d = "armbd"
+{
+	Scale = 0.9
+}
+
+// Health Bonus, voxel set created by GRAU on 25.11.2019
+
+bon1a = "hviaa"
+{
+	Scale = 0.9
+}
+
+bon1b = "hviab"
+{
+	Scale = 0.9
+}
+
+bon1c = "hviac"
+{
+	Scale = 0.9
+}
+
+bon1d = "hviad"
+{
+	Scale = 0.9
+}
+
+
+PSTRA = "brska" //	Berserker Black Medikit, added on 24.02.2020 by GRAU
+{
+}
+
+
+bpaka = "bpaka" //	Back Pack, added on 26.11.2019 by GRAU
+{
+	droppedspin = 25
+	placedspin = 25
+}
+
+
+
+pmapa = "cmapa" //	Computer Map, added on 10.12.2019 by GRAU
+{
+	droppedspin = 25
+	placedspin = 25
+}
+
+pmapb = "cmapa" 
+{
+	droppedspin = 25
+	placedspin = 25
+}
+
+pmapc = "cmapb" 
+{
+	droppedspin = 25
+	placedspin = 25
+}
+
+pmapd = "cmapb" 
+{
+	droppedspin = 25
+	placedspin = 25
+}
+
+
+//-----------------------Ammo
+
+clipa = "clipa"
+{
+	droppedspin = 25
+}
+
+shela = "shela"
+{
+	droppedspin = 25
+}
+
+sboxa = "sboxa"  // Created by GRAU on 09.12,2019
+{
+	droppedspin = 25
+}
+
+broka = "rboxa"
+{
+	Scale = 0.9
+}
+
+rocka = "rocka"
+{
+	droppedspin = 25
+}
+
+celpa = "cellpack"
+{
+	droppedspin = 25
+}
+
+//Not Used due to class modifications
+//cella = "cella"
+//ammoa = "ammoa"
+
+//-----------------------Keys
+
+
+bkeya = "bcrda"
+{
+	droppedspin = 25
+	placedspin = 25
+	Scale = 0.9
+}
+
+bkeyb = "bcrdb"
+{
+	droppedspin = 25
+	placedspin = 25
+	Scale = 0.9
+}
+
+
+bskua = "bskla"
+{
+	droppedspin = 25
+	placedspin = 25
+	Scale = 0.9
+}
+
+bskub = "bsklb"
+{
+	droppedspin = 25
+	placedspin = 25
+	Scale = 0.9
+}
+
+rkeya = "rcrda"
+{
+	droppedspin = 25
+	placedspin = 25
+	Scale = 0.9
+}
+
+rkeyb = "rcrdb"
+{
+	droppedspin = 25
+	placedspin = 25
+	Scale = 0.9
+}
+
+
+rskua = "rskla"
+{
+	droppedspin = 25
+	placedspin = 25
+	Scale = 0.9
+}
+
+rskub = "rsklb"
+{
+	droppedspin = 25
+	placedspin = 25
+	Scale = 0.9
+}
+
+ykeya = "ycrda"
+{
+	droppedspin = 25
+	placedspin = 25
+	Scale = 0.9
+}
+
+ykeyb = "ycrdb"
+{
+	droppedspin = 25
+	placedspin = 25
+	Scale = 0.9
+}
+
+yskua = "yskla"
+{
+	droppedspin = 25
+	placedspin = 25
+	Scale = 0.9
+}
+
+yskub = "ysklb"
+{
+	droppedspin = 25
+	placedspin = 25
+	Scale = 0.9
+}
+
+//-----------------------------OBJECTS
+
+
+BAR1 = "dmbarrel"		//Low Tech Lamp Created on 08.01.2020 by GRAU
+
+
+//-----------------------Gore
+
+
+brs1a = "brains1"
+{
+	Scale = 0.9
+}
+
+
+pob2a = "pob2a"
+{
+	Scale = 0.9
+}
+
+//---------------------------------Bodies
+
+hdb3a = "hanged3"	// Hamged body (no legs, looking down) - Added on 19.12.2019 by GRAU 
+{
+}
+
+
+//---------------------------------Monsters
+
+bosfa = "cubea"
+{
+	droppedspin = 120
+	placedspin = 120
+}
+
+bosfb = "cubea"
+{
+	droppedspin = 120
+	placedspin = 120
+}
+
+bosfc = "cubea"
+{
+	droppedspin = 120
+	placedspin = 120
+}
+
+bosfd = "cubea"
+{
+	droppedspin = 120
+	placedspin = 120
+}
+
+skula = "skulla"
+
+skulb = "skullb"
+
+skulc = "skullc"
+
+skuld = "skullc"
+
+skule = "skulle"
+
+skulf = "skullf"
+{
+AngleOffset = 15
+}
+
+skulg = "skullg"
+{
+AngleOffset = 30
+}

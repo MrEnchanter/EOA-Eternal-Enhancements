@@ -1,0 +1,7 @@
+#include "actors/vplights.txt"
+#include "actors/vpmissiles.txt"
+#include "actors/vpbfgshot.txt"
+#include "actors/vpblood.txt"
+
+#include "actors/vpeffects.txt"
+#include "actors/vppickups.txt"

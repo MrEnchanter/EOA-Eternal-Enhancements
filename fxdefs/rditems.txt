@@ -1,0 +1,227 @@
+// Doom ArmorBonus(helmet) light effect. By GRAU, on 03.09.2019
+
+pointlight VPArmorBonus_1
+{
+	color 0 1.0 0
+	size 10
+	offset 4 4 0
+}
+
+pointlight VPArmorBonus_2
+{
+	color 0 1.0 0
+	size 12
+	offset 4 4 0
+}
+
+pointlight VPArmorBonus_3
+{
+	color 0 1.0 0
+	size 14
+	offset 4 4 0
+}
+
+pointlight VPArmorBonus_4
+{
+	color 0 1.0 0
+	size 16
+	offset 4 4 0
+}
+
+object ArmorBonus
+{
+	frame BON2A { light VPArmorBonus_1 }
+	frame BON2B { light VPArmorBonus_2 }
+	frame BON2C { light VPArmorBonus_3 }
+	frame BON2D { light VPArmorBonus_4 }
+}
+
+// Doom ArmorBonus(helmet) light effect. By GRAU, on 25.11.2019
+
+pointlight VPHBonus_1
+{
+	color 0 0 1.0
+	size 12
+	offset 0 4 0
+}
+
+pointlight VPHBonus_2
+{
+	color 0 0 1.0
+	size 14
+	offset 0 4 0
+}
+
+pointlight VPHBonus_3
+{
+	color 0 0 1.0
+	size 16
+	offset 0 4 0
+}
+
+pointlight VPHBonus_4
+{
+	color 0 0 1.0
+	size 18
+	offset 0 4 0
+}
+
+object VP_HealthBonus
+{
+	frame HVIAA { light VPHBonus_1 }
+	frame HVIAB { light VPHBonus_2 }
+	frame HVIAC { light VPHBonus_3 }
+	frame HVIAD { light VPHBonus_4 }
+}
+
+
+pointlight VPGreenArmor
+{
+	color 0 1.0 0
+	size 20
+	offset 0 8 0
+}
+
+object GreenArmor
+{
+	frame ARM1B { light VPGreenArmor }
+}
+
+pointlight VPBlueArmor
+{
+	color 0 0 1.0
+	size 20
+	offset 0 8 0
+}
+
+object BlueArmor
+{
+	frame ARM2B { light VPBlueArmor }
+}
+
+
+// Doom Energy Cell light effect. By GRAU, on 26.10.2019
+
+pointlight VPCELLA
+{
+	color 0.3 1.0 0
+	size 10
+	offset 9 3 0
+}
+
+pointlight VPCELLB
+{
+	color 0 1.0 0
+	size 11
+	offset 10 3 0
+}
+
+
+pointlight VPCELLPACK
+{
+	color 1.0 0.8 0.4
+	size 16
+	offset 0 3 0
+}
+
+object Cellpack  
+{
+	frame CELPA { light VPCELLPACK }
+}
+
+// Doom Soulsphere(blue sphere) light effect. By GRAU, on 15.09.2019
+
+pointlight VPSOULSPHEREX1
+{
+	color 0 0 1.0
+	size 32
+	offset 0 20 0
+}
+
+pointlight VPSOULSPHEREX2
+{
+	color 0 0 1.0
+	size 36
+	offset 0 20 0
+}
+
+pointlight VPSOULSPHEREX3
+{
+	color 0 0 1.0
+	size 40
+	offset 0 20 0
+}
+
+pointlight VPSOULSPHEREX4
+{
+	color 0 0 1.0
+	size 44
+	offset 0 20 0
+}
+
+object SoulSphere
+{
+	frame SOULA { light VPSOULSPHEREX4 }
+	frame SOULB { light VPSOULSPHEREX3 }
+	frame SOULC { light VPSOULSPHEREX2 }
+	frame SOULD { light VPSOULSPHEREX1 }
+}
+
+pointlight VPBLURA
+{
+	color 0.7 0 1.0
+	size 64
+	offset 0 20 0
+}
+
+pointlight VPBLURB
+{
+	color 0.9 0 0.9
+	size 56
+	offset 0 20 0
+}
+
+pointlight VPBLURC
+{
+	color 1 0 0.8
+	size 48
+	offset 0 20 0
+}
+
+pointlight VPBLURD
+{
+	color 1 0 0.6
+	size 40
+	offset 0 20 0
+}
+
+object VP_BlurSphere
+{
+	frame PINSA { light VPBLURA }
+	frame PINSB { light VPBLURB }
+	frame PINSC { light VPBLURC }
+	frame PINSD { light VPBLURD }
+}
+
+pointlight COMPMAPA
+{
+	color 0 1.0 0
+	size 32
+	offset 0 12 0
+}
+
+pointlight COMPMAPB
+{
+	color 0.5 1.0 0
+	size 36
+	offset 0 12 0
+}
+
+object Allmap
+{
+	frame PMAPA { light COMPMAPA }
+	frame PMAPB { light COMPMAPA }
+	frame PMAPC { light COMPMAPB }
+	frame PMAPD { light COMPMAPB }
+}
+

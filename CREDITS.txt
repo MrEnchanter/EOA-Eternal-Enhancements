@@ -1,0 +1,31 @@
+
+The D64ifier Core Module
+===============================
+ - Midway - Doom 64
+ - Sukru Gilman, Francisco Gracia, Laurent Bezault, and Andy Wilson - 
+	Original game art (textures & sprites)
+ - Logan "Hyperchaotix" McCloud - ripping & organizing of assets
+ - Kaiser - Doom 64 EX / sprite ripping & resizing
+ - Dreadflame / GuitarDeity and Footman - Doom 64 WMI Redux which was
+	the basis for almost every Doom 64 project that came after.
+ - Sir_Squidly - additional texture organizing, editing, & patching
+ - Cage - textures from "Doom the Way Midway Did", used for excellent UAC
+	and tek walls.
+ - DrDoctor - Lots of decoration sprites
+ - Doomkid - Sprite touch ups & conversions
+ - Sgt. Mark IV - Sprites of heads on a stick and inspiration for 
+	environmental fog/smoke effects
+ - The FreeDoom Team - Various misc textures
+ - Sterling Parker (aka Caligari87) - DarkDoomZ (inspired by Dark Doom by 
+	Josh771)
+ - Marisa Kirisame - Texture Lights
+ - Nash Muhandes - BillBoarder
+ - Sunbeam - LiveReverb
+ - ??? - DPWipe - I lost the forum thread where I got this from so if you are 
+	the creator please let me know!
+ - Cryonaut - this whole compilation, implementation, various custom textures, 
+	new sprites (candelabra, candle flames, evil eye), and a large portion of 
+	the Decorate code.
+
+ 
+ 

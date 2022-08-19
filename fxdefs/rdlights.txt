@@ -1,0 +1,229 @@
+//====================Flames, and other lights================\\
+
+flickerlight FIRECAN
+{
+	color 1 0.5 0.1
+	size 64
+	secondarysize 72
+	chance 0.8
+	offset 0 32 0
+}
+
+object VP_BurnBarrel
+{
+	frame BBRL { light FIRECAN }
+}
+
+
+
+flickerlight VPRedTorch
+{
+	color 1 0.2 0
+	size 68
+	secondarysize 72
+	chance 0.8
+	offset 0 52 0
+}
+
+object VP_RedTorch
+{
+	frame TRED { light VPRedTorch }
+}
+
+flickerlight VPShortRed
+{
+	color 1 0.4 0
+	size 52
+	secondarysize 56
+	chance 0.8
+	offset 0 30 0
+}
+
+object VP_ShortRed
+{
+	frame LRED { light VPShortRed }
+}
+
+flickerlight VPBlueTorch
+{
+	color 0.1 0.2 1
+	size 68
+	secondarysize 72
+	dontlightself 1
+	chance 0.8
+	offset 0 52 0
+}
+
+flickerlight VPShortBlue
+{
+	color 0.2 0.2 1
+	size 52
+	secondarysize 56
+	dontlightself 1
+	chance 0.8
+	offset 0 30 0
+}
+
+object VP_ShortBlue
+{
+	frame LBLU { light VPShortBlue }
+}
+
+object VP_BlueTorch
+{
+	frame TBLU { light VPBlueTorch }
+}
+
+flickerlight VPGreenTorch
+{
+	color 0.1 1 0.1
+	size 64
+	secondarysize 68
+	chance 0.8
+	offset 0 52 0
+}
+
+flickerlight VPShortGreen
+{
+	color 0.3 1 0
+	size 48
+	secondarysize 52
+	chance 0.8
+	offset 0 30 0
+}
+
+object VP_GreenTorch
+{
+	frame TGRN { light VPGreenTorch }
+}
+
+object VP_ShortGreen
+{
+	frame LGRN { light VPShortGreen }
+}
+
+
+flickerlight VPCandleA
+{
+	color 1 0.6 0.3
+	size 22
+	secondarysize 24
+	chance 0.8
+	offset 0 12 0
+}
+
+pointlight VPCandleB
+{
+	color 1 0.7 0.3
+	size 26
+	offset 0 12 0
+}
+
+pointlight VPCandleC
+{
+	color 1 0.6 0.3
+	size 28
+	offset 0 12 0
+}
+
+pointlight VPCandleD
+{
+	color 1 0.6 0.3
+	size 30
+	offset 0 12 0
+}
+
+pointlight VPCandleE
+{
+	color 1 0.5 0.2
+	size 28
+	offset 0 12 0
+}
+
+pointlight VPCandleF
+{
+	color 1 0.5 0.2
+	size 26
+	offset 0 12 0
+}
+
+object VP_Candle
+{
+	frame CND1A { light VPCandleA }
+	frame CND1B { light VPCandleB }
+	frame CND1C { light VPCandleC }
+	frame CND1D { light VPCandleD }
+	frame CND1E { light VPCandleE }
+	frame CND1F { light VPCandleF }
+}
+
+pointlight Candelier
+{
+	color 1 0.6 0.1
+	size 72
+	offset 0 48 0
+}
+
+object Candelabra
+{
+	frame CBRAA { light Candelier }
+}
+
+pointlight ColumnA
+{
+	color 1 0.7 0.3
+	size 56
+	offset 0 38 0
+}
+
+object Column
+{
+	frame COLUA { light ColumnA }
+}
+
+pointlight TechLampA
+{
+	color 0.5 0.5 1
+	size 88
+	offset 0 44 0
+}
+
+
+object VP_LowTech
+{
+	frame TLP2A { light TechLampA }
+}
+
+pulselight TechLamp2
+{
+	color 0.6 0.6 1
+	size 96
+	secondarySize 104
+	interval 1
+	offset 0 64 0
+}
+
+
+object VP_TallTech
+{
+	frame TLMPA { light TechLampA }
+}
+
+
+flickerlight CAKESKULLS
+{
+	color 1.0 0.3 0
+	chance 0.8
+	size 72
+	secondarySize 80
+	offset 0 32 0
+}
+
+
+object HeadCandles
+{
+	frame POL3A { light CAKESKULLS }
+	frame POL3B { light CAKESKULLS }
+}
+
+
